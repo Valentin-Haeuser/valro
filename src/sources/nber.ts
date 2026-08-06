@@ -126,6 +126,11 @@ const TOPIC_HINTS: Record<Exclude<Topic, 'economics'>, RegExp> = {
   productivity: /\bproductivit|labor supply|hours worked|remote work|work from home|automation|human capital|management practice|training|education|attention|multitask/i,
   body: /\bhealth|mortality|obesity|nutrition|diet|medicare|medicaid|hospital|physician|disease|smoking|exercise|physical activity|insurance coverage|opioid|vaccin/i,
   psychology: /\bbehavioral|behaviour|belief|preference|cognitive|mental health|depression|anxiety|stress|motivat|bias|nudge|risk aversion|time preference|well-being|wellbeing/i,
+  learning: /\beducation|school|college|university|student|teacher|test score|human capital|skill|learning|training|tutoring|curriculum/i,
+  environment: /\bpollut|particulate|air quality|emission|climate|temperature|heat|noise|green space|environmental/i,
+  nutrition: /\bfood|nutrition|diet|calorie|snap benefit|food stamp|obesity|sugar|beverage tax|grocery/i,
+  time: /\bcommut|transit|transport|traffic|urban|city|cities|housing|neighborhood|neighbourhood|time use|working time|leisure/i,
+  relationships: /\bmarriage|marital|divorce|famil|fertility|social network|peer effect|loneliness|social capital|neighbor/i,
 };
 
 function deriveTopics(text: string): Topic[] {

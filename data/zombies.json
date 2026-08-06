@@ -1,0 +1,371 @@
+[
+  {
+    "slug": "ego-depletion",
+    "label": "Ego-Depletion / Willenskraft als endlicher Vorrat",
+    "why": "Die Multi-Labor-Replikation von Hagger et al. (2016, Perspectives on Psychological Science, 23 Labore, n=2141) fand einen Effekt von d=0.04 (95%-KI -0.07 bis +0.15), also praktisch null. Die zweite große Multi-Site-Studie von Vohs et al. (2021, Psychological Science) bestätigte das. Das 'Willenskraft ist ein Glukosetank'-Narrativ von Baumeister trägt nicht mehr.",
+    "patterns": [
+      "\\bego[- ]depletion\\b",
+      "\\bstrength model of self[- ]control\\b",
+      "\\bwillpower is (?:a )?(?:finite|limited|depletable) (?:resource|reserve|supply)\\b",
+      "\\bself[- ]control (?:is |as )?(?:a )?(?:limited|finite|depletable) resource\\b",
+      "\\b(?:glucose|blood sugar)[\\s\\S]{0,80}\\b(?:restores?|replenishes?|refuels?|fuels?)\\b[\\s\\S]{0,40}\\b(?:willpower|self[- ]control)\\b"
+    ]
+  },
+  {
+    "slug": "power-posing",
+    "label": "Power Posing (Siegerpose ändert Hormone)",
+    "why": "Die Originalstudie Carney, Cuddy & Yap (2010) scheiterte an der größeren Replikation von Ranehill et al. (2015, Psychological Science): kein Effekt auf Testosteron, Cortisol oder Risikoverhalten. Die p-Kurven-Analyse von Simmons & Simonsohn (2017, CRSP) fand keinerlei Evidenzwert in der Literatur. Erstautorin Dana Carney hat sich 2016 öffentlich von der Hypothese distanziert.",
+    "patterns": [
+      "\\bpower pos(?:e|es|ed|ing|ture|tures)\\b",
+      "\\b(?:high|low)[- ]power pose\\b",
+      "\\bexpansive (?:body )?postures?\\b[\\s\\S]{0,150}\\b(?:testosterone|cortisol)\\b",
+      "\\bpostural feedback\\b[\\s\\S]{0,120}\\b(?:testosterone|cortisol|risk[- ]taking)\\b"
+    ]
+  },
+  {
+    "slug": "marshmallow-test",
+    "label": "Marshmallow-Test sagt Lebenserfolg voraus",
+    "why": "Die konzeptuelle Replikation von Watts, Duncan & Quan (2018, Psychological Science) mit einer weit größeren, repräsentativeren Stichprobe fand nur noch die halbe Korrelation — und nach Kontrolle für Familienhintergrund, frühe kognitive Fähigkeiten und häusliches Umfeld blieb davon rund ein Drittel übrig. Belohnungsaufschub misst vor allem soziale Herkunft.",
+    "patterns": [
+      "\\bmarshmallow (?:test|task|experiment|paradigm|study)\\b",
+      "\\bdelay(?:ed|ing)? (?:of )?gratification\\b[\\s\\S]{0,150}\\bmarshmallow\\b"
+    ]
+  },
+  {
+    "slug": "ten-thousand-hours",
+    "label": "10.000-Stunden-Regel",
+    "why": "Die Metaanalyse von Macnamara, Hambrick & Oswald (2014, Psychological Science) über 88 Studien fand, dass bewusstes Üben im Mittel nur rund 12 % der Leistungsunterschiede erklärt (Musik 21 %, Sport 18 %, Beruf unter 1 %). Auf Elite-Niveau im Sport waren es etwa 1 %. Die von Gladwell popularisierte 10.000-Stunden-Schwelle stammt nicht aus Ericssons Daten.",
+    "patterns": [
+      "\\b10[,.]?000[- ]hours? rule\\b",
+      "\\bten[- ]thousand[- ]hours? rule\\b",
+      "\\b10[,.]?000 hours of (?:deliberate )?practice\\b[\\s\\S]{0,120}\\b(?:expert|mastery|elite|world[- ]class)\\b"
+    ]
+  },
+  {
+    "slug": "mozart-effect",
+    "label": "Mozart-Effekt (klassische Musik macht klüger)",
+    "why": "Die Metaanalyse von Pietschnig, Voracek & Formann (2010, Intelligence) über 39 Studien mit mehr als 3.000 Personen trug den Titel 'Mozart effect–Shmozart effect' und fand keinen bedeutsamen Effekt. Was übrig bleibt, erklärt sich durch kurzfristige Stimmungs- und Erregungsänderungen — jede angenehme Musik tut es.",
+    "patterns": [
+      "\\bmozart effect\\b",
+      "\\blistening to mozart\\b[\\s\\S]{0,150}\\b(?:spatial|iq\\b|intelligen|cognitive performance)\\b",
+      "\\bclassical music\\b[\\s\\S]{0,120}\\b(?:raises?|boosts?|increases?) (?:iq|intelligence)\\b"
+    ]
+  },
+  {
+    "slug": "learning-styles",
+    "label": "Lernstile (visuell/auditiv/kinästhetisch)",
+    "why": "Pashler, McDaniel, Rohrer & Bjork (2008, Psychological Science in the Public Interest) durchsuchten die Literatur nach der entscheidenden Wechselwirkung ('meshing hypothesis') und fanden sie praktisch nirgends. Unterricht auf den angeblichen Lerntyp zuzuschneiden verbessert das Lernergebnis nicht.",
+    "patterns": [
+      "\\bmeshing hypothesis\\b",
+      "\\blearning styles?\\b[\\s\\S]{0,120}\\b(?:visual|auditory|kinesthetic|kinaesthetic|tactile)\\b",
+      "\\b(?:VAK|VARK) (?:model|inventory|questionnaire|learning)\\b",
+      "\\bmatching (?:instruction|teaching|materials?) to\\b[\\s\\S]{0,60}\\blearning styles?\\b"
+    ]
+  },
+  {
+    "slug": "serotonin-depression",
+    "label": "Serotoninmangel als Ursache der Depression",
+    "why": "Der systematische Umbrella-Review von Moncrieff et al. (2022, Molecular Psychiatry) fasste die gesamte Evidenz zu Serotoninkonzentration, Rezeptorbindung, Transporterdichte und Genetik zusammen und fand keine konsistente Stütze für die Annahme, Depression werde durch zu wenig Serotonin verursacht. Das populäre Bild vom 'chemischen Ungleichgewicht' ist wissenschaftlich überholt (auch wenn über die Wirksamkeit von SSRI damit nichts gesagt ist).",
+    "patterns": [
+      "\\bserotonin (?:hypothesis|theory) of depression\\b",
+      "\\bchemical imbalance\\b[\\s\\S]{0,150}\\b(?:depress|serotonin|mental illness)\\b",
+      "\\blow serotonin\\b[\\s\\S]{0,100}\\bcauses? depression\\b",
+      "\\bserotonin (?:deficiency|imbalance)\\b[\\s\\S]{0,100}\\bdepress"
+    ]
+  },
+  {
+    "slug": "ten-thousand-steps",
+    "label": "10.000 Schritte pro Tag als medizinische Zielmarke",
+    "why": "Die Zahl stammt aus der Werbung für den japanischen Schrittzähler 'Manpo-kei' (1965), nicht aus Forschung. I-Min Lee et al. (2019, JAMA Internal Medicine) zeigten, dass die Sterblichkeit bei älteren Frauen schon bei rund 4.400 Schritten deutlich sinkt und der Nutzen um etwa 7.500 Schritte abflacht. Mehr Schritte sind gut — die 10.000 sind aber Marketing.",
+    "patterns": [
+      "\\b10[,.]?000[- ]steps? (?:rule|myth|goal|target|threshold|recommendation)\\b",
+      "\\bmanpo[- ]?kei\\b",
+      "\\b10[,.]?000 steps (?:a|per) day\\b[\\s\\S]{0,80}\\b(?:required|necessary|must be|magic number|optimal target)\\b"
+    ]
+  },
+  {
+    "slug": "eight-glasses-water",
+    "label": "Acht Gläser Wasser am Tag",
+    "why": "Heinz Valtin (2002, American Journal of Physiology) suchte systematisch nach der Quelle der '8x8'-Regel und fand keine. Die Empfehlung geht vermutlich auf eine Empfehlung des US Food and Nutrition Board von 1945 zurück, deren Zusatz 'das meiste davon steckt bereits in der Nahrung' beim Weitererzählen verlorenging. Auch koffeinhaltige Getränke zählen zur Flüssigkeitszufuhr.",
+    "patterns": [
+      "\\b(?:eight|8) glasses of water\\b",
+      "\\b8\\s*[x×]\\s*8\\b[\\s\\S]{0,60}\\b(?:water|fluid|hydration)\\b",
+      "\\b(?:eight|8) (?:8[- ]ounce )?glasses (?:of (?:water|fluid) )?(?:a|per) day\\b",
+      "\\b(?:two|2) (?:litres|liters|l) of water (?:a|per) day\\b[\\s\\S]{0,80}\\b(?:must|required|necessary|everyone)\\b"
+    ]
+  },
+  {
+    "slug": "sugar-hyperactivity",
+    "label": "Zucker macht Kinder hyperaktiv",
+    "why": "Die Metaanalyse von Wolraich, Wilson & White (1995, JAMA) über 23 doppelblinde, placebokontrollierte Studien mit rund 1.400 Kindern fand keinen Effekt von Zucker auf Verhalten oder kognitive Leistung. Der wahrgenommene Effekt entsteht durch Erwartungshaltung der Eltern und den Kontext (Kindergeburtstag statt Zucker).",
+    "patterns": [
+      "\\bsugar rush\\b",
+      "\\bsugar\\b[\\s\\S]{0,60}\\b(?:causes?|induces?|triggers?|leads? to)\\b[\\s\\S]{0,40}\\bhyperactiv",
+      "\\b(?:sucrose|sugar) intake\\b[\\s\\S]{0,60}\\bhyperactivity in children\\b"
+    ]
+  },
+  {
+    "slug": "breakfast-most-important-meal",
+    "label": "Frühstück ist die wichtigste Mahlzeit / macht schlank",
+    "why": "Die systematische Übersicht mit Metaanalyse von Sievert et al. (2019, BMJ) über 13 randomisierte Studien fand: Frühstücken führte nicht zu Gewichtsverlust, sondern eher zu höherer Gesamtenergieaufnahme über den Tag. Frühstück hinzuzufügen ist keine belegte Abnehmstrategie — die Assoziation aus Beobachtungsstudien ist stark konfundiert.",
+    "patterns": [
+      "\\bmost important meal of the day\\b",
+      "\\beating breakfast\\b[\\s\\S]{0,100}\\b(?:causes?|leads? to|produces?)\\b[\\s\\S]{0,60}\\bweight loss\\b",
+      "\\b(?:skipping breakfast|breakfast skipping)\\b[\\s\\S]{0,80}\\bcauses? (?:obesity|weight gain)\\b"
+    ]
+  },
+  {
+    "slug": "social-priming",
+    "label": "Soziales Priming (Bargh: 'Rentner-Wörter' machen langsam)",
+    "why": "Doyen et al. (2012, PLOS ONE) replizierten Barghs Alters-Priming nicht; die Gehgeschwindigkeit änderte sich nur, wenn die Versuchsleiter die Erwartung kannten — ein Versuchsleiter-Erwartungseffekt. Auch Professor-Priming und der 'Macbeth-Effekt' scheiterten in Registered Replication Reports. Der gesamte Zweig des sozialen Primings gilt als Paradebeispiel der Replikationskrise.",
+    "patterns": [
+      "\\belderly priming\\b",
+      "\\bprim(?:ed|ing) (?:participants )?with (?:the )?(?:elderly|old[- ]age) (?:words|stereotype|prime)",
+      "\\bprofessor priming\\b",
+      "\\bmacbeth effect\\b",
+      "\\bmoney priming\\b",
+      "\\bunscrambl(?:ed|ing) sentences?\\b[\\s\\S]{0,120}\\bwalking speed\\b"
+    ]
+  },
+  {
+    "slug": "stanford-prison-experiment",
+    "label": "Stanford-Prison-Experiment",
+    "why": "Thibault Le Texier (2019, American Psychologist) wertete das Archivmaterial und Interviews mit 15 Teilnehmern aus: Die Wärter wurden von den Versuchsleitern aktiv zu härterem Auftreten angehalten, mehrere Szenen waren gestellt, die Teilnehmer wussten, welches Verhalten erwartet wurde. Die Studie ist kein Beleg für 'die Situation macht aus jedem einen Sadisten'.",
+    "patterns": [
+      "\\bstanford prison (?:experiment|study)\\b",
+      "\\bzimbardo\\b[\\s\\S]{0,100}\\bprison\\b"
+    ]
+  },
+  {
+    "slug": "facial-feedback",
+    "label": "Facial-Feedback: Stift zwischen den Zähnen macht fröhlich",
+    "why": "Der Registered Replication Report von Wagenmakers et al. (2016, Perspectives on Psychological Science) mit 17 Laboren und über 2.000 Personen fand keinen Effekt: Der Unterschied schrumpfte von 0,82 Skalenpunkten im Original (Strack et al. 1988) auf 0,03. Das Stift-im-Mund-Paradigma ist tot; über subtilere Formen von Körperfeedback ist damit nichts entschieden.",
+    "patterns": [
+      "\\bfacial feedback (?:hypothesis|effect)\\b",
+      "\\bpen[- ]in[- ](?:the[- ])?mouth\\b",
+      "\\bhold(?:ing)? a pen (?:in|with) (?:the|their) (?:teeth|lips)\\b"
+    ]
+  },
+  {
+    "slug": "blue-light-screens",
+    "label": "Blaulicht/Bildschirme vor dem Schlafen als Hauptursache für schlechten Schlaf",
+    "why": "Die systematische Übersicht mit Metaanalyse in SLEEP Advances (2020) fand für Blaulicht-Reduktion am Abend nur kleine, inkonsistente Effekte auf den Schlaf. Metaanalysen doppelblinder Crossover-Studien zu Blaulichtfilter-Brillen zeigen eine Verkürzung der Einschlafzeit von unter fünf Minuten — statistisch nicht bedeutsam. Was zählt, sind Zubettgehzeit, Regelmäßigkeit und Inhalt der Bildschirmnutzung.",
+    "patterns": [
+      "\\bblue[- ]?light[- ]?(?:blocking|filtering) (?:glasses|lenses|spectacles|filters?)\\b",
+      "\\bblue light\\b[\\s\\S]{0,80}\\b(?:ruins?|destroys?|wrecks?|devastat)[\\s\\S]{0,30}\\bsleep\\b",
+      "\\bblue light\\b[\\s\\S]{0,80}\\b(?:main|primary|leading) cause of\\b[\\s\\S]{0,40}\\b(?:insomnia|poor sleep|sleep problems)\\b"
+    ]
+  },
+  {
+    "slug": "growth-mindset",
+    "label": "Growth-Mindset-Interventionen heben Schulleistungen",
+    "why": "Sisk et al. (2018, Psychological Science) fanden über 273 Studien nur einen sehr schwachen Zusammenhang und über 43 Interventionsstudien ein d von 0,08. Macnamara & Burgoyne (2023, Psychological Bulletin) zeigten über 122 Studien, dass die scheinbaren Effekte auf Designmängel, Berichtsfehler und Publikationsbias zurückgehen; bei Studien mit sauberem Design bleibt nichts übrig.",
+    "patterns": [
+      "\\bgrowth mind[- ]?set intervention\\b",
+      "\\bmind[- ]?set intervention\\b[\\s\\S]{0,150}\\b(?:achievement|grades?|gpa|attainment)\\b",
+      "\\bfixed (?:vs\\.?|versus) growth mind[- ]?set\\b"
+    ]
+  },
+  {
+    "slug": "nudge-overclaim",
+    "label": "Nudging wirkt zuverlässig und stark",
+    "why": "Maier et al. (2022, PNAS) rechneten die viel zitierte Nudging-Metaanalyse von Mertens et al. um Publikationsbias korrigiert nach — danach blieb kein belegter Effekt übrig. DellaVigna & Linos (2022, Econometrica) verglichen 126 RCTs aus zwei staatlichen 'Nudge Units' mit 23 Mio. Personen gegen die Journal-Literatur: 1,4 Prozentpunkte Wirkung im Feld gegenüber 8,7 in Fachzeitschriften.",
+    "patterns": [
+      "\\bnudge theory\\b",
+      "\\bnudge units?\\b",
+      "\\bchoice architecture\\b[\\s\\S]{0,120}\\b(?:consistently|reliably|universally) (?:effective|works?)\\b"
+    ]
+  },
+  {
+    "slug": "wansink-plate-size",
+    "label": "Wansink: kleinere Teller / bodenlose Suppenschüssel",
+    "why": "Brian Wansinks Cornell Food and Brand Lab wurde 2018 nach einer Untersuchung wegen wissenschaftlichen Fehlverhaltens aufgelöst; 18 Arbeiten wurden zurückgezogen (allein JAMA-Journale zogen sechs an einem Tag zurück), Wansink trat zurück. Die Teller-Größen- und 'Bottomless-Bowl'-Befunde haben keine belastbare Datengrundlage mehr.",
+    "patterns": [
+      "\\bbottomless (?:soup )?bowls?\\b",
+      "\\bwansink\\b",
+      "\\b(?:smaller|larger) (?:plates?|bowls?|dishes)\\b[\\s\\S]{0,120}\\b(?:reduce|increase|cut)[\\s\\S]{0,40}\\b(?:food intake|calorie intake|consumption)\\b"
+    ]
+  },
+  {
+    "slug": "reinhart-rogoff-debt-threshold",
+    "label": "90-Prozent-Schuldenschwelle würgt Wachstum ab",
+    "why": "Herndon, Ash & Pollin (2013, Cambridge Journal of Economics) konnten Reinhart & Rogoffs 'Growth in a Time of Debt' nicht reproduzieren: ein Excel-Fehler (fünf ausgelassene Zeilen), selektiver Datenausschluss und eine fragwürdige Gewichtung. Korrekt gerechnet wachsen Länder über 90 % Schuldenquote im Mittel mit 2,2 % statt zu schrumpfen (-0,1 %).",
+    "patterns": [
+      "\\bgrowth in a time of debt\\b",
+      "\\breinhart\\b[\\s\\S]{0,60}\\brogoff\\b",
+      "\\b90 ?(?:%|per ?cent) (?:public )?debt(?:[- ]to[- ]gdp)? threshold\\b",
+      "\\bdebt[- ]to[- ]gdp\\b[\\s\\S]{0,80}\\b90 ?(?:%|per ?cent)\\b[\\s\\S]{0,80}\\bthreshold\\b"
+    ]
+  },
+  {
+    "slug": "myers-briggs",
+    "label": "Myers-Briggs-Typenindikator (MBTI)",
+    "why": "Der MBTI erfüllt zentrale Testgütekriterien nicht: In Retest-Studien erhält je nach Untersuchung ein erheblicher Teil der Befragten schon nach wenigen Wochen einen anderen Typ, und die Zwei-Kategorien-Aufteilung bildet die tatsächlich kontinuierlich verteilten Persönlichkeitsmerkmale nicht ab. In der Persönlichkeitsforschung ist das Big-Five-Modell Standard, nicht der MBTI.",
+    "patterns": [
+      "\\bmyers[-– ]briggs\\b",
+      "\\bMBTI\\b",
+      "\\b(?:16|sixteen) personality types\\b"
+    ]
+  },
+  {
+    "slug": "left-right-brain",
+    "label": "Links-/Rechtshirn-Persönlichkeiten",
+    "why": "Nielsen et al. (2013, PLOS ONE) untersuchten Ruhezustands-Konnektivität von 1.011 Personen in mehr als 7.000 Hirnregionen und fanden keinerlei Hinweis darauf, dass einzelne Menschen bevorzugt ein 'linkes' oder 'rechtes' Netzwerk nutzen. Einzelne Funktionen sind lateralisiert (z. B. Sprache), Persönlichkeiten sind es nicht.",
+    "patterns": [
+      "\\b(?:left|right)[- ]brained?\\s+(?:person|people|thinker|thinking|type|types|individual|learner|student|personality)s?\\b",
+      "\\b(?:left|right)[- ]brain (?:dominance|dominant)\\b",
+      "\\bright[- ]brain(?:ed)?\\b[\\s\\S]{0,60}\\bleft[- ]brain(?:ed)?\\b[\\s\\S]{0,80}\\b(?:creativ|analytic|personality)"
+    ]
+  },
+  {
+    "slug": "detox-diets",
+    "label": "Detox-Kuren / Entgiftungsdiäten",
+    "why": "Der kritische Review von Klein & Kiat (2015, Journal of Human Nutrition and Dietetics) prüfte die acht populärsten Detox-Programme: Es existiert keine einzige randomisierte kontrollierte Studie, die ihre Wirksamkeit für Entgiftung oder Gewichtsmanagement belegt; die wenigen positiven Befunde stammen aus methodisch schwachen Kleinststudien. Leber und Nieren erledigen die Entgiftung ohne Saftkur.",
+    "patterns": [
+      "\\bdetox(?:ification)? (?:diets?|cleanses?|teas?|juices?|programmes?|programs?|protocols?)\\b",
+      "\\bjuice cleanse\\b",
+      "\\bflush(?:es|ing)? (?:out )?toxins\\b",
+      "\\bcolon cleans(?:e|ing)\\b"
+    ]
+  },
+  {
+    "slug": "ten-percent-brain",
+    "label": "Wir nutzen nur 10 % unseres Gehirns",
+    "why": "Bildgebung (fMRT, PET) zeigt Aktivität praktisch im gesamten Gehirn, auch im Schlaf; es gibt kaum ein Areal, dessen Schädigung folgenlos bliebe. Das Gehirn verbraucht rund 20 % der Körperenergie bei 2 % der Masse — evolutionär wäre ein zu 90 % ungenutztes Organ absurd. Die Zahl geht auf ein Missverständnis populärer Zitate zurück, nicht auf eine Studie.",
+    "patterns": [
+      "\\b(?:we|humans|people)\\b[\\s\\S]{0,20}\\buse (?:only )?(?:10|ten) ?(?:%|per ?cent) of (?:our|their|the) brains?\\b",
+      "\\b(?:10|ten) ?(?:%|per ?cent) of (?:the|our|your|their) brains?\\b[\\s\\S]{0,60}\\bmyth\\b",
+      "\\bten[- ]per ?cent[- ]of[- ]the[- ]brain\\b"
+    ]
+  },
+  {
+    "slug": "bem-precognition",
+    "label": "Precognition / Psi (Bem: 'Feeling the Future')",
+    "why": "Daryl Bems Aufsehen erregende Arbeit (2011, Journal of Personality and Social Psychology) wurde von Ritchie, Wiseman & French (2012, PLOS ONE) in drei unabhängigen, vorab registrierten Versuchen nicht repliziert (kombiniertes p = .83). Die Episode gilt als Auslöser der Replikationsdebatte: Mit gängigen Methoden ließ sich 'Übersinnliches' signifikant machen — was das Problem in den Methoden zeigte.",
+    "patterns": [
+      "\\bfeeling the future\\b",
+      "\\bretroactive facilitation of recall\\b",
+      "\\bprecognit(?:ion|ive)\\b",
+      "\\bextrasensory perception\\b",
+      "\\bpsi (?:effects?|phenomena|research|ability|abilities)\\b"
+    ]
+  },
+  {
+    "slug": "implicit-bias-iat",
+    "label": "IAT misst Vorurteile und Bias-Trainings ändern Verhalten",
+    "why": "Die Metaanalyse von Oswald et al. (2013, Journal of Personality and Social Psychology) fand für den Impliziten Assoziationstest nur eine Korrelation von etwa r=.15 mit tatsächlichem diskriminierendem Verhalten — nicht mehr als explizite Fragebögen. Forscher et al. (2019, JPSP) synthetisierten 492 Studien mit 87.418 Personen: Implizite Maße lassen sich zwar verschieben (|d|<.30), auf das Verhalten schlägt das aber praktisch nicht durch.",
+    "patterns": [
+      "\\b(?:implicit|unconscious) bias train(?:ing|ings)\\b",
+      "\\bimplicit association test\\b[\\s\\S]{0,150}\\bpredicts?\\b[\\s\\S]{0,80}\\b(?:behaviou?rs?|discrimination)\\b",
+      "\\bIAT scores?\\b[\\s\\S]{0,120}\\bpredicts?\\b[\\s\\S]{0,80}\\b(?:behaviou?rs?|discrimination)\\b"
+    ]
+  },
+  {
+    "slug": "income-happiness-plateau",
+    "label": "Ab 75.000 Dollar macht mehr Geld nicht glücklicher",
+    "why": "Die adversarielle Kooperation von Killingsworth, Kahneman & Mellers (2023, PNAS) mit 33.391 erwerbstätigen US-Erwachsenen löste den Widerspruch zwischen Kahneman & Deaton (2010) und Killingsworth (2021) auf: Für die große Mehrheit steigt das emotionale Wohlbefinden auch weit über 100.000 Dollar hinaus weiter. Nur bei der unglücklichsten Minderheit flacht die Kurve ab. Eine allgemeine Sättigungsgrenze gibt es nicht.",
+    "patterns": [
+      "\\bhappiness (?:plateaus?|levels? off|stops (?:rising|increasing))\\b[\\s\\S]{0,80}\\b(?:income|earnings|\\$)",
+      "\\$\\s?75[,.]?000\\b[\\s\\S]{0,150}\\b(?:happiness|well[- ]being|wellbeing)\\b",
+      "\\bmoney (?:can'?t|cannot|does ?n[o']?t) buy happiness\\b[\\s\\S]{0,80}\\b(?:above|beyond|past|once)\\b"
+    ]
+  },
+  {
+    "slug": "grit",
+    "label": "Grit als eigenständiger Erfolgsprädiktor",
+    "why": "Die Metaanalyse von Credé, Tynan & Harms (2017, Journal of Personality and Social Psychology) über 88 Stichproben mit 66.807 Personen fand eine Korrelation von ρ=.84 zwischen Grit und Gewissenhaftigkeit — das ist Konstruktredundanz. Über Gewissenhaftigkeit hinaus erklärt Grit kaum zusätzliche Varianz, und die Facette 'Beständigkeit der Interessen' fast gar keine.",
+    "patterns": [
+      "\\bgrit scale\\b",
+      "\\bgrit\\b[\\s\\S]{0,120}\\b(?:predicts?|predictor of|outperforms?)\\b[\\s\\S]{0,80}\\b(?:success|achievement|retention|performance|iq|talent)\\b",
+      "\\bduckworth\\b[\\s\\S]{0,80}\\bgrit\\b"
+    ]
+  },
+  {
+    "slug": "brain-training-transfer",
+    "label": "Gehirnjogging-Apps machen allgemein schlauer",
+    "why": "Simons et al. (2016, Psychological Science in the Public Interest) prüften die gesamte Evidenz: Wer trainiert, wird besser in der trainierten Aufgabe — ein Übertrag auf andere kognitive Fähigkeiten oder den Alltag ('far transfer') ließ sich in methodisch sauberen Studien nicht zeigen. Die US-Handelsbehörde FTC belegte Lumosity 2016 wegen irreführender Werbung mit einem Vergleich über 2 Mio. Dollar.",
+    "patterns": [
+      "\\bbrain[- ]training (?:games?|apps?|programs?|programmes?)\\b",
+      "\\blumosity\\b",
+      "\\bcognitive training\\b[\\s\\S]{0,150}\\b(?:transfers?|general[iy][sz]es?) to\\b[\\s\\S]{0,60}\\b(?:everyday|real[- ]world|untrained|daily life)\\b"
+    ]
+  },
+  {
+    "slug": "dunbars-number",
+    "label": "Dunbar-Zahl: 150 stabile Beziehungen",
+    "why": "Lindenfors, Wartel & Lind (2021, Biology Letters) rechneten die zugrundeliegende Regression zwischen Neokortexgröße und Gruppengröße mit modernen phylogenetischen Methoden nach. Je nach Verfahren kamen 69 oder 16–42 Personen heraus — mit 95%-Konfidenzintervallen von 4 bis 520 bzw. 2 bis 336. Eine einzelne Zahl lässt sich daraus nicht ableiten.",
+    "patterns": [
+      "\\bdunbar'?s number\\b",
+      "\\b150 (?:stable )?(?:social )?(?:relationships|friendships|contacts)\\b[\\s\\S]{0,120}\\b(?:cognitive limit|brain size|neocortex)\\b",
+      "\\bneocortex (?:size|ratio)\\b[\\s\\S]{0,120}\\bgroup size\\b[\\s\\S]{0,120}\\b150\\b"
+    ]
+  },
+  {
+    "slug": "antioxidant-supplements",
+    "label": "Antioxidantien-Präparate verlängern das Leben",
+    "why": "Der Cochrane-Review von Bjelakovic et al. (2012, 78 randomisierte Studien) fand keinen Überlebensvorteil durch Antioxidantien-Präparate; Beta-Carotin und Vitamin E waren sogar mit erhöhter Sterblichkeit verbunden. Die US Preventive Services Task Force (2022, JAMA) rät auf dieser Basis ausdrücklich von Beta-Carotin und Vitamin E zur Krebs- oder Herz-Kreislauf-Prävention ab.",
+    "patterns": [
+      "\\bantioxidant supplement(?:s|ation)?\\b[\\s\\S]{0,150}\\b(?:prevents?|reduces?|lowers?)\\b[\\s\\S]{0,80}\\b(?:mortality|cancer|cardiovascular|ag[ei]ing)\\b",
+      "\\bfree[- ]radical theory of ag(?:e)?ing\\b",
+      "\\b(?:vitamin e|beta[- ]carotene) supplement(?:s|ation)?\\b[\\s\\S]{0,120}\\bprevent(?:s|ion of)?\\b[\\s\\S]{0,60}\\b(?:cancer|cardiovascular|heart disease)\\b"
+    ]
+  },
+  {
+    "slug": "omega3-heart-protection",
+    "label": "Fischöl-/Omega-3-Kapseln schützen das Herz",
+    "why": "Der Cochrane-Review von Abdelhamid et al. (2020) über 79 randomisierte Studien mit mehr als 112.000 Personen fand für EPA/DHA-Supplemente wenig bis keinen Effekt auf Gesamtsterblichkeit oder kardiovaskuläre Ereignisse. Frühere positive Befunde stammten überwiegend aus Studien mit höherem Bias-Risiko.",
+    "patterns": [
+      "\\b(?:omega[- ]?3|fish oil|EPA and DHA)\\b[\\s\\S]{0,100}\\bsupplement(?:s|ation)?\\b[\\s\\S]{0,120}\\b(?:prevents?|protects? against|reduces? the risk of)\\b[\\s\\S]{0,80}\\b(?:heart (?:disease|attack)|cardiovascular|coronary|stroke|mortality)\\b",
+      "\\bfish oil\\b[\\s\\S]{0,80}\\bcardioprotective\\b"
+    ]
+  },
+  {
+    "slug": "metabolism-slows-at-30",
+    "label": "Der Stoffwechsel wird ab 30 langsamer",
+    "why": "Pontzer et al. (2021, Science) werteten mit der Doppelt-markiertes-Wasser-Methode den Energieumsatz von 6.421 Menschen aus 29 Ländern im Alter von 8 Tagen bis 95 Jahren aus: Der auf Körpermasse bezogene Umsatz ist zwischen 20 und 60 bemerkenswert stabil und sinkt erst ab etwa 60 um weniger als 1 % pro Jahr. Die Gewichtszunahme in den Dreißigern hat andere Ursachen.",
+    "patterns": [
+      "\\bmetabolism slows (?:down )?(?:after|in your|from|around) (?:age )?(?:30|thirty|35|40|forty|middle age)\\b",
+      "\\bmetabolic rate\\b[\\s\\S]{0,100}\\bdeclines? (?:after|from) (?:age )?(?:30|thirty|35)\\b",
+      "\\bslow(?:ing|er) metabolism\\b[\\s\\S]{0,120}\\b(?:middle[- ]aged?|midlife) weight gain\\b"
+    ]
+  },
+  {
+    "slug": "hawthorne-effect",
+    "label": "Hawthorne-Effekt (Beobachtung steigert die Leistung)",
+    "why": "Levitt & List (2011, American Economic Journal: Applied Economics) fanden die verschollen geglaubten Originaldaten der Beleuchtungsexperimente von Hawthorne wieder und rechneten sie nach: Die berühmten Muster existieren so nicht. Die Produktivitätsanstiege folgen Wochentags- und Lohnperiodenzyklen, nicht der Beleuchtung. Die Lehrbuchversion hält der Reanalyse nicht stand.",
+    "patterns": [
+      "\\bhawthorne (?:illumination )?(?:experiments?|studies|plant|works)\\b",
+      "\\bthe original hawthorne\\b"
+    ]
+  },
+  {
+    "slug": "mmr-autism",
+    "label": "Impfungen (MMR) verursachen Autismus",
+    "why": "Andrew Wakefields Lancet-Aufsatz von 1998 wurde 2010 vollständig zurückgezogen; das BMJ wies 2011 nach, dass die Krankengeschichten der zwölf Kinder gefälscht waren, Wakefield verlor seine Zulassung. Die dänische Registerstudie von Hviid et al. (2019, Annals of Internal Medicine) mit 657.461 Kindern fand eine adjustierte Hazard Ratio von 0,93 — kein erhöhtes Risiko, auch nicht in Risikogruppen.",
+    "patterns": [
+      "\\bautistic enterocolitis\\b",
+      "\\bwakefield\\b[\\s\\S]{0,120}\\bautis",
+      "\\bvaccine[- ]induced autism\\b",
+      "\\bthi?merosal\\b[\\s\\S]{0,80}\\bautism\\b",
+      "\\b(?:vaccines?|vaccination|MMR)\\b[\\s\\S]{0,60}\\b(?:causes?|caused|triggers?|triggered) autism\\b"
+    ]
+  },
+  {
+    "slug": "adrenal-fatigue",
+    "label": "Nebennierenerschöpfung / 'adrenal fatigue'",
+    "why": "Der systematische Review von Cadegiani & Kater (2016, BMC Endocrine Disorders) über 58 Studien trägt den Titel 'Adrenal fatigue does not exist'. Keine endokrinologische Fachgesellschaft erkennt das Konstrukt an; die eingesetzten Speichelcortisol-Tests trennen Betroffene nicht von Gesunden. Erschöpfung ist real — diese Erklärung dafür ist es nicht.",
+    "patterns": [
+      "\\badrenal fatigue\\b",
+      "\\badrenal (?:burnout|exhaustion)\\b"
+    ]
+  },
+  {
+    "slug": "blue-zones-longevity",
+    "label": "Blue Zones: Regionen mit außergewöhnlich vielen Hundertjährigen",
+    "why": "Saul Newman (UCL) zeigte, dass die extremen Altersangaben in den 'Blue Zones' vor allem mit fehlenden Geburtsurkunden, Armut und Anreizen zum Rentenbetrug korrelieren — Geburtsdaten von Superhundertjährigen häufen sich auffällig auf durch fünf teilbaren Tagen. Für die Arbeit erhielt er 2024 den Ig-Nobelpreis für Demografie. Die abgeleiteten Ernährungs- und Lebensstil-Rezepte stehen auf sehr wackligen Daten.",
+    "patterns": [
+      "\\bblue zones?\\b[\\s\\S]{0,150}\\b(?:longevity|centenarian|supercentenarian|live longer|life expectancy|lifespan)\\b",
+      "\\b(?:centenarians?|supercentenarians?|longevity hotspots?)\\b[\\s\\S]{0,150}\\bblue zones?\\b"
+    ]
+  }
+]

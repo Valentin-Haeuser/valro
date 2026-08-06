@@ -2,7 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { parseArgs } from 'node:util';
 import type { ScoredStudy, Source, Study, Topic } from './types.js';
 import { TOPIC_LABELS, TOPICS } from './types.js';
-import { CONFIG, loadEnv, topicForDate } from './config.js';
+import { CONFIG, SOURCES_BY_TOPIC, loadEnv, topicForDate } from './config.js';
 import { europePmcSource } from './sources/europepmc.js';
 import { pubmedSource } from './sources/pubmed.js';
 import { nberSource } from './sources/nber.js';
@@ -46,16 +46,19 @@ async function main(): Promise<void> {
 
   console.log(`Briefing für ${date} — Thema: ${TOPIC_LABELS[activeTopic]}`);
 
+  const allowed = SOURCES_BY_TOPIC[activeTopic];
+  const active = allowed ? SOURCES.filter((s) => allowed.includes(s.id)) : SOURCES;
+
   // Quellen laufen parallel; eine ausgefallene Quelle darf den Lauf nicht kippen.
   const settled = await Promise.allSettled(
-    SOURCES.map((s) =>
+    active.map((s) =>
       s.fetch({ topic: activeTopic, sinceDays: CONFIG.sinceDays, limit: CONFIG.limitPerSource }),
     ),
   );
 
   const studies: Study[] = [];
   settled.forEach((r, i) => {
-    const src = SOURCES[i]!;
+    const src = active[i]!;
     if (r.status === 'fulfilled') {
       console.log(`  ${src.label}: ${r.value.length} Treffer`);
       studies.push(...r.value);

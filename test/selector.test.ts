@@ -4,11 +4,31 @@ import type { CredibilityScore, History, ScoredStudy, Study } from '../src/types
 import { dedupe, select } from '../src/select/selector.js';
 import { keywordsOf } from '../src/select/history.js';
 
+/**
+ * Realistische Abstracts, kein Füllmaterial: Die Auswahl prüft inzwischen
+ * Themenzugehörigkeit und Alltagsrelevanz am Text. Mit 'x'.repeat(400) würde
+ * jeder Kandidat aussortiert, und die Tests würden das Gegenteil dessen
+ * belegen, was sie belegen sollen.
+ */
+const SLEEP_ABSTRACT =
+  'Short sleep duration has been linked to cardiovascular risk in observational research. ' +
+  'We pooled 41 prospective cohort studies covering adults from twelve countries to estimate ' +
+  'the association between habitual sleep duration and incident cardiovascular disease. ' +
+  'Participants sleeping fewer than six hours per night showed higher risk than those sleeping ' +
+  'seven to eight hours. Physical activity and diet were treated as covariates throughout.';
+
+const PSYCH_ABSTRACT =
+  'Procrastination is common and has been conceptualised as a byproduct of impulsivity. ' +
+  'We examined whether nonplanning impulsivity predicts later procrastination, and tested ' +
+  'the shared behavioural basis of both traits across three adult samples. Measures of ' +
+  'self-control and decision making were collected at each wave, alongside perceived stress ' +
+  'and weekly working hours.';
+
 function study(over: Partial<Study> = {}): Study {
   return {
     id: over.doi ?? 'europepmc:1',
     title: 'Sleep duration and cardiovascular risk: a meta-analysis',
-    abstract: 'x'.repeat(400),
+    abstract: SLEEP_ABSTRACT,
     authors: ['A. Autor'],
     journal: 'Sleep',
     year: 2026,
@@ -47,8 +67,16 @@ test('dedupe führt dieselbe DOI aus zwei Quellen zusammen', () => {
 
 test('bereits verschickte Studien werden nie erneut ausgewählt', () => {
   const used = study({ id: 'europepmc:1', doi: '10.1/used' });
-  const fresh1 = study({ id: 'europepmc:2', doi: '10.1/f1', title: 'Napping and memory consolidation' });
-  const fresh2 = study({ id: 'europepmc:3', doi: '10.1/f2', title: 'Caffeine timing and alertness' });
+  const fresh1 = study({
+    id: 'europepmc:2',
+    doi: '10.1/f1',
+    title: 'Daytime napping and memory consolidation in healthy adults',
+  });
+  const fresh2 = study({
+    id: 'europepmc:3',
+    doi: '10.1/f2',
+    title: 'Caffeine timing, sleep quality and sustained attention',
+  });
 
   const history: History = {
     entries: [
@@ -94,20 +122,29 @@ test('Themensperre blockt eine zweite Studie zum selben Gegenstand', () => {
   const sameSubject = study({
     id: 'europepmc:2',
     doi: '10.1/again',
-    title: 'Nonplanning impulsivity and procrastination: a neurogenetic replication',
+    title: 'Nonplanning impulsivity and procrastination: a behavioural replication',
     topics: ['psychology'],
+    abstract: PSYCH_ABSTRACT,
   });
   const otherSubject = study({
     id: 'europepmc:3',
     doi: '10.1/other',
-    title: 'Bilingualism and executive attention in older adults',
+    title: 'Bilingualism and cognitive attention control in older adults',
     topics: ['psychology'],
+    abstract:
+      'Bilingual experience has been proposed to sharpen attention control. We compared ' +
+      'monolingual and bilingual adults on measures of memory, attention and decision making ' +
+      'to test whether everyday language switching carries over into general cognitive control.',
   });
   const thirdSubject = study({
     id: 'europepmc:4',
     doi: '10.1/third',
-    title: 'Loneliness and inflammatory markers across the lifespan',
+    title: 'Loneliness, stress and mood across the lifespan',
     topics: ['psychology'],
+    abstract:
+      'Loneliness is associated with poorer wellbeing. We tracked social contact, perceived ' +
+      'stress and mood in a general adult population sample over four years to describe how ' +
+      'everyday social behaviour relates to emotional health.',
   });
 
   const sel = select(
@@ -141,8 +178,17 @@ test('nach Ablauf der Sperrfrist ist das Thema wieder frei', () => {
     doi: '10.1/again',
     title: 'Nonplanning impulsivity and procrastination: a replication',
     topics: ['psychology'],
+    abstract: PSYCH_ABSTRACT,
   });
-  const filler = study({ id: 'europepmc:3', doi: '10.1/x', title: 'Loneliness and inflammation' });
+  const filler = study({
+    id: 'europepmc:3',
+    doi: '10.1/x',
+    title: 'Loneliness, mood and everyday social contact',
+    topics: ['psychology'],
+    abstract:
+      'We examined how everyday social contact relates to mood and perceived stress in a ' +
+      'general adult population, using repeated behavioural and wellbeing measures.',
+  });
 
   const sel = select(
     [scored(sameSubject, 95), scored(filler, 80)],

@@ -232,7 +232,7 @@ function shortBlock(short: ShortFact, index: number): string {
     `text-align:center;">${index}</td></tr></table>`;
 
   const evidenceHtml = evidence
-    ? `<div style="font-family:${SANS};font-size:15px;line-height:1.6;color:${C.muted};` +
+    ? `<div style="font-family:${SANS};font-size:16px;line-height:1.6;color:${C.muted};` +
       `padding-top:8px;">${escapeHtml(evidence)}</div>`
     : '';
 

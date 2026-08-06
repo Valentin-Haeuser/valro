@@ -26,6 +26,11 @@ const TOPIC_SEARCH: Record<Topic, string> = {
   body: 'physical activity exercise nutrition metabolic health',
   economics: 'behavioral economics labor market incentives',
   psychology: 'psychology behaviour motivation decision making well-being',
+  learning: 'retrieval practice spaced repetition memory consolidation learning',
+  environment: 'air pollution noise exposure ambient temperature green space',
+  nutrition: 'dietary pattern ultra-processed food sugar intake fasting nutrition',
+  time: 'commuting time use urban environment active travel working time',
+  relationships: 'social isolation loneliness social support social connection',
 };
 
 const TOPIC_HINTS: Record<Topic, RegExp> = {
@@ -34,6 +39,11 @@ const TOPIC_HINTS: Record<Topic, RegExp> = {
   body: /\bexercise|physical activity|nutrition|diet|obesity|cardiovascular|metabolic|muscle|mortality/i,
   economics: /\beconomic|labor market|labour market|income|wage|price|incentive|market|financial/i,
   psychology: /\bpsycholog|behaviour|behavior|cognitive|emotion|motivat|depress|anxiety|well-being|wellbeing|stress/i,
+  learning: /\blearn|memory|recall|retrieval|practice|education|academic|skill acquisition|training/i,
+  environment: /\bpollut|particulate|noise|ambient temperature|heat exposure|green space|daylight|air quality|environmental/i,
+  nutrition: /\bdiet|nutrition|food|eating|sugar|protein|fibre|fiber|fasting|vitamin|supplement/i,
+  time: /\bcommut|time use|urban|city|cities|travel|transport|working time|leisure|neighbourhood|neighborhood/i,
+  relationships: /\bloneli|social isolation|social support|social connection|marriage|marital|friendship|social network|relationship/i,
 };
 
 interface OpenAlexWork {

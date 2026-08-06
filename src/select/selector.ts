@@ -1,6 +1,7 @@
 import type { History, ScoredStudy, Study, Topic } from '../types.js';
-import { CONFIG } from '../config.js';
+import { CONFIG, thresholdsFor } from '../config.js';
 import { isSeen, keywordsOf, normalizeDoi, seenKeys } from './history.js';
+import { everydayRelevance, matchesTopic } from '../scoring/relevance.js';
 
 export interface Selection {
   lead: ScoredStudy;
@@ -40,15 +41,27 @@ export function select(
 ): Selection | null {
   const seen = seenKeys(history);
   const recentTopics = recentKeywordSets(history, today);
+  const limits = thresholdsFor(topic);
 
   const eligible = scored
     .filter((s) => !s.score.rejected)
     .filter((s) => !isSeen(s.study, seen))
-    .filter((s) => s.score.total >= CONFIG.minCredibility)
+    .filter((s) => s.score.total >= limits.pool)
     .filter((s) => !repeatsRecentSubject(s.study, recentTopics))
-    .sort((a, b) => b.score.total - a.score.total);
+    // Die Suchanfragen müssen breit sein, um genug Material zu finden — dabei
+    // rutscht regelmäßig Fachfremdes durch. Ein Diabetesmedikament ist kein
+    // Psychologiefakt, auch wenn die Trefferliste es hergibt.
+    .filter((s) => matchesTopic(s.study, topic))
+    .map((s) => ({ ...s, relevance: everydayRelevance(s.study) }))
+    .filter((s) => s.relevance.score >= limits.relevance)
+    // Rang aus beiden Achsen: Ein makelloser Befund über eine seltene
+    // Erkrankung nützt nichts, eine alltagsnahe Behauptung ohne Beleg
+    // erst recht nicht.
+    .sort((a, b) => rank(b) - rank(a));
 
-  const lead = eligible.find((s) => s.score.total >= CONFIG.minCredibilityLead);
+  const lead = eligible.find(
+    (s) => s.score.total >= limits.lead && s.relevance.score >= limits.relevanceLead,
+  );
   if (!lead) return null;
 
   // Nachschläge sollen nicht dieselbe Studie und möglichst nicht dieselbe
@@ -59,7 +72,14 @@ export function select(
     .slice(0, 2);
 
   if (shorts.length === 0) return null;
-  return { lead, shorts };
+  return {
+    lead: { study: lead.study, score: lead.score },
+    shorts: shorts.map((s) => ({ study: s.study, score: s.score })),
+  };
+}
+
+function rank(s: ScoredStudy & { relevance: { score: number } }): number {
+  return (s.score.total / 100) * 0.55 + s.relevance.score * 0.45;
 }
 
 /**

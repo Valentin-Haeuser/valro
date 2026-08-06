@@ -6,8 +6,18 @@
  * Datei kennt eine konkrete API — das ist Absicht.
  */
 
-/** Themen der Wochenrotation. */
-export type Topic = 'sleep' | 'productivity' | 'body' | 'economics' | 'psychology';
+/** Themen der Rotation. Zehn Stück, verteilt über zwei Wochen. */
+export type Topic =
+  | 'sleep'
+  | 'productivity'
+  | 'body'
+  | 'economics'
+  | 'psychology'
+  | 'learning'
+  | 'environment'
+  | 'nutrition'
+  | 'time'
+  | 'relationships';
 
 export const TOPICS: readonly Topic[] = [
   'sleep',
@@ -15,6 +25,11 @@ export const TOPICS: readonly Topic[] = [
   'body',
   'economics',
   'psychology',
+  'learning',
+  'environment',
+  'nutrition',
+  'time',
+  'relationships',
 ] as const;
 
 /** Deutsche Anzeigenamen — landen in Betreffzeile und Mail-Kopf. */
@@ -24,6 +39,11 @@ export const TOPIC_LABELS: Record<Topic, string> = {
   body: 'Körper & Gesundheit',
   economics: 'Wirtschaft',
   psychology: 'Psychologie',
+  learning: 'Lernen & Gedächtnis',
+  environment: 'Umwelt & Alltagseinflüsse',
+  nutrition: 'Ernährung',
+  time: 'Zeit, Pendeln & Städte',
+  relationships: 'Beziehungen & soziale Bindung',
 };
 
 /**

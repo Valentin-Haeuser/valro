@@ -35,8 +35,8 @@ echte Studie holen  →  Qualität prüfen  →  Zombie-Befunde aussortieren
    Übersichtsarbeiten und randomisierte Studien.
 2. **Bewertung** (`src/scoring/`) — jede Studie bekommt 0–100 Punkte aus Studientyp,
    Stichprobengröße, Zitationen relativ zum Alter, Publikationsort und Aktualität.
-   `data/zombies.json` listet bekannt widerlegte Befunde; ein Treffer führt zum
-   harten Ausschluss.
+   `data/zombies.json` listet 36 bekannt widerlegte Befunde; ein Treffer führt zum
+   harten Ausschluss. Daneben läuft die Relevanzbewertung (siehe unten).
 3. **Auswahl** (`src/select/`) — Dubletten über Quellen hinweg zusammenführen, alles
    aus `data/history.json` bereits Verschicktes verwerfen, dann Hauptfakt (strengere
    Schwelle) und zwei Nachschläge wählen. Reicht das Material nicht, kommt bewusst
@@ -63,14 +63,31 @@ Der Hauptfakt folgt immer derselben Dramaturgie:
 Der vorletzte Block ist der wichtigste. Wer die Einschränkung mitliefert
 („gilt aber nur für Menschen über 50"), wirkt informiert statt nachplappernd.
 
-## Wochenrotation
+## Themenrotation
 
-| Mo | Di | Mi | Do | Fr |
-|---|---|---|---|---|
-| Schlaf | Produktivität & Fokus | Körper & Gesundheit | Wirtschaft | Psychologie |
+Zehn Themen über zwei Wochen — der Zyklus hängt an der ISO-Kalenderwoche.
 
-Ohne feste Zuordnung landet man schnell fünfmal hintereinander beim selben Thema,
-weil manche Felder deutlich mehr publizieren als andere.
+| | Mo | Di | Mi | Do | Fr |
+|---|---|---|---|---|---|
+| **Woche A** | Schlaf | Produktivität & Fokus | Körper & Gesundheit | Wirtschaft | Psychologie |
+| **Woche B** | Lernen & Gedächtnis | Umwelt & Alltagseinflüsse | Ernährung | Zeit, Pendeln & Städte | Beziehungen & soziale Bindung |
+
+Ohne feste Zuordnung landet man schnell mehrmals hintereinander beim selben
+Gegenstand, weil manche Felder deutlich mehr publizieren als andere.
+
+## Die zweite Achse: Alltagsrelevanz
+
+Belegstärke allein reicht nicht. Die Fachliteratur zieht systematisch in die
+falsche Richtung: Die methodisch saubersten Arbeiten sind fast immer die
+engsten. Eine Metaanalyse zum Eierstockkrebsrisiko in asiatischen Populationen
+ist erstklassige Wissenschaft und als Gesprächsstoff wertlos.
+
+`src/scoring/relevance.ts` bewertet deshalb getrennt, ob ein Befund jemanden
+betrifft, der nicht vom Fach ist — alltägliche Gegenstände heben die Bewertung,
+enge klinische Themen, seltene Teilpopulationen und reine Methodenarbeiten
+senken sie. Die Auswahl rangiert nach beiden Achsen zusammen und prüft
+zusätzlich, ob eine Studie überhaupt zum Thema des Tages gehört; die
+Suchanfragen müssen breit sein, und dabei rutscht regelmäßig Fachfremdes durch.
 
 ## Wie Wiederholungen verhindert werden
 
@@ -140,7 +157,7 @@ npm install
 export ANTHROPIC_API_KEY=sk-ant-...
 
 npm run preview                      # erzeugen, nichts verschicken, History ignorieren
-npm run briefing -- --topic sleep    # bestimmtes Thema erzwingen
+npm run briefing -- --topic sleep    # bestimmtes Thema erzwingen (10 möglich)
 npm run typecheck
 npm test
 ```
