@@ -10,7 +10,7 @@
  * als solche gemeldet, damit die Pipeline sie von echten Bugs unterscheiden kann.
  */
 
-import type { FetchOptions, Source, Study, StudyDesign, Topic } from '../types';
+import type { FetchOptions, Source, Study, StudyDesign, Topic } from '../types.js';
 
 const API_URL = 'https://api.openalex.org/works';
 const MAILTO = 'valentin@valro.de';
@@ -178,6 +178,18 @@ function nativeId(id: string | undefined): string | undefined {
   return id.split('/').pop() || undefined;
 }
 
+/** Nur 5xx wiederholen — 429/403 sind Kontingentgrenzen, da hilft kein Nachschlag. */
+async function fetchWithRetry(url: string, signal: AbortSignal): Promise<Response> {
+  const headers = {
+    accept: 'application/json',
+    'user-agent': `valro-briefing/1.0 (mailto:${MAILTO})`,
+  };
+  const res = await fetch(url, { signal, headers });
+  if (res.status < 500) return res;
+  await new Promise((resolve) => setTimeout(resolve, 1200));
+  return fetch(url, { signal, headers });
+}
+
 export const openAlexSource: Source = {
   id: 'openalex',
   label: 'OpenAlex',
@@ -205,13 +217,7 @@ export const openAlexSource: Source = {
       mailto: MAILTO,
     });
 
-    const res = await fetch(`${API_URL}?${params.toString()}`, {
-      signal,
-      headers: {
-        accept: 'application/json',
-        'user-agent': `valro-briefing/1.0 (mailto:${MAILTO})`,
-      },
-    });
+    const res = await fetchWithRetry(`${API_URL}?${params.toString()}`, signal);
 
     if (res.status === 429 || res.status === 403) {
       const detail = (await res.text().catch(() => '')).slice(0, 300);

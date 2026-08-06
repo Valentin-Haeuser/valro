@@ -11,7 +11,7 @@
  */
 
 import { XMLParser } from 'fast-xml-parser';
-import type { FetchOptions, Source, Study, StudyDesign, Topic } from '../types';
+import type { FetchOptions, Source, Study, StudyDesign, Topic } from '../types.js';
 
 const FEED_URL = 'https://back.nber.org/rss/new.xml';
 const TIMEOUT_MS = 20_000;
@@ -162,6 +162,18 @@ function parseFeedDate(header: string | null): Date {
   return new Date();
 }
 
+/** Das CDN vor dem Feed wirft gelegentlich 5xx — ein Nachschlag genügt. */
+async function fetchFeed(signal: AbortSignal): Promise<Response> {
+  const headers = {
+    accept: 'application/rss+xml, application/xml;q=0.9, */*;q=0.8',
+    'user-agent': 'valro-briefing/1.0 (mailto:valentin@valro.de)',
+  };
+  const res = await fetch(FEED_URL, { signal, headers });
+  if (res.status < 500) return res;
+  await new Promise((resolve) => setTimeout(resolve, 1200));
+  return fetch(FEED_URL, { signal, headers });
+}
+
 export const nberSource: Source = {
   id: 'nber',
   label: 'NBER Working Papers',
@@ -169,13 +181,7 @@ export const nberSource: Source = {
   async fetch(opts: FetchOptions): Promise<Study[]> {
     const signal = opts.signal ?? AbortSignal.timeout(TIMEOUT_MS);
 
-    const res = await fetch(FEED_URL, {
-      signal,
-      headers: {
-        accept: 'application/rss+xml, application/xml;q=0.9, */*;q=0.8',
-        'user-agent': 'valro-briefing/1.0 (mailto:valentin@valro.de)',
-      },
-    });
+    const res = await fetchFeed(signal);
     if (!res.ok) {
       throw new Error(`NBER: HTTP ${res.status} ${res.statusText} für ${FEED_URL}`);
     }

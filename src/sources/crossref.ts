@@ -7,7 +7,7 @@
  * großzügiger Reserve bei `rows`.
  */
 
-import type { FetchOptions, Source, Study, StudyDesign, Topic } from '../types';
+import type { FetchOptions, Source, Study, StudyDesign, Topic } from '../types.js';
 
 const API_URL = 'https://api.crossref.org/works';
 const MAILTO = 'valentin@valro.de';
@@ -185,6 +185,27 @@ function normalizeDoi(raw: string | undefined): string | undefined {
   return doi.startsWith('10.') ? doi : undefined;
 }
 
+/**
+ * Crossref drosselt Bursts mit 503. Zwei Nachschläge mit wachsender Pause
+ * reichen erfahrungsgemäß; das Zeitbudget deckelt ohnehin `signal`.
+ */
+async function fetchWithRetry(url: string, signal: AbortSignal): Promise<Response> {
+  const headers = {
+    accept: 'application/json',
+    'user-agent': `valro-briefing/1.0 (mailto:${MAILTO})`,
+  };
+  const backoffs = [1_000, 3_000];
+  let res = await fetch(url, { signal, headers });
+  for (const wait of backoffs) {
+    if (res.status < 500) return res;
+    const retryAfter = Number.parseInt(res.headers.get('retry-after') ?? '', 10);
+    const delay = Number.isFinite(retryAfter) ? Math.min(retryAfter * 1000, 5_000) : wait;
+    await new Promise((resolve) => setTimeout(resolve, delay));
+    res = await fetch(url, { signal, headers });
+  }
+  return res;
+}
+
 export const crossrefSource: Source = {
   id: 'crossref',
   label: 'Crossref',
@@ -203,13 +224,7 @@ export const crossrefSource: Source = {
       mailto: MAILTO,
     });
 
-    const res = await fetch(`${API_URL}?${params.toString()}`, {
-      signal,
-      headers: {
-        accept: 'application/json',
-        'user-agent': `valro-briefing/1.0 (mailto:${MAILTO})`,
-      },
-    });
+    const res = await fetchWithRetry(`${API_URL}?${params.toString()}`, signal);
     if (res.status === 429) {
       throw new Error('Crossref: Rate Limit (HTTP 429) — später erneut versuchen');
     }

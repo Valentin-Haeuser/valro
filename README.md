@@ -72,6 +72,21 @@ Der vorletzte Block ist der wichtigste. Wer die Einschränkung mitliefert
 Ohne feste Zuordnung landet man schnell fünfmal hintereinander beim selben Thema,
 weil manche Felder deutlich mehr publizieren als andere.
 
+## Wie Wiederholungen verhindert werden
+
+Vier Ebenen, weil „schon mal gehört" das Briefing schneller ruiniert als ein
+schwacher Fakt:
+
+| Ebene | Wogegen |
+|---|---|
+| DOI-Abgleich im Lauf | Dieselbe Arbeit kommt gleichzeitig über Europe PMC, PubMed und Crossref herein |
+| `data/history.json` | Eine einmal verschickte Studie kommt **nie** wieder |
+| Themensperre, 42 Tage | Nicht die dritte Prokrastinations-Metaanalyse in vier Wochen — verglichen werden Inhaltswörter der Titel, Methoden-Floskeln wie „systematic review and meta-analysis" zählen dabei nicht |
+| Ähnlichkeit in der Ausgabe | Die beiden Kurzfakten dürfen dem Hauptfakt nicht zu nahe kommen |
+
+Die Sperrfrist ist bewusst endlich: Dauerhaft gesperrte Themen würden nach einem
+Jahr die ergiebigsten Felder verbrennen. Beide Werte stehen in `src/config.ts`.
+
 ---
 
 ## Einrichtung

@@ -171,6 +171,12 @@ export interface HistoryEntry {
   topic: Topic;
   title: string;
   role: 'lead' | 'short';
+  /**
+   * Inhaltswörter aus dem Titel. Grundlage der Themensperre: Sie verhindert,
+   * dass in drei Wochen die nächste Studie zum selben Gegenstand kommt und
+   * sich die Ausgabe wie eine Wiederholung anfühlt.
+   */
+  keywords?: string[];
 }
 
 export interface History {

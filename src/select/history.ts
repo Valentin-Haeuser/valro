@@ -52,6 +52,35 @@ export function isSeen(study: Pick<Study, 'id' | 'doi'>, seen: Set<string>): boo
   return keysFor(study).some((k) => seen.has(k));
 }
 
+/**
+ * Wörter, die in Studientiteln überall vorkommen und deshalb nichts über den
+ * Gegenstand aussagen. Ohne diese Liste würde die Themensperre bei jedem
+ * zweiten Titel anschlagen, weil fast alle "systematic review and
+ * meta-analysis" im Namen tragen.
+ */
+const STOPWORDS = new Set([
+  'systematic', 'review', 'meta', 'analysis', 'metaanalysis', 'randomized', 'randomised',
+  'controlled', 'trial', 'study', 'studies', 'effect', 'effects', 'association', 'associations',
+  'associated', 'relationship', 'between', 'among', 'across', 'evidence', 'results', 'outcomes',
+  'patients', 'adults', 'children', 'people', 'human', 'humans', 'clinical', 'population',
+  'based', 'using', 'towards', 'toward', 'role', 'impact', 'analyses', 'cohort', 'prospective',
+  'cross', 'sectional', 'longitudinal', 'comparison', 'versus', 'with', 'from', 'that', 'this',
+  'their', 'které', 'multilevel', 'protocol', 'update', 'umbrella', 'narrative', 'pooled',
+]);
+
+/** Inhaltswörter eines Titels — Grundlage für Dublettenerkennung auf Themenebene. */
+export function keywordsOf(title: string): string[] {
+  return [
+    ...new Set(
+      title
+        .toLowerCase()
+        .replace(/[^a-zäöüß\s-]/g, ' ')
+        .split(/[\s-]+/)
+        .filter((w) => w.length > 4 && !STOPWORDS.has(w)),
+    ),
+  ];
+}
+
 /** Trägt alles ein, was in dieser Ausgabe vorkam — Hauptfakt wie Nachschläge. */
 export function recordBriefing(history: History, briefing: Briefing, studies: Study[]): History {
   const byUrl = new Map(studies.map((s) => [s.url, s]));
@@ -66,6 +95,7 @@ export function recordBriefing(history: History, briefing: Briefing, studies: St
       topic: briefing.topic,
       title,
       role,
+      keywords: keywordsOf(study?.title ?? title),
     });
   };
 

@@ -1,6 +1,6 @@
 import type { History, ScoredStudy, Study, Topic } from '../types.js';
 import { CONFIG } from '../config.js';
-import { isSeen, normalizeDoi, seenKeys } from './history.js';
+import { isSeen, keywordsOf, normalizeDoi, seenKeys } from './history.js';
 
 export interface Selection {
   lead: ScoredStudy;
@@ -36,13 +36,16 @@ export function select(
   scored: ScoredStudy[],
   history: History,
   topic: Topic,
+  today = new Date(),
 ): Selection | null {
   const seen = seenKeys(history);
+  const recentTopics = recentKeywordSets(history, today);
 
   const eligible = scored
     .filter((s) => !s.score.rejected)
     .filter((s) => !isSeen(s.study, seen))
     .filter((s) => s.score.total >= CONFIG.minCredibility)
+    .filter((s) => !repeatsRecentSubject(s.study, recentTopics))
     .sort((a, b) => b.score.total - a.score.total);
 
   const lead = eligible.find((s) => s.score.total >= CONFIG.minCredibilityLead);
@@ -57,6 +60,40 @@ export function select(
 
   if (shorts.length === 0) return null;
   return { lead, shorts };
+}
+
+/**
+ * Die Stichwörter aller Ausgaben innerhalb der Sperrfrist.
+ *
+ * Ältere Einträge bleiben in der History (dieselbe Studie kommt nie wieder),
+ * sperren aber ihr Thema nicht auf ewig — sonst wären nach einem Jahr die
+ * ergiebigsten Gebiete alle verbrannt.
+ */
+function recentKeywordSets(history: History, today: Date): Set<string>[] {
+  const cutoff = new Date(today);
+  cutoff.setDate(cutoff.getDate() - CONFIG.subjectCooldownDays);
+
+  return history.entries
+    .filter((e) => new Date(e.date) >= cutoff)
+    .map((e) => new Set(e.keywords ?? keywordsOf(e.title)));
+}
+
+/**
+ * Schlägt an, wenn der Gegenstand der Studie dem einer kürzlich verschickten
+ * zu ähnlich ist — z. B. die dritte Prokrastinations-Metaanalyse in vier
+ * Wochen. Der Schwellenwert ist bewusst hoch: lieber ein Thema zu viel
+ * durchlassen als ein gutes Feld dauerhaft sperren.
+ */
+function repeatsRecentSubject(study: Study, recent: Set<string>[]): boolean {
+  const words = new Set(keywordsOf(study.title));
+  if (words.size === 0) return false;
+
+  return recent.some((prev) => {
+    if (prev.size === 0) return false;
+    let shared = 0;
+    for (const w of words) if (prev.has(w)) shared++;
+    return shared / Math.min(words.size, prev.size) >= CONFIG.subjectOverlapLimit;
+  });
 }
 
 /** Grobe Titelähnlichkeit über gemeinsame Inhaltswörter — reicht für den Zweck. */

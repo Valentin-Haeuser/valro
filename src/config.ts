@@ -34,10 +34,20 @@ export const CONFIG = {
   limitPerSource: 25,
 
   /**
-   * Nach so vielen Tagen darf ein Thema erneut dieselbe Studie bringen.
-   * Praktisch nie relevant — die History wächst schneller als der Zyklus.
+   * Sperrfrist für den GEGENSTAND einer Studie. Dieselbe Arbeit kommt nie
+   * wieder (dafür sorgt die History), aber auch das Thema soll sich nicht
+   * alle zwei Wochen wiederholen. Sechs Wochen sind lang genug, dass es sich
+   * nicht wie eine Wiederholung anfühlt, und kurz genug, dass ergiebige
+   * Felder nicht dauerhaft verbrannt sind.
    */
-  historyKeepDays: 3650,
+  subjectCooldownDays: 42,
+
+  /**
+   * Ab welcher Stichwort-Überschneidung zwei Studien als dasselbe Thema
+   * gelten. Hoch angesetzt: lieber ein Thema zu viel durchlassen, als ein
+   * ganzes Feld zu sperren.
+   */
+  subjectOverlapLimit: 0.5,
 
   /** Modell für den Redakteur-Schritt. */
   model: 'claude-sonnet-5',
