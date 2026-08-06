@@ -1,0 +1,29 @@
+{
+  "name": "valro-briefing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tägliches Wissens-Briefing aus echten, geprüften Studien",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "briefing": "tsx src/index.ts",
+    "briefing:dry": "tsx src/index.ts --dry-run",
+    "preview": "tsx src/index.ts --dry-run --no-history",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --experimental-strip-types test/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0",
+    "fast-xml-parser": "^5.2.5",
+    "nodemailer": "^7.0.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/nodemailer": "^6.4.17",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
