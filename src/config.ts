@@ -28,23 +28,61 @@ export const ROTATION: readonly Record<number, Topic>[] = [
   },
 ];
 
+const DAY_MS = 86_400_000;
+
 /**
- * ISO-Kalenderwoche. Nötig, weil die Rotation über zwei Wochen läuft und wir
- * einen stabilen, sprungfreien Zähler brauchen — `getDate() / 7` wechselt
- * sonst mitten in der Woche.
+ * Donnerstag der Woche, in der `d` liegt. Der Donnerstag bestimmt laut
+ * ISO 8601, zu welchem Jahr und welcher Woche eine Woche gehört, und ist
+ * damit ein eindeutiger Stempel für „diese Kalenderwoche".
  */
-export function isoWeek(d: Date): number {
+function isoThursday(d: Date): Date {
   const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
-  // Auf den Donnerstag derselben Woche schieben: Der bestimmt laut ISO 8601,
-  // zu welchem Jahr und welcher Woche die Woche gehört.
   date.setUTCDate(date.getUTCDate() + 4 - (date.getUTCDay() || 7));
-  const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
-  return Math.ceil(((date.getTime() - yearStart.getTime()) / 86_400_000 + 1) / 7);
+  return date;
 }
 
+/** ISO-Kalenderwoche, 1–53. Nur zur Anzeige. */
+export function isoWeek(d: Date): number {
+  const thursday = isoThursday(d);
+  const yearStart = new Date(Date.UTC(thursday.getUTCFullYear(), 0, 1));
+  return Math.ceil(((thursday.getTime() - yearStart.getTime()) / DAY_MS + 1) / 7);
+}
+
+/**
+ * Fortlaufender Wochenzähler seit einem festen Bezugspunkt.
+ *
+ * Naheliegend wäre, die Kalenderwoche selbst gerade/ungerade zu nehmen — das
+ * war der erste Ansatz und er ist falsch. ISO-Jahre haben 52 ODER 53 Wochen,
+ * und beim Sprung von KW 53 auf KW 1 bleibt die Parität gleich. Zum Jahres-
+ * wechsel 2026/27 wäre dieselbe Wochenhälfte deshalb zweimal hintereinander
+ * gelaufen: „Lernen & Gedächtnis" an zwei Montagen in Folge.
+ *
+ * Ein durchlaufender Zähler kennt diesen Sprung nicht. Der 1. Januar 1970 war
+ * ein Donnerstag, deshalb geht der Abstand zum ISO-Donnerstag jeder Woche
+ * immer glatt durch sieben auf.
+ */
+const EPOCH_THURSDAY = Date.UTC(1970, 0, 1);
+
+export function weekIndex(d: Date): number {
+  return Math.floor((isoThursday(d).getTime() - EPOCH_THURSDAY) / (7 * DAY_MS));
+}
+
+/**
+ * Woche des ersten echten Laufs (KW 32/2026), die mit `ROTATION[0]` lief.
+ *
+ * Der Wechsel vom Paritätstrick auf den durchlaufenden Zähler hätte die
+ * Zuordnung sonst um eine Woche verschoben — der bereits verschickte Freitag
+ * wäre rückwirkend ein anderes Thema gewesen und der kommende Montag
+ * ebenfalls. Der Anker hält die laufende Reihenfolge fest.
+ */
+const ANCHOR_WEEK = weekIndex(new Date(Date.UTC(2026, 7, 7)));
+
 export function topicForDate(d: Date): Topic {
-  const week = ROTATION[isoWeek(d) % ROTATION.length]!;
-  return week[d.getDay()] ?? 'psychology';
+  const n = ROTATION.length;
+  // Vor der Ankerwoche wird die Differenz negativ; `% n` allein liefert dann
+  // in JavaScript einen negativen Index.
+  const offset = (((weekIndex(d) - ANCHOR_WEEK) % n) + n) % n;
+  return ROTATION[offset]![d.getDay()] ?? 'psychology';
 }
 
 /**
