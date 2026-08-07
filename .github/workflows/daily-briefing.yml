@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       topic:
-        description: 'Thema erzwingen (sleep, productivity, body, economics, psychology)'
+        description: 'Thema erzwingen (sleep, productivity, body, economics, psychology, learning, environment, nutrition, time, relationships)'
         required: false
         type: string
       dry_run:
@@ -46,10 +46,14 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           MAIL_FROM_NAME: ${{ vars.MAIL_FROM_NAME }}
+          # Über die Umgebung statt direkt in die Zeile: Sonst landet der
+          # eingegebene Text wörtlich im Shell-Befehl und könnte ihn umbauen.
+          INPUT_TOPIC: ${{ inputs.topic }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
         run: |
           ARGS=""
-          if [ -n "${{ inputs.topic }}" ]; then ARGS="$ARGS --topic ${{ inputs.topic }}"; fi
-          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ -n "$INPUT_TOPIC" ]; then ARGS="--topic $INPUT_TOPIC"; fi
+          if [ "$INPUT_DRY_RUN" = "true" ]; then ARGS="$ARGS --dry-run"; fi
           npm run briefing -- $ARGS
 
       - name: Archiv und History zurückschreiben
