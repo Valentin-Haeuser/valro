@@ -142,8 +142,26 @@ export const CONFIG = {
    */
   subjectOverlapLimit: 0.5,
 
-  /** Modell für den Redakteur-Schritt. */
-  model: 'claude-sonnet-5',
+  /**
+   * Modell für den Redakteur-Schritt. Der geschriebene Text IST das Produkt,
+   * deshalb das stärkste Modell — der Unterschied macht im Monat unter einen
+   * Euro aus.
+   */
+  model: 'claude-opus-5',
+
+  /**
+   * Muss großzügig sein: Auf Opus 5 denkt das Modell standardmäßig mit, und
+   * `max_tokens` deckelt Denken UND Antwort gemeinsam. Zu knapp bemessen
+   * bricht die JSON-Antwort mitten im Satz ab und der Lauf schlägt fehl.
+   */
+  maxTokens: 8000,
+
+  /**
+   * Der Redakteur-Schritt formuliert aus fertig gelieferten Abstracts — das
+   * ist Schreibarbeit, keine tiefe Analyse. Mittlere Stufe reicht und spart
+   * Zeit wie Geld.
+   */
+  effort: 'medium',
 
   /** Zeitzone für Datum und Betreff. */
   timezone: 'Europe/Berlin',

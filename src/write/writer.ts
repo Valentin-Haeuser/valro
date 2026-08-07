@@ -37,6 +37,47 @@ const responseSchema = z.object({
     .min(1),
 });
 
+/**
+ * Dasselbe Format noch einmal als JSON-Schema — daran bindet die API die
+ * Antwort verbindlich. Vorher stand nur im Prompt "antworte mit JSON", was
+ * gelegentlich in einem Markdown-Codeblock endete und den Lauf zerlegte.
+ *
+ * Bewusst ohne Längenangaben: Die akzeptiert die API im Schema nicht. Die
+ * Mindestlängen prüft weiterhin Zod nach dem Parsen.
+ */
+const TEXT = { type: 'string' } as const;
+
+const OUTPUT_SCHEMA = {
+  type: 'object',
+  additionalProperties: false,
+  required: ['subject', 'lead', 'shorts'],
+  properties: {
+    subject: TEXT,
+    lead: {
+      type: 'object',
+      additionalProperties: false,
+      required: ['hook', 'finding', 'mechanism', 'evidence', 'caveat', 'dinnerLine'],
+      properties: {
+        hook: TEXT,
+        finding: TEXT,
+        mechanism: TEXT,
+        evidence: TEXT,
+        caveat: TEXT,
+        dinnerLine: TEXT,
+      },
+    },
+    shorts: {
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        required: ['finding', 'evidence'],
+        properties: { finding: TEXT, evidence: TEXT },
+      },
+    },
+  },
+} as const;
+
 const SYSTEM = `Du bist Redakteur für ein tägliches Wissens-Briefing. Dein Leser will den Fakt abends im Gespräch weitererzählen können und dabei kompetent wirken — nicht wie jemand, der einen Podcast nacherzählt.
 
 ABSOLUTE REGELN:
@@ -56,10 +97,7 @@ AUFBAU DES HAUPTFAKTS — jedes Feld hat eine klare Aufgabe:
 
 KURZFAKTEN: je zwei bis drei Sätze, Befund plus Zahl, dazu eine knappe Einordnung der Belegstärke.
 
-BETREFF: neugierig machen, ohne Clickbait. Maximal 60 Zeichen. Keine Emojis.
-
-Antworte ausschließlich mit gültigem JSON in genau diesem Format, ohne Markdown-Codeblock:
-{"subject": "...", "lead": {"hook": "...", "finding": "...", "mechanism": "...", "evidence": "...", "caveat": "...", "dinnerLine": "..."}, "shorts": [{"finding": "...", "evidence": "..."}, {"finding": "...", "evidence": "..."}]}`;
+BETREFF: neugierig machen, ohne Clickbait. Maximal 60 Zeichen. Keine Emojis.`;
 
 function studyBlock(s: ScoredStudy, label: string): string {
   const st = s.study;
@@ -110,10 +148,20 @@ export async function writeBriefing(
 
   const res = await client.messages.create({
     model: CONFIG.model,
-    max_tokens: 4000,
+    max_tokens: CONFIG.maxTokens,
     system: SYSTEM,
+    output_config: {
+      effort: CONFIG.effort,
+      format: { type: 'json_schema', schema: OUTPUT_SCHEMA },
+    },
     messages: [{ role: 'user', content: prompt }],
   });
+
+  if (res.stop_reason === 'max_tokens') {
+    throw new Error(
+      'Die Antwort wurde abgeschnitten. maxTokens in src/config.ts erhöhen.',
+    );
+  }
 
   const text = res.content
     .filter((b): b is Anthropic.TextBlock => b.type === 'text')
@@ -121,7 +169,9 @@ export async function writeBriefing(
     .join('')
     .trim();
 
-  const parsed = responseSchema.parse(JSON.parse(stripCodeFence(text)));
+  // Das Format garantiert die API; Zod prüft zusätzlich die Mindestlängen,
+  // die sich im Schema nicht ausdrücken lassen.
+  const parsed = responseSchema.parse(JSON.parse(text));
 
   // Quellenangaben kommen aus unseren Daten, nicht aus der Modellantwort.
   const shorts = parsed.shorts.slice(0, selection.shorts.length).map((s, i) => ({
@@ -138,12 +188,6 @@ export async function writeBriefing(
     shorts,
     generatedAt: new Date().toISOString(),
   };
-}
-
-/** Manche Antworten kommen trotz Anweisung in einem Codeblock. */
-function stripCodeFence(text: string): string {
-  const fenced = /^```(?:json)?\s*\n([\s\S]*?)\n```$/.exec(text.trim());
-  return fenced?.[1] ?? text;
 }
 
 /**

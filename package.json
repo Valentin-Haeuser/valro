@@ -15,7 +15,7 @@
     "test": "tsx --test test/*.test.ts"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.71.0",
+    "@anthropic-ai/sdk": "^0.116.0",
     "fast-xml-parser": "^5.2.5",
     "nodemailer": "^7.0.3",
     "zod": "^3.25.76"
