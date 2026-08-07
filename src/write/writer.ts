@@ -192,16 +192,32 @@ export async function writeBriefing(
 
 /**
  * Warnt, wenn im Fließtext eine auffällige Zahl steht, die so nicht im
- * Abstract vorkommt. Kein harter Abbruch: Prozentwerte werden legitim
- * umgerechnet ("ein Drittel" statt "33%"), und Jahreszahlen sind harmlos.
- * Die Warnung landet im Actions-Log, damit man Ausreißer bemerkt.
+ * Abstract vorkommt. Kein harter Abbruch, sondern eine Notiz im Actions-Log.
+ *
+ * Der Wert dieser Prüfung hängt vollständig daran, wie selten sie anschlägt.
+ * Eine Warnung, die bei jeder Mail erscheint, liest nach einer Woche niemand
+ * mehr — und dann geht die eine echte darin unter. Der erste Lauf hat drei
+ * Fehlalarme erzeugt, alle aus derselben Ursache: Abstracts schreiben Zahlen
+ * anders als deutscher Fließtext. Deshalb kennt die Prüfung inzwischen die
+ * drei Übersetzungen, die ein Redakteur zu Recht vornimmt:
+ *
+ *   "twenty-three samples"  → 23        (ausgeschriebene Zahlwörter)
+ *   "r = .14"               → 0,14      (fehlende führende Null)
+ *   "N = 13,636"            → "über 13.000"  (bewusste Rundung)
  */
 export function checkNumbers(briefing: Briefing, selection: Selection): string[] {
   const warnings: string[] = [];
-  const nums = (s: string) => s.match(/\d[\d.,]*/g) ?? [];
-  const inAbstract = new Set(
-    [selection.lead, ...selection.shorts].flatMap((s) => nums(s.study.abstract).map(normalizeNum)),
-  );
+
+  const known = new Set<string>();
+  for (const { study } of [selection.lead, ...selection.shorts]) {
+    for (const raw of study.abstract.match(NUM_RE) ?? []) {
+      const n = normalizeNum(raw);
+      known.add(n);
+      const value = Number(n);
+      if (Number.isFinite(value)) for (const r of roundedForms(value)) known.add(r);
+    }
+    for (const n of spelledNumbers(study.abstract)) known.add(n);
+  }
 
   const body = [
     briefing.lead.finding,
@@ -210,15 +226,87 @@ export function checkNumbers(briefing: Briefing, selection: Selection): string[]
     briefing.lead.caveat,
   ].join(' ');
 
-  for (const raw of nums(body)) {
+  for (const raw of body.match(NUM_RE) ?? []) {
     const n = normalizeNum(raw);
-    if (Number(n) >= 1900 && Number(n) <= 2100) continue; // Jahreszahl
+    const value = Number(n);
+    if (value >= 1900 && value <= 2100) continue; // Jahreszahl
     if (n.length <= 1) continue; // einstellige Zahlen sind zu häufig für ein Signal
-    if (!inAbstract.has(n)) warnings.push(`Zahl "${raw}" steht nicht im Abstract`);
+    // Ohne den Schlusspunkt des Satzes — sonst steht in der Meldung "91."
+    // und man sucht im Text nach einer Zahl, die es so nicht gibt.
+    const shown = raw.replace(/[.,]+$/, '');
+    if (!known.has(n)) warnings.push(`Zahl "${shown}" steht nicht im Abstract`);
   }
   return warnings;
 }
 
+/**
+ * Das führende `\.?` fängt Werte wie ".14" ein, wie sie in englischen
+ * Abstracts bei Korrelationen üblich sind. Ohne das stand die Zahl gar nicht
+ * erst im Vergleichsbestand, und jede korrekt übersetzte "0,14" schlug an.
+ */
+const NUM_RE = /\.?\d[\d.,]*/g;
+
+/**
+ * Punkt und Komma sind je nach Sprache Tausender- oder Dezimaltrennzeichen —
+ * und am Wortende oft schlicht Satzzeichen. Letzteres zuerst abschneiden:
+ * Sonst wandert der Schlusspunkt eines Satzes mit in die Zahl und "0,14."
+ * findet "0.14" nicht wieder.
+ */
 function normalizeNum(s: string): string {
-  return s.replace(/[.,](?=\d{3}\b)/g, '').replace(',', '.');
+  const bare = s.replace(/[.,]+$/, '');
+  const withLeadingZero = bare.startsWith('.') ? `0${bare}` : bare;
+  return withLeadingZero.replace(/[.,](?=\d{3}\b)/g, '').replace(',', '.');
+}
+
+/**
+ * Gerundete Fassungen einer Zahl. "13.636 Teilnehmer" darf im Text zu
+ * "über 13.000" werden — das ist saubere Redaktionsarbeit, keine Erfindung.
+ * Abgerundet UND gerundet, weil "über 13.000" abrundet, "rund 14.000" aber
+ * aufrundet; beide sind legitim.
+ */
+function roundedForms(n: number): string[] {
+  const out: string[] = [];
+  for (const step of [10, 100, 1000, 10_000, 100_000]) {
+    if (n < step) break;
+    out.push(String(Math.floor(n / step) * step), String(Math.round(n / step) * step));
+  }
+  return out;
+}
+
+const ONES: Record<string, number> = {
+  one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9,
+  ten: 10, eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15,
+  sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19,
+};
+
+const TENS: Record<string, number> = {
+  twenty: 20, thirty: 30, forty: 40, fifty: 50,
+  sixty: 60, seventy: 70, eighty: 80, ninety: 90,
+};
+
+/** Längere Wörter zuerst, damit "nineteen" nicht als "nine" durchgeht. */
+const byLength = (o: Record<string, number>) =>
+  Object.keys(o).sort((a, b) => b.length - a.length).join('|');
+
+const SPELLED_RE = new RegExp(
+  `\\b(?:(${byLength(TENS)})(?:[-\\s](${byLength(ONES)}))?|(${byLength(ONES)}))\\b`,
+  'gi',
+);
+
+/**
+ * "A total of twenty-three independent samples" — Abstracts schreiben kleine
+ * Anzahlen regelmäßig aus, der deutsche Text nennt sie dann als Ziffer.
+ */
+function spelledNumbers(text: string): string[] {
+  const out: string[] = [];
+  for (const m of text.matchAll(SPELLED_RE)) {
+    const tens = m[1]?.toLowerCase();
+    const tensOnes = m[2]?.toLowerCase();
+    const ones = m[3]?.toLowerCase();
+    const value = tens
+      ? TENS[tens]! + (tensOnes ? ONES[tensOnes]! : 0)
+      : ONES[ones!.toLowerCase()]!;
+    out.push(String(value));
+  }
+  return out;
 }
