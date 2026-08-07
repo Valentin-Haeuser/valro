@@ -65,7 +65,9 @@ Der vorletzte Block ist der wichtigste. Wer die Einschränkung mitliefert
 
 ## Themenrotation
 
-Zehn Themen über zwei Wochen — der Zyklus hängt an der ISO-Kalenderwoche.
+Zehn Themen über zwei Wochen. Welche Hälfte läuft, entscheidet ein durchlaufender
+Wochenzähler — nicht die Kalenderwoche selbst, denn ISO-Jahre haben 52 oder 53
+Wochen und beim Sprung von KW 53 auf KW 1 käme dieselbe Hälfte zweimal.
 
 | | Mo | Di | Mi | Do | Fr |
 |---|---|---|---|---|---|
