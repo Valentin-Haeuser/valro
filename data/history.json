@@ -52,6 +52,54 @@
         "regulation",
         "athletes"
       ]
+    },
+    {
+      "id": "10.3389/fpsyg.2026.1840246",
+      "doi": "10.3389/fpsyg.2026.1840246",
+      "date": "2026-08-10",
+      "topic": "learning",
+      "title": "The impact of mindfulness training and physical exercise on student academic burnout and academic achievement: a systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "mindfulness",
+        "training",
+        "physical",
+        "exercise",
+        "student",
+        "academic",
+        "burnout",
+        "achievement"
+      ]
+    },
+    {
+      "id": "10.3389/fpsyg.2026.1705506",
+      "doi": "10.3389/fpsyg.2026.1705506",
+      "date": "2026-08-10",
+      "topic": "learning",
+      "title": "The relationship between teacher punishment and student academic achievement: a meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "teacher",
+        "punishment",
+        "student",
+        "academic",
+        "achievement"
+      ]
+    },
+    {
+      "id": "10.3389/fnagi.2025.1646172",
+      "doi": "10.3389/fnagi.2025.1646172",
+      "date": "2026-08-10",
+      "topic": "learning",
+      "title": "Oscillatory dynamics of motor learning across adulthood life span: a systematic review.",
+      "role": "short",
+      "keywords": [
+        "oscillatory",
+        "dynamics",
+        "motor",
+        "learning",
+        "adulthood"
+      ]
     }
   ]
 }
