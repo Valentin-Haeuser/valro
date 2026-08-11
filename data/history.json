@@ -100,6 +100,52 @@
         "learning",
         "adulthood"
       ]
+    },
+    {
+      "id": "10.1016/j.ecoenv.2026.119764",
+      "doi": "10.1016/j.ecoenv.2026.119764",
+      "date": "2026-08-11",
+      "topic": "environment",
+      "title": "Ambient long-term air pollution exposure and epigenetic aging clocks: A systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "ambient",
+        "pollution",
+        "exposure",
+        "epigenetic",
+        "aging",
+        "clocks"
+      ]
+    },
+    {
+      "id": "10.3389/fimmu.2026.1815798",
+      "doi": "10.3389/fimmu.2026.1815798",
+      "date": "2026-08-11",
+      "topic": "environment",
+      "title": "Genetic and environmental risk factors of asthma: a narrative review.",
+      "role": "short",
+      "keywords": [
+        "genetic",
+        "environmental",
+        "factors",
+        "asthma"
+      ]
+    },
+    {
+      "id": "10.3389/fpubh.2025.1606959",
+      "doi": "10.3389/fpubh.2025.1606959",
+      "date": "2026-08-11",
+      "topic": "environment",
+      "title": "Association between air pollution and risk of non-alcoholic fatty liver disease: an updated meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "pollution",
+        "alcoholic",
+        "fatty",
+        "liver",
+        "disease",
+        "updated"
+      ]
     }
   ]
 }
