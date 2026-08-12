@@ -146,6 +146,63 @@
         "disease",
         "updated"
       ]
+    },
+    {
+      "id": "10.17533/udea.iee.v43n3e06",
+      "doi": "10.17533/udea.iee.v43n3e06",
+      "date": "2026-08-12",
+      "topic": "nutrition",
+      "title": "Evidence-Based Pathways to Healthy Aging: A Systematic Review and Meta-analysis of Lifestyle Interventions for Longevity and Well-Being.",
+      "role": "lead",
+      "keywords": [
+        "pathways",
+        "healthy",
+        "aging",
+        "lifestyle",
+        "interventions",
+        "longevity",
+        "being"
+      ]
+    },
+    {
+      "id": "10.1016/j.nut.2026.113189",
+      "doi": "10.1016/j.nut.2026.113189",
+      "date": "2026-08-12",
+      "topic": "nutrition",
+      "title": "Adherence to the Mediterranean diet and all-cause mortality: A systematic review and meta-analysis within the Italian National Guidelines \"La Dieta Mediterranea\".",
+      "role": "short",
+      "keywords": [
+        "adherence",
+        "mediterranean",
+        "cause",
+        "mortality",
+        "within",
+        "italian",
+        "national",
+        "guidelines",
+        "dieta",
+        "mediterranea"
+      ]
+    },
+    {
+      "id": "10.1186/s12916-025-04320-7",
+      "doi": "10.1186/s12916-025-04320-7",
+      "date": "2026-08-12",
+      "topic": "nutrition",
+      "title": "Effects of Mediterranean diet, exercise, and their combination on body composition and liver outcomes in metabolic dysfunction-associated steatotic liver disease: a systematic review and meta-analysis of randomized controlled trials.",
+      "role": "short",
+      "keywords": [
+        "mediterranean",
+        "exercise",
+        "combination",
+        "composition",
+        "liver",
+        "metabolic",
+        "dysfunction",
+        "steatotic",
+        "disease",
+        "trials"
+      ]
     }
   ]
 }
