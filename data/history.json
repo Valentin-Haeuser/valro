@@ -203,6 +203,61 @@
         "disease",
         "trials"
       ]
+    },
+    {
+      "id": "10.1186/s12916-025-04496-y",
+      "doi": "10.1186/s12916-025-04496-y",
+      "date": "2026-08-13",
+      "topic": "time",
+      "title": "Does ambient PM2.5 reduce the protective association of leisure-time physical activity with mortality? A systematic review, meta-analysis, and individual-level pooled analysis of cohort studies involving 1.5 million adults.",
+      "role": "lead",
+      "keywords": [
+        "ambient",
+        "reduce",
+        "protective",
+        "leisure",
+        "physical",
+        "activity",
+        "mortality",
+        "individual",
+        "level",
+        "involving",
+        "million"
+      ]
+    },
+    {
+      "id": "10.1371/journal.pone.0328678",
+      "doi": "10.1371/journal.pone.0328678",
+      "date": "2026-08-13",
+      "topic": "time",
+      "title": "Impact of occupational sedentary behavior on mental health: A systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "occupational",
+        "sedentary",
+        "behavior",
+        "mental",
+        "health"
+      ]
+    },
+    {
+      "id": "10.1136/oemed-2024-109879",
+      "doi": "10.1136/oemed-2024-109879",
+      "date": "2026-08-13",
+      "topic": "time",
+      "title": "High occupational physical activity and its combined effect with leisure-time physical activity on cardiovascular disease and mortality: systematic reviews and meta-analyses.",
+      "role": "short",
+      "keywords": [
+        "occupational",
+        "physical",
+        "activity",
+        "combined",
+        "leisure",
+        "cardiovascular",
+        "disease",
+        "mortality",
+        "reviews"
+      ]
     }
   ]
 }
