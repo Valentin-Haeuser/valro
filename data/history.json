@@ -258,6 +258,56 @@
         "mortality",
         "reviews"
       ]
+    },
+    {
+      "id": "10.1371/journal.pone.0329466",
+      "doi": "10.1371/journal.pone.0329466",
+      "date": "2026-08-14",
+      "topic": "relationships",
+      "title": "Correlations between social media addiction and anxiety, depression, FoMO, loneliness and self-esteem among students: A systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "correlations",
+        "social",
+        "media",
+        "addiction",
+        "anxiety",
+        "depression",
+        "loneliness",
+        "esteem",
+        "students"
+      ]
+    },
+    {
+      "id": "10.1186/s12889-025-24300-z",
+      "doi": "10.1186/s12889-025-24300-z",
+      "date": "2026-08-14",
+      "topic": "relationships",
+      "title": "Association of social isolation, loneliness and risk of cardiovascular diseases: Meta-analysis of cohort studies.",
+      "role": "short",
+      "keywords": [
+        "social",
+        "isolation",
+        "loneliness",
+        "cardiovascular",
+        "diseases"
+      ]
+    },
+    {
+      "id": "10.1186/s12877-025-06430-6",
+      "doi": "10.1186/s12877-025-06430-6",
+      "date": "2026-08-14",
+      "topic": "relationships",
+      "title": "Social isolation and cognitive decline in older adults: a longitudinal study across 24 countries",
+      "role": "short",
+      "keywords": [
+        "social",
+        "isolation",
+        "cognitive",
+        "decline",
+        "older",
+        "countries"
+      ]
     }
   ]
 }
