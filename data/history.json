@@ -308,6 +308,52 @@
         "older",
         "countries"
       ]
+    },
+    {
+      "id": "10.3389/fpsyt.2026.1838523",
+      "doi": "10.3389/fpsyt.2026.1838523",
+      "date": "2026-08-17",
+      "topic": "sleep",
+      "title": "Association of sleep quality and sleep duration with anxiety symptoms in older adults: a systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "sleep",
+        "quality",
+        "duration",
+        "anxiety",
+        "symptoms",
+        "older"
+      ]
+    },
+    {
+      "id": "10.1136/bmjebm-2024-113512",
+      "doi": "10.1136/bmjebm-2024-113512",
+      "date": "2026-08-17",
+      "topic": "sleep",
+      "title": "Effects of various exercise interventions in insomnia patients: a systematic review and network meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "various",
+        "exercise",
+        "interventions",
+        "insomnia",
+        "network"
+      ]
+    },
+    {
+      "id": "10.1161/circresaha.125.325686",
+      "doi": "10.1161/circresaha.125.325686",
+      "date": "2026-08-17",
+      "topic": "sleep",
+      "title": "Insomnia Phenotypes, Cardiovascular Risk and Their Link to Brain Health",
+      "role": "short",
+      "keywords": [
+        "insomnia",
+        "phenotypes",
+        "cardiovascular",
+        "brain",
+        "health"
+      ]
     }
   ]
 }
