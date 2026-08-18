@@ -354,6 +354,61 @@
         "brain",
         "health"
       ]
+    },
+    {
+      "id": "10.3389/feduc.2025.1623228",
+      "doi": "10.3389/feduc.2025.1623228",
+      "date": "2026-08-18",
+      "topic": "productivity",
+      "title": "Boosting productivity and wellbeing through time management: evidence-based strategies for higher education and workforce development",
+      "role": "lead",
+      "keywords": [
+        "boosting",
+        "productivity",
+        "wellbeing",
+        "through",
+        "management",
+        "strategies",
+        "higher",
+        "education",
+        "workforce",
+        "development"
+      ]
+    },
+    {
+      "id": "10.3389/fpubh.2026.1876948",
+      "doi": "10.3389/fpubh.2026.1876948",
+      "date": "2026-08-18",
+      "topic": "productivity",
+      "title": "Effects of exercise intervention on executive function in college students: a systematic review and meta-analysis of randomized controlled trials.",
+      "role": "short",
+      "keywords": [
+        "exercise",
+        "intervention",
+        "executive",
+        "function",
+        "college",
+        "students",
+        "trials"
+      ]
+    },
+    {
+      "id": "10.3390/nu17152446",
+      "doi": "10.3390/nu17152446",
+      "date": "2026-08-18",
+      "topic": "productivity",
+      "title": "Western Diet and Cognitive Decline: A Hungarian Perspective—Implications for the Design of the Semmelweis Study",
+      "role": "short",
+      "keywords": [
+        "western",
+        "cognitive",
+        "decline",
+        "hungarian",
+        "perspective",
+        "implications",
+        "design",
+        "semmelweis"
+      ]
     }
   ]
 }
