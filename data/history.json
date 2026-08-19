@@ -409,6 +409,52 @@
         "design",
         "semmelweis"
       ]
+    },
+    {
+      "id": "10.1007/s40256-026-00811-x",
+      "doi": "10.1007/s40256-026-00811-x",
+      "date": "2026-08-19",
+      "topic": "body",
+      "title": "Evaluating the Impact of Stair Climbing on Cardiovascular Risk Reduction: A Systematic Review and Meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "evaluating",
+        "stair",
+        "climbing",
+        "cardiovascular",
+        "reduction"
+      ]
+    },
+    {
+      "id": "10.1016/j.jad.2026.121998",
+      "doi": "10.1016/j.jad.2026.121998",
+      "date": "2026-08-19",
+      "topic": "body",
+      "title": "Association between adherence to 24-hour movement guidelines and anxiety and depression: A systematic review and meta-analysis of observational studies.",
+      "role": "short",
+      "keywords": [
+        "adherence",
+        "movement",
+        "guidelines",
+        "anxiety",
+        "depression",
+        "observational"
+      ]
+    },
+    {
+      "id": "10.1038/s41591-025-03978-z",
+      "doi": "10.1038/s41591-025-03978-z",
+      "date": "2026-08-19",
+      "topic": "body",
+      "title": "A systematic review and meta-analysis of the efficacy and safety of pharmacological treatments for obesity in adults.",
+      "role": "short",
+      "keywords": [
+        "efficacy",
+        "safety",
+        "pharmacological",
+        "treatments",
+        "obesity"
+      ]
     }
   ]
 }
