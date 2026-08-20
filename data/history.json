@@ -455,6 +455,63 @@
         "treatments",
         "obesity"
       ]
+    },
+    {
+      "id": "10.3386/w35605",
+      "doi": "10.3386/w35605",
+      "date": "2026-08-20",
+      "topic": "economics",
+      "title": "Search and Negotiation with Biased Beliefs in Consumer Credit Markets",
+      "role": "lead",
+      "keywords": [
+        "search",
+        "negotiation",
+        "biased",
+        "beliefs",
+        "consumer",
+        "credit",
+        "markets"
+      ]
+    },
+    {
+      "id": "10.6007/ijarbss/v15-i8/26128",
+      "doi": "10.6007/ijarbss/v15-i8/26128",
+      "date": "2026-08-20",
+      "topic": "economics",
+      "title": "Automation in Agriculture: Occupational Trends, Worker Outcomes, and Labor Market Implications",
+      "role": "short",
+      "keywords": [
+        "automation",
+        "agriculture",
+        "occupational",
+        "trends",
+        "worker",
+        "labor",
+        "market",
+        "implications"
+      ]
+    },
+    {
+      "id": "10.3390/computation14010022",
+      "doi": "10.3390/computation14010022",
+      "date": "2026-08-20",
+      "topic": "economics",
+      "title": "The Health-Wealth Gradient in Labor Markets: Integrating Health, Insurance, and Social Metrics to Predict Employment Density",
+      "role": "short",
+      "keywords": [
+        "health",
+        "wealth",
+        "gradient",
+        "labor",
+        "markets",
+        "integrating",
+        "insurance",
+        "social",
+        "metrics",
+        "predict",
+        "employment",
+        "density"
+      ]
     }
   ]
 }
