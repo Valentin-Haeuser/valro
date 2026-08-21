@@ -512,6 +512,56 @@
         "employment",
         "density"
       ]
+    },
+    {
+      "id": "10.1080/15502783.2025.2579027",
+      "doi": "10.1080/15502783.2025.2579027",
+      "date": "2026-08-21",
+      "topic": "psychology",
+      "title": "Fed, not fasted: is carbohydrate mouth rinsing still ergogenic? A three-level meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "fasted",
+        "carbohydrate",
+        "mouth",
+        "rinsing",
+        "still",
+        "ergogenic",
+        "three",
+        "level"
+      ]
+    },
+    {
+      "id": "10.1002/smi.70151",
+      "doi": "10.1002/smi.70151",
+      "date": "2026-08-21",
+      "topic": "psychology",
+      "title": "Self-Determination Theory and Workplace Outcomes: A Meta-Analysis.",
+      "role": "short",
+      "keywords": [
+        "determination",
+        "theory",
+        "workplace"
+      ]
+    },
+    {
+      "id": "10.1111/aphw.70204",
+      "doi": "10.1111/aphw.70204",
+      "date": "2026-08-21",
+      "topic": "psychology",
+      "title": "Not all cues are equal: A systematic review and three-level meta-analysis of context consistency, physical activity and habit strength.",
+      "role": "short",
+      "keywords": [
+        "equal",
+        "three",
+        "level",
+        "context",
+        "consistency",
+        "physical",
+        "activity",
+        "habit",
+        "strength"
+      ]
     }
   ]
 }
