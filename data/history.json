@@ -562,6 +562,68 @@
         "habit",
         "strength"
       ]
+    },
+    {
+      "id": "10.1016/j.nedt.2026.107285",
+      "doi": "10.1016/j.nedt.2026.107285",
+      "date": "2026-08-24",
+      "topic": "learning",
+      "title": "Effects of spaced learning on knowledge acquisition, knowledge retention, and learning-related anxiety in health professions education: A systematic review and meta-analysis of randomized controlled trials.",
+      "role": "lead",
+      "keywords": [
+        "spaced",
+        "learning",
+        "knowledge",
+        "acquisition",
+        "retention",
+        "related",
+        "anxiety",
+        "health",
+        "professions",
+        "education",
+        "trials"
+      ]
+    },
+    {
+      "id": "10.1016/j.janxdis.2025.103091",
+      "doi": "10.1016/j.janxdis.2025.103091",
+      "date": "2026-08-24",
+      "topic": "learning",
+      "title": "Exploring contradicting associations between anxiety disorders, obsessive-compulsive disorder, and academic achievement: A meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "exploring",
+        "contradicting",
+        "anxiety",
+        "disorders",
+        "obsessive",
+        "compulsive",
+        "disorder",
+        "academic",
+        "achievement"
+      ]
+    },
+    {
+      "id": "10.7717/peerj.21459",
+      "doi": "10.7717/peerj.21459",
+      "date": "2026-08-24",
+      "topic": "learning",
+      "title": "Effects of physical activity distribution patterns on basketball skill acquisition and physical exercise self-efficacy among Chinese male university students: a randomised controlled trial.",
+      "role": "short",
+      "keywords": [
+        "physical",
+        "activity",
+        "distribution",
+        "patterns",
+        "basketball",
+        "skill",
+        "acquisition",
+        "exercise",
+        "efficacy",
+        "chinese",
+        "university",
+        "students"
+      ]
     }
   ]
 }
