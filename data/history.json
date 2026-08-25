@@ -624,6 +624,54 @@
         "university",
         "students"
       ]
+    },
+    {
+      "id": "10.1515/reveh-2025-0170",
+      "doi": "10.1515/reveh-2025-0170",
+      "date": "2026-08-25",
+      "topic": "environment",
+      "title": "Air quality and public health co-benefits of national transport policies.",
+      "role": "lead",
+      "keywords": [
+        "quality",
+        "public",
+        "health",
+        "benefits",
+        "national",
+        "transport",
+        "policies"
+      ]
+    },
+    {
+      "id": "10.1016/j.envres.2026.125053",
+      "doi": "10.1016/j.envres.2026.125053",
+      "date": "2026-08-25",
+      "topic": "environment",
+      "title": "Sex differences in the association between air pollution and obesity: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "differences",
+        "pollution",
+        "obesity"
+      ]
+    },
+    {
+      "id": "10.1186/s12889-026-26939-8",
+      "doi": "10.1186/s12889-026-26939-8",
+      "date": "2026-08-25",
+      "topic": "environment",
+      "title": "Systematic review and meta-analysis of toluene concentration: a comparative assessment of indoor air quality in residential buildings.",
+      "role": "short",
+      "keywords": [
+        "toluene",
+        "concentration",
+        "comparative",
+        "assessment",
+        "indoor",
+        "quality",
+        "residential",
+        "buildings"
+      ]
     }
   ]
 }
