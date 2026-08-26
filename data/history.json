@@ -672,6 +672,62 @@
         "residential",
         "buildings"
       ]
+    },
+    {
+      "id": "10.1093/eurheartj/ehaf1081",
+      "doi": "10.1093/eurheartj/ehaf1081",
+      "date": "2026-08-26",
+      "topic": "nutrition",
+      "title": "Wine consumption, Mediterranean diet, and cardiovascular risk in two Spanish cohorts.",
+      "role": "lead",
+      "keywords": [
+        "consumption",
+        "mediterranean",
+        "cardiovascular",
+        "spanish",
+        "cohorts"
+      ]
+    },
+    {
+      "id": "10.3390/nu17152436",
+      "doi": "10.3390/nu17152436",
+      "date": "2026-08-26",
+      "topic": "nutrition",
+      "title": "Effect of Intermittent Fasting on Anthropometric Measurements, Metabolic Profile, and Hormones in Women with Polycystic Ovary Syndrome: A Systematic Review and Meta-Analysis.",
+      "role": "short",
+      "keywords": [
+        "intermittent",
+        "fasting",
+        "anthropometric",
+        "measurements",
+        "metabolic",
+        "profile",
+        "hormones",
+        "women",
+        "polycystic",
+        "ovary",
+        "syndrome"
+      ]
+    },
+    {
+      "id": "10.3399/bjgp26x745221",
+      "doi": "10.3399/bjgp26x745221",
+      "date": "2026-08-26",
+      "topic": "nutrition",
+      "title": "Does recommending healthy diets in general practice benefit secondary prevention of cardiovascular disease? A systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "recommending",
+        "healthy",
+        "diets",
+        "general",
+        "practice",
+        "benefit",
+        "secondary",
+        "prevention",
+        "cardiovascular",
+        "disease"
+      ]
     }
   ]
 }
