@@ -728,6 +728,62 @@
         "cardiovascular",
         "disease"
       ]
+    },
+    {
+      "id": "10.1016/j.jad.2026.122064",
+      "doi": "10.1016/j.jad.2026.122064",
+      "date": "2026-08-27",
+      "topic": "time",
+      "title": "Association between physical activity and suicidal ideation: Findings from the 1982 Pelotas (Brazil) birth cohort and an updated systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "physical",
+        "activity",
+        "suicidal",
+        "ideation",
+        "findings",
+        "pelotas",
+        "brazil",
+        "birth",
+        "updated"
+      ]
+    },
+    {
+      "id": "10.1016/s2468-2667(26)00142-8",
+      "doi": "10.1016/s2468-2667(26)00142-8",
+      "date": "2026-08-27",
+      "topic": "time",
+      "title": "Domain-specific physical activity levels and risk of dementia: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "domain",
+        "specific",
+        "physical",
+        "activity",
+        "levels",
+        "dementia"
+      ]
+    },
+    {
+      "id": "10.1186/s12966-026-01893-1",
+      "doi": "10.1186/s12966-026-01893-1",
+      "date": "2026-08-27",
+      "topic": "time",
+      "title": "Effects of a school-based cycling intervention on commuting to school behavior and device-measured activity in Spanish adolescents: the PACO cluster-randomized controlled trial.",
+      "role": "short",
+      "keywords": [
+        "school",
+        "cycling",
+        "intervention",
+        "commuting",
+        "behavior",
+        "device",
+        "measured",
+        "activity",
+        "spanish",
+        "adolescents",
+        "cluster"
+      ]
     }
   ]
 }
