@@ -784,6 +784,48 @@
         "adolescents",
         "cluster"
       ]
+    },
+    {
+      "id": "10.3389/fpsyg.2025.1560516",
+      "doi": "10.3389/fpsyg.2025.1560516",
+      "date": "2026-08-28",
+      "topic": "relationships",
+      "title": "Psychological \"effects\" of digital technology: a meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "psychological",
+        "digital",
+        "technology"
+      ]
+    },
+    {
+      "id": "10.1186/s13643-026-03229-3",
+      "doi": "10.1186/s13643-026-03229-3",
+      "date": "2026-08-28",
+      "topic": "relationships",
+      "title": "Prevalence and factors associated with loneliness among older adults in Africa: systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "prevalence",
+        "factors",
+        "loneliness",
+        "older",
+        "africa"
+      ]
+    },
+    {
+      "id": "10.1111/bjhp.70040",
+      "doi": "10.1111/bjhp.70040",
+      "date": "2026-08-28",
+      "topic": "relationships",
+      "title": "Impact of loneliness on health in healthy populations: A meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "loneliness",
+        "health",
+        "healthy",
+        "populations"
+      ]
     }
   ]
 }
