@@ -826,6 +826,56 @@
         "healthy",
         "populations"
       ]
+    },
+    {
+      "id": "10.4067/s0034-98872026000600922",
+      "doi": "10.4067/s0034-98872026000600922",
+      "date": "2026-08-31",
+      "topic": "sleep",
+      "title": "Epidemiology of Obstructive Sleep Apnea in Chile: A Systematic Review and Meta-Analysis.",
+      "role": "lead",
+      "keywords": [
+        "epidemiology",
+        "obstructive",
+        "sleep",
+        "apnea",
+        "chile"
+      ]
+    },
+    {
+      "id": "10.1186/s12916-025-04572-3",
+      "doi": "10.1186/s12916-025-04572-3",
+      "date": "2026-08-31",
+      "topic": "sleep",
+      "title": "Circadian rhythm disruption in cardiovascular disease: a systematic review and meta-analysis of mechanistic evidence from animal models.",
+      "role": "short",
+      "keywords": [
+        "circadian",
+        "rhythm",
+        "disruption",
+        "cardiovascular",
+        "disease",
+        "mechanistic",
+        "animal",
+        "models"
+      ]
+    },
+    {
+      "id": "10.1371/journal.pone.0352964",
+      "doi": "10.1371/journal.pone.0352964",
+      "date": "2026-08-31",
+      "topic": "sleep",
+      "title": "Insomnia and poor sleep quality in refugee and asylum-seeking populations: A systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "insomnia",
+        "sleep",
+        "quality",
+        "refugee",
+        "asylum",
+        "seeking",
+        "populations"
+      ]
     }
   ]
 }
