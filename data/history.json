@@ -876,6 +876,59 @@
         "seeking",
         "populations"
       ]
+    },
+    {
+      "id": "10.1016/j.actpsy.2025.105374",
+      "doi": "10.1016/j.actpsy.2025.105374",
+      "date": "2026-09-01",
+      "topic": "productivity",
+      "title": "The impact of smartphone usage frequency on university students' academic performance: A meta-analysis of moderating factors.",
+      "role": "lead",
+      "keywords": [
+        "smartphone",
+        "usage",
+        "frequency",
+        "university",
+        "students",
+        "academic",
+        "performance",
+        "moderating",
+        "factors"
+      ]
+    },
+    {
+      "id": "10.3389/fpsyg.2026.1828644",
+      "doi": "10.3389/fpsyg.2026.1828644",
+      "date": "2026-09-01",
+      "topic": "productivity",
+      "title": "Effects of brain endurance training on physical and cognitive performance in athletes and physically active individuals: a systematic review.",
+      "role": "short",
+      "keywords": [
+        "brain",
+        "endurance",
+        "training",
+        "physical",
+        "cognitive",
+        "performance",
+        "athletes",
+        "physically",
+        "active",
+        "individuals"
+      ]
+    },
+    {
+      "id": "10.1016/j.actpsy.2026.106260",
+      "doi": "10.1016/j.actpsy.2026.106260",
+      "date": "2026-09-01",
+      "topic": "productivity",
+      "title": "Neuropsychological rehabilitation of spatial memory: A systematic review.",
+      "role": "short",
+      "keywords": [
+        "neuropsychological",
+        "rehabilitation",
+        "spatial",
+        "memory"
+      ]
     }
   ]
 }
