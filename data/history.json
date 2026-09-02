@@ -929,6 +929,63 @@
         "spatial",
         "memory"
       ]
+    },
+    {
+      "id": "10.2196/69065",
+      "doi": "10.2196/69065",
+      "date": "2026-09-02",
+      "topic": "body",
+      "title": "Lifestyle eHealth and mHealth Interventions for Children and Adolescents: Systematic Umbrella Review and Meta-Meta-Analysis.",
+      "role": "lead",
+      "keywords": [
+        "lifestyle",
+        "ehealth",
+        "mhealth",
+        "interventions",
+        "adolescents"
+      ]
+    },
+    {
+      "id": "10.3389/fnut.2025.1632999",
+      "doi": "10.3389/fnut.2025.1632999",
+      "date": "2026-09-02",
+      "topic": "body",
+      "title": "Epigenetic modulation by life–style: advances in diet, exercise, and mindfulness for disease prevention and health optimization",
+      "role": "short",
+      "keywords": [
+        "epigenetic",
+        "modulation",
+        "style",
+        "advances",
+        "exercise",
+        "mindfulness",
+        "disease",
+        "prevention",
+        "health",
+        "optimization"
+      ]
+    },
+    {
+      "id": "10.1159/000548370",
+      "doi": "10.1159/000548370",
+      "date": "2026-09-02",
+      "topic": "body",
+      "title": "The Integration of Lifestyle Modification Advice and Diet and Physical Exercise Interventions: Cornerstones in the Management of Obesity with Incretin Mimetics",
+      "role": "short",
+      "keywords": [
+        "integration",
+        "lifestyle",
+        "modification",
+        "advice",
+        "physical",
+        "exercise",
+        "interventions",
+        "cornerstones",
+        "management",
+        "obesity",
+        "incretin",
+        "mimetics"
+      ]
     }
   ]
 }
