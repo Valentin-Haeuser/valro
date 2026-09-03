@@ -986,6 +986,56 @@
         "incretin",
         "mimetics"
       ]
+    },
+    {
+      "id": "10.61173/yy1twy77",
+      "doi": "10.61173/yy1twy77",
+      "date": "2026-09-03",
+      "topic": "economics",
+      "title": "Restructuring Household Consumption through Fertility Decisions: A Systematic Literature Review from a Behavioral Economics Perspective",
+      "role": "lead",
+      "keywords": [
+        "restructuring",
+        "household",
+        "consumption",
+        "through",
+        "fertility",
+        "decisions",
+        "literature",
+        "behavioral",
+        "economics",
+        "perspective"
+      ]
+    },
+    {
+      "id": "10.3386/w35662",
+      "doi": "10.3386/w35662",
+      "date": "2026-09-03",
+      "topic": "economics",
+      "title": "The Impact of Fiscal Policy to Promote Healthy Diets: Evidence from the Navajo Nation",
+      "role": "short",
+      "keywords": [
+        "fiscal",
+        "policy",
+        "promote",
+        "healthy",
+        "diets",
+        "navajo",
+        "nation"
+      ]
+    },
+    {
+      "id": "10.1257/jep.20251457",
+      "doi": "10.1257/jep.20251457",
+      "date": "2026-09-03",
+      "topic": "economics",
+      "title": "The Economics of Noncompete Clauses",
+      "role": "short",
+      "keywords": [
+        "economics",
+        "noncompete",
+        "clauses"
+      ]
     }
   ]
 }
