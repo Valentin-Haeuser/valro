@@ -1036,6 +1036,53 @@
         "noncompete",
         "clauses"
       ]
+    },
+    {
+      "id": "10.1016/j.yfrne.2026.101250",
+      "doi": "10.1016/j.yfrne.2026.101250",
+      "date": "2026-09-04",
+      "topic": "psychology",
+      "title": "A systematic review and meta-analysis of the relationship between midlife physical activity and later-life cognition: Is sex an overlooked factor?",
+      "role": "lead",
+      "keywords": [
+        "midlife",
+        "physical",
+        "activity",
+        "later",
+        "cognition",
+        "overlooked",
+        "factor"
+      ]
+    },
+    {
+      "id": "10.1111/add.70256",
+      "doi": "10.1111/add.70256",
+      "date": "2026-09-04",
+      "topic": "psychology",
+      "title": "Social cognition in Korsakoff's syndrome: A meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "social",
+        "cognition",
+        "korsakoff",
+        "syndrome"
+      ]
+    },
+    {
+      "id": "10.1111/aphw.70191",
+      "doi": "10.1111/aphw.70191",
+      "date": "2026-09-04",
+      "topic": "psychology",
+      "title": "Music making and wellbeing: A systematic review of methods, musical activities, and outcomes",
+      "role": "short",
+      "keywords": [
+        "music",
+        "making",
+        "wellbeing",
+        "methods",
+        "musical",
+        "activities"
+      ]
     }
   ]
 }
