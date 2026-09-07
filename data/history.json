@@ -1083,6 +1083,63 @@
         "musical",
         "activities"
       ]
+    },
+    {
+      "id": "10.1186/s40359-026-05035-x",
+      "doi": "10.1186/s40359-026-05035-x",
+      "date": "2026-09-07",
+      "topic": "learning",
+      "title": "Thinking and feeling matter: a second-order meta-analysis of student characteristics across developmental domains and their effect on academic outcomes.",
+      "role": "lead",
+      "keywords": [
+        "thinking",
+        "feeling",
+        "matter",
+        "second",
+        "order",
+        "student",
+        "characteristics",
+        "developmental",
+        "domains",
+        "academic"
+      ]
+    },
+    {
+      "id": "10.1007/s10964-026-02341-w",
+      "doi": "10.1007/s10964-026-02341-w",
+      "date": "2026-09-07",
+      "topic": "learning",
+      "title": "The Relationship Between Basic Psychological Needs and Academic Achievement in Adolescents: A Three-level Meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "basic",
+        "psychological",
+        "needs",
+        "academic",
+        "achievement",
+        "adolescents",
+        "three",
+        "level"
+      ]
+    },
+    {
+      "id": "10.3389/fpsyg.2026.1910328",
+      "doi": "10.3389/fpsyg.2026.1910328",
+      "date": "2026-09-07",
+      "topic": "learning",
+      "title": "Meta-analysis of cognitive, emotional, and behavioral predictors of academic achievement in higher education students.",
+      "role": "short",
+      "keywords": [
+        "cognitive",
+        "emotional",
+        "behavioral",
+        "predictors",
+        "academic",
+        "achievement",
+        "higher",
+        "education",
+        "students"
+      ]
     }
   ]
 }
