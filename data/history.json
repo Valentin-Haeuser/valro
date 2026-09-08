@@ -1140,6 +1140,66 @@
         "education",
         "students"
       ]
+    },
+    {
+      "id": "10.1186/s12889-025-23635-x",
+      "doi": "10.1186/s12889-025-23635-x",
+      "date": "2026-09-08",
+      "topic": "environment",
+      "title": "Independent and combined relationships between nighttime light exposure, air pollution, PM2.5 constituents, greenness and diabetes or high blood sugar: a national prospective cohort study",
+      "role": "lead",
+      "keywords": [
+        "independent",
+        "combined",
+        "relationships",
+        "nighttime",
+        "light",
+        "exposure",
+        "pollution",
+        "constituents",
+        "greenness",
+        "diabetes",
+        "blood",
+        "sugar",
+        "national"
+      ]
+    },
+    {
+      "id": "10.1186/s12889-026-27606-8",
+      "doi": "10.1186/s12889-026-27606-8",
+      "date": "2026-09-08",
+      "topic": "environment",
+      "title": "The interplay of heatwaves, air pollution, and green space on all-cause mortality in older adults with diabetes mellitus: a national cohort study",
+      "role": "short",
+      "keywords": [
+        "interplay",
+        "heatwaves",
+        "pollution",
+        "green",
+        "space",
+        "cause",
+        "mortality",
+        "older",
+        "diabetes",
+        "mellitus",
+        "national"
+      ]
+    },
+    {
+      "id": "10.1007/s40572-026-00561-7",
+      "doi": "10.1007/s40572-026-00561-7",
+      "date": "2026-09-08",
+      "topic": "environment",
+      "title": "Air Pollution and Heat Impacts on Respiratory Morbidity and Mortality Outcomes in Africa: A Systematic Review Towards a Meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "pollution",
+        "impacts",
+        "respiratory",
+        "morbidity",
+        "mortality",
+        "africa"
+      ]
     }
   ]
 }
