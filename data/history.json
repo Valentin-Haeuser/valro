@@ -1200,6 +1200,59 @@
         "mortality",
         "africa"
       ]
+    },
+    {
+      "id": "10.1093/nutrit/nuaf191",
+      "doi": "10.1093/nutrit/nuaf191",
+      "date": "2026-09-09",
+      "topic": "nutrition",
+      "title": "Dietary Interventions Based on the Mediterranean Diet to Treat Obesity in Children and Adolescents: A Systematic Review with Meta-analysis and Meta-regressions.",
+      "role": "lead",
+      "keywords": [
+        "dietary",
+        "interventions",
+        "mediterranean",
+        "treat",
+        "obesity",
+        "adolescents",
+        "regressions"
+      ]
+    },
+    {
+      "id": "10.1016/s2468-2667(26)00074-5",
+      "doi": "10.1016/s2468-2667(26)00074-5",
+      "date": "2026-09-09",
+      "topic": "nutrition",
+      "title": "Effects of added-sugar warning labels on restaurant menus in the USA: an online randomised controlled trial.",
+      "role": "short",
+      "keywords": [
+        "added",
+        "sugar",
+        "warning",
+        "labels",
+        "restaurant",
+        "menus",
+        "online"
+      ]
+    },
+    {
+      "id": "10.7326/annals-25-00388",
+      "doi": "10.7326/annals-25-00388",
+      "date": "2026-09-09",
+      "topic": "nutrition",
+      "title": "Comparison of an Energy-Reduced Mediterranean Diet and Physical Activity Versus an Ad Libitum Mediterranean Diet in the Prevention of Type 2 Diabetes : A Secondary Analysis of a Randomized Controlled Trial.",
+      "role": "short",
+      "keywords": [
+        "energy",
+        "reduced",
+        "mediterranean",
+        "physical",
+        "activity",
+        "libitum",
+        "prevention",
+        "diabetes",
+        "secondary"
+      ]
     }
   ]
 }
