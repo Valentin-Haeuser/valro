@@ -1253,6 +1253,58 @@
         "diabetes",
         "secondary"
       ]
+    },
+    {
+      "id": "10.1016/j.ghrp.2026.05.002",
+      "doi": "10.1016/j.ghrp.2026.05.002",
+      "date": "2026-09-10",
+      "topic": "time",
+      "title": "Global disparities in association between leisure-time physical activity and chronic musculoskeletal pain: A systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "global",
+        "disparities",
+        "leisure",
+        "physical",
+        "activity",
+        "chronic",
+        "musculoskeletal"
+      ]
+    },
+    {
+      "id": "10.1007/s10916-026-02338-9",
+      "doi": "10.1007/s10916-026-02338-9",
+      "date": "2026-09-10",
+      "topic": "time",
+      "title": "Reducing Work-Related Screen-Time in Healthcare Workers During Leisure Time (REDUCE SCREEN) - A Randomized Controlled Trial.",
+      "role": "short",
+      "keywords": [
+        "reducing",
+        "related",
+        "screen",
+        "healthcare",
+        "workers",
+        "during",
+        "leisure",
+        "reduce"
+      ]
+    },
+    {
+      "id": "10.1016/j.archger.2025.106054",
+      "doi": "10.1016/j.archger.2025.106054",
+      "date": "2026-09-10",
+      "topic": "time",
+      "title": "The effect of leisure-time physical activities on bone mineral density in postmenopausal women: Systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "leisure",
+        "physical",
+        "activities",
+        "mineral",
+        "density",
+        "postmenopausal",
+        "women"
+      ]
     }
   ]
 }
