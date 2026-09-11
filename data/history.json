@@ -1305,6 +1305,57 @@
         "postmenopausal",
         "women"
       ]
+    },
+    {
+      "id": "10.1093/geronb/gbaf178",
+      "doi": "10.1093/geronb/gbaf178",
+      "date": "2026-09-11",
+      "topic": "relationships",
+      "title": "Mindfulness-based stress reduction and loneliness in older adults: two randomized controlled trials.",
+      "role": "lead",
+      "keywords": [
+        "mindfulness",
+        "stress",
+        "reduction",
+        "loneliness",
+        "older",
+        "trials"
+      ]
+    },
+    {
+      "id": "10.1016/j.arr.2025.102855",
+      "doi": "10.1016/j.arr.2025.102855",
+      "date": "2026-09-11",
+      "topic": "relationships",
+      "title": "Group-based trajectory modelling for cognitive changes in middle-aged and older adults: A systematic review.",
+      "role": "short",
+      "keywords": [
+        "group",
+        "trajectory",
+        "modelling",
+        "cognitive",
+        "changes",
+        "middle",
+        "older"
+      ]
+    },
+    {
+      "id": "10.1016/j.physbeh.2026.115383",
+      "doi": "10.1016/j.physbeh.2026.115383",
+      "date": "2026-09-11",
+      "topic": "relationships",
+      "title": "Unravelling the complexities of alcohol use in the context of loneliness and stress: a systematic review and proposed model.",
+      "role": "short",
+      "keywords": [
+        "unravelling",
+        "complexities",
+        "alcohol",
+        "context",
+        "loneliness",
+        "stress",
+        "proposed",
+        "model"
+      ]
     }
   ]
 }
