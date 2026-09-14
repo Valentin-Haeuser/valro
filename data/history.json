@@ -1356,6 +1356,54 @@
         "proposed",
         "model"
       ]
+    },
+    {
+      "id": "10.3390/ijerph22101517",
+      "doi": "10.3390/ijerph22101517",
+      "date": "2026-09-14",
+      "topic": "sleep",
+      "title": "Digital Devices Use and Sleep in Adolescents: An Umbrella Review",
+      "role": "lead",
+      "keywords": [
+        "digital",
+        "devices",
+        "sleep",
+        "adolescents"
+      ]
+    },
+    {
+      "id": "10.3389/fpubh.2026.1906525",
+      "doi": "10.3389/fpubh.2026.1906525",
+      "date": "2026-09-14",
+      "topic": "sleep",
+      "title": "The effects of progressive muscle relaxation on sleep quality in adults: a systematic review and meta-analysis of randomized controlled trials.",
+      "role": "short",
+      "keywords": [
+        "progressive",
+        "muscle",
+        "relaxation",
+        "sleep",
+        "quality",
+        "trials"
+      ]
+    },
+    {
+      "id": "10.1016/j.smrv.2026.102311",
+      "doi": "10.1016/j.smrv.2026.102311",
+      "date": "2026-09-14",
+      "topic": "sleep",
+      "title": "Transcutaneous vagus nerve stimulation influences sleep quality and insomnia: A systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "transcutaneous",
+        "vagus",
+        "nerve",
+        "stimulation",
+        "influences",
+        "sleep",
+        "quality",
+        "insomnia"
+      ]
     }
   ]
 }
