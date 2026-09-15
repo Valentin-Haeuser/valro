@@ -1404,6 +1404,60 @@
         "quality",
         "insomnia"
       ]
+    },
+    {
+      "id": "10.1016/j.archger.2026.106141",
+      "doi": "10.1016/j.archger.2026.106141",
+      "date": "2026-09-15",
+      "topic": "productivity",
+      "title": "Effects of different non-pharmacological interventions on executive function in healthy older people: A systematic review and network meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "different",
+        "pharmacological",
+        "interventions",
+        "executive",
+        "function",
+        "healthy",
+        "older",
+        "network"
+      ]
+    },
+    {
+      "id": "10.1007/s00221-025-07140-6",
+      "doi": "10.1007/s00221-025-07140-6",
+      "date": "2026-09-15",
+      "topic": "productivity",
+      "title": "The recovery effect of acute aerobic exercise and music intervention on working memory under mental fatigue.",
+      "role": "short",
+      "keywords": [
+        "recovery",
+        "acute",
+        "aerobic",
+        "exercise",
+        "music",
+        "intervention",
+        "working",
+        "memory",
+        "under",
+        "mental",
+        "fatigue"
+      ]
+    },
+    {
+      "id": "10.3758/s13423-026-02994-5",
+      "doi": "10.3758/s13423-026-02994-5",
+      "date": "2026-09-15",
+      "topic": "productivity",
+      "title": "The asymmetry of working memory training transfer: A systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "asymmetry",
+        "working",
+        "memory",
+        "training",
+        "transfer"
+      ]
     }
   ]
 }
