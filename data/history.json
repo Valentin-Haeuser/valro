@@ -1458,6 +1458,61 @@
         "training",
         "transfer"
       ]
+    },
+    {
+      "id": "10.1093/eurjpc/zwag079",
+      "doi": "10.1093/eurjpc/zwag079",
+      "date": "2026-09-16",
+      "topic": "body",
+      "title": "Optimizing physical activity bouts to interrupt sedentary behaviour for cardiometabolic health: a systematic review and meta-analyses of randomized controlled trials.",
+      "role": "lead",
+      "keywords": [
+        "optimizing",
+        "physical",
+        "activity",
+        "bouts",
+        "interrupt",
+        "sedentary",
+        "behaviour",
+        "cardiometabolic",
+        "health",
+        "trials"
+      ]
+    },
+    {
+      "id": "10.1093/eurjpc/zwaf560",
+      "doi": "10.1093/eurjpc/zwaf560",
+      "date": "2026-09-16",
+      "topic": "body",
+      "title": "Effect of incretin-based therapies on blood pressure: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "incretin",
+        "therapies",
+        "blood",
+        "pressure"
+      ]
+    },
+    {
+      "id": "10.1186/s12877-026-07710-5",
+      "doi": "10.1186/s12877-026-07710-5",
+      "date": "2026-09-16",
+      "topic": "body",
+      "title": "Effects of theory-based interventions on sedentary behavior, physical activity intensity, cardiometabolic outcomes, and self-efficacy among sedentary older adults: a systematic review and meta-analysis of randomized controlled trials.",
+      "role": "short",
+      "keywords": [
+        "theory",
+        "interventions",
+        "sedentary",
+        "behavior",
+        "physical",
+        "activity",
+        "intensity",
+        "cardiometabolic",
+        "efficacy",
+        "older",
+        "trials"
+      ]
     }
   ]
 }
