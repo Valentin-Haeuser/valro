@@ -1513,6 +1513,59 @@
         "older",
         "trials"
       ]
+    },
+    {
+      "id": "10.3386/w35740",
+      "doi": "10.3386/w35740",
+      "date": "2026-09-17",
+      "topic": "economics",
+      "title": "When Resources Meet Relationships: The Returns to Personalized Supports for Low-Income Students",
+      "role": "lead",
+      "keywords": [
+        "resources",
+        "relationships",
+        "returns",
+        "personalized",
+        "supports",
+        "income",
+        "students"
+      ]
+    },
+    {
+      "id": "10.1007/s11150-026-09847-z",
+      "doi": "10.1007/s11150-026-09847-z",
+      "date": "2026-09-17",
+      "topic": "economics",
+      "title": "Early Childhood Education and Care and mother’s labor supply: The role of publication and weak causal design biases",
+      "role": "short",
+      "keywords": [
+        "early",
+        "childhood",
+        "education",
+        "mother",
+        "labor",
+        "supply",
+        "publication",
+        "causal",
+        "design",
+        "biases"
+      ]
+    },
+    {
+      "id": "10.3386/w35729",
+      "doi": "10.3386/w35729",
+      "date": "2026-09-17",
+      "topic": "economics",
+      "title": "When Microenterprises Grow, Are Consumers Better Off? Evidence from Large Loans to Microenterprises in Chile",
+      "role": "short",
+      "keywords": [
+        "microenterprises",
+        "consumers",
+        "better",
+        "large",
+        "loans",
+        "chile"
+      ]
     }
   ]
 }
