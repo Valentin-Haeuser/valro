@@ -1566,6 +1566,62 @@
         "loans",
         "chile"
       ]
+    },
+    {
+      "id": "10.3389/fpsyg.2026.1762411",
+      "doi": "10.3389/fpsyg.2026.1762411",
+      "date": "2026-09-18",
+      "topic": "psychology",
+      "title": "The positive psychology of AI: a systematic review of generative AI's impact on EFL learners' motivation, anxiety, and well-being in higher education",
+      "role": "lead",
+      "keywords": [
+        "positive",
+        "psychology",
+        "generative",
+        "learners",
+        "motivation",
+        "anxiety",
+        "being",
+        "higher",
+        "education"
+      ]
+    },
+    {
+      "id": "10.1007/s00394-026-04012-9",
+      "doi": "10.1007/s00394-026-04012-9",
+      "date": "2026-09-18",
+      "topic": "psychology",
+      "title": "Investigating enhancement of learning and memory following supplementation with Juice Plus+® Omega in an adolescent population.",
+      "role": "short",
+      "keywords": [
+        "investigating",
+        "enhancement",
+        "learning",
+        "memory",
+        "following",
+        "supplementation",
+        "juice",
+        "omega",
+        "adolescent"
+      ]
+    },
+    {
+      "id": "10.2196/80249",
+      "doi": "10.2196/80249",
+      "date": "2026-09-18",
+      "topic": "psychology",
+      "title": "Effectiveness of a Blended Intervention to Promote Physical Activity Among Office Employees: Randomized Controlled Trial.",
+      "role": "short",
+      "keywords": [
+        "effectiveness",
+        "blended",
+        "intervention",
+        "promote",
+        "physical",
+        "activity",
+        "office",
+        "employees"
+      ]
     }
   ]
 }
