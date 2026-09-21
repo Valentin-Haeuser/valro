@@ -1622,6 +1622,64 @@
         "office",
         "employees"
       ]
+    },
+    {
+      "id": "10.3390/educsci16060962",
+      "doi": "10.3390/educsci16060962",
+      "date": "2026-09-21",
+      "topic": "learning",
+      "title": "Systematic Review of the Effectiveness of Neurodidactic Spaced Learning Strategies in Long-Term Memory",
+      "role": "lead",
+      "keywords": [
+        "effectiveness",
+        "neurodidactic",
+        "spaced",
+        "learning",
+        "strategies",
+        "memory"
+      ]
+    },
+    {
+      "id": "10.1590/1980-220x-reeusp-2026-0022en",
+      "doi": "10.1590/1980-220x-reeusp-2026-0022en",
+      "date": "2026-09-21",
+      "topic": "learning",
+      "title": "Active learning-based reinforcement in nursing education: a cluster-randomized controlled trial using Roper, Logan and Tierney's life model.",
+      "role": "short",
+      "keywords": [
+        "active",
+        "learning",
+        "reinforcement",
+        "nursing",
+        "education",
+        "cluster",
+        "roper",
+        "logan",
+        "tierney",
+        "model"
+      ]
+    },
+    {
+      "id": "10.1080/20008066.2026.2674492",
+      "doi": "10.1080/20008066.2026.2674492",
+      "date": "2026-09-21",
+      "topic": "learning",
+      "title": "Do subjective and objective baseline sleep disturbances predict post-traumatic stress disorder treatment response? A secondary analysis of a randomized controlled trial.",
+      "role": "short",
+      "keywords": [
+        "subjective",
+        "objective",
+        "baseline",
+        "sleep",
+        "disturbances",
+        "predict",
+        "traumatic",
+        "stress",
+        "disorder",
+        "treatment",
+        "response",
+        "secondary"
+      ]
     }
   ]
 }
