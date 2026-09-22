@@ -1680,6 +1680,57 @@
         "response",
         "secondary"
       ]
+    },
+    {
+      "id": "10.3389/fpsyt.2026.1788310",
+      "doi": "10.3389/fpsyt.2026.1788310",
+      "date": "2026-09-22",
+      "topic": "environment",
+      "title": "Noise, air pollution exposure and attention-deficit/hyperactivity disorder: a meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "noise",
+        "pollution",
+        "exposure",
+        "attention",
+        "deficit",
+        "hyperactivity",
+        "disorder"
+      ]
+    },
+    {
+      "id": "10.1016/j.advnut.2026.100709",
+      "doi": "10.1016/j.advnut.2026.100709",
+      "date": "2026-09-22",
+      "topic": "environment",
+      "title": "Dietary Intake Modifies the Association between Air Pollution and Chronic Diseases: A Systematic Review and Meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "dietary",
+        "intake",
+        "modifies",
+        "pollution",
+        "chronic",
+        "diseases"
+      ]
+    },
+    {
+      "id": "10.5334/gh.1545",
+      "doi": "10.5334/gh.1545",
+      "date": "2026-09-22",
+      "topic": "environment",
+      "title": "Impact of Ambient Air Pollution on Cardiovascular Diseases in Low- and Lower-Middle-Income Countries: A Systematic Review and Meta-Analysis.",
+      "role": "short",
+      "keywords": [
+        "ambient",
+        "pollution",
+        "cardiovascular",
+        "diseases",
+        "lower",
+        "middle",
+        "income",
+        "countries"
+      ]
     }
   ]
 }
