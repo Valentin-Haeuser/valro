@@ -1731,6 +1731,60 @@
         "income",
         "countries"
       ]
+    },
+    {
+      "id": "10.1016/j.advnut.2025.100562",
+      "doi": "10.1016/j.advnut.2025.100562",
+      "date": "2026-09-23",
+      "topic": "nutrition",
+      "title": "Adherence to Mediterranean Diet and Risk of Type 2 Diabetes: An Updated Systematic Review and Dose-Response Meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "adherence",
+        "mediterranean",
+        "diabetes",
+        "updated",
+        "response"
+      ]
+    },
+    {
+      "id": "10.3389/fnut.2026.1876449",
+      "doi": "10.3389/fnut.2026.1876449",
+      "date": "2026-09-23",
+      "topic": "nutrition",
+      "title": "Total ultra-processed food intake and selected food-group exposures in relation to non-alcoholic fatty liver disease: a systematic review and meta-analysis",
+      "role": "short",
+      "keywords": [
+        "total",
+        "ultra",
+        "processed",
+        "intake",
+        "selected",
+        "group",
+        "exposures",
+        "relation",
+        "alcoholic",
+        "fatty",
+        "liver",
+        "disease"
+      ]
+    },
+    {
+      "id": "10.3390/nu18010096",
+      "doi": "10.3390/nu18010096",
+      "date": "2026-09-23",
+      "topic": "nutrition",
+      "title": "The Immune Mind: Linking Dietary Patterns, Microbiota, and Psychological Health.",
+      "role": "short",
+      "keywords": [
+        "immune",
+        "linking",
+        "dietary",
+        "patterns",
+        "microbiota",
+        "psychological",
+        "health"
+      ]
     }
   ]
 }
