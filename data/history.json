@@ -1840,6 +1840,53 @@
         "aging",
         "place"
       ]
+    },
+    {
+      "id": "10.1016/j.smrv.2025.102195",
+      "doi": "10.1016/j.smrv.2025.102195",
+      "date": "2026-09-28",
+      "topic": "sleep",
+      "title": "Insomnia in spinal cord injury: A meta-analysis of observational studies.",
+      "role": "lead",
+      "keywords": [
+        "insomnia",
+        "spinal",
+        "injury",
+        "observational"
+      ]
+    },
+    {
+      "id": "10.1016/j.sleep.2026.109040",
+      "doi": "10.1016/j.sleep.2026.109040",
+      "date": "2026-09-28",
+      "topic": "sleep",
+      "title": "Pharmacological and non-pharmacological treatments for chronic insomnia in perimenopausal and postmenopausal women: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "pharmacological",
+        "treatments",
+        "chronic",
+        "insomnia",
+        "perimenopausal",
+        "postmenopausal",
+        "women"
+      ]
+    },
+    {
+      "id": "10.3389/fneur.2026.1875347",
+      "doi": "10.3389/fneur.2026.1875347",
+      "date": "2026-09-28",
+      "topic": "sleep",
+      "title": "Bright light therapy for post-stroke sleep disturbances: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "bright",
+        "light",
+        "therapy",
+        "stroke",
+        "sleep",
+        "disturbances"
+      ]
     }
   ]
 }
