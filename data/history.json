@@ -1887,6 +1887,59 @@
         "sleep",
         "disturbances"
       ]
+    },
+    {
+      "id": "10.1002/brb3.71221",
+      "doi": "10.1002/brb3.71221",
+      "date": "2026-09-29",
+      "topic": "productivity",
+      "title": "The Neural Blueprint of Novelty: A Meta-Analytic Dissection of Active and Passive Novelty Processing Networks.",
+      "role": "lead",
+      "keywords": [
+        "neural",
+        "blueprint",
+        "novelty",
+        "analytic",
+        "dissection",
+        "active",
+        "passive",
+        "processing",
+        "networks"
+      ]
+    },
+    {
+      "id": "10.1186/s12937-025-01264-9",
+      "doi": "10.1186/s12937-025-01264-9",
+      "date": "2026-09-29",
+      "topic": "productivity",
+      "title": "The cognitive effects of supplementation with sunflower phosphatidyl serine in healthy children aged 8 to 12 years: a randomized controlled trial.",
+      "role": "short",
+      "keywords": [
+        "cognitive",
+        "supplementation",
+        "sunflower",
+        "phosphatidyl",
+        "serine",
+        "healthy",
+        "years"
+      ]
+    },
+    {
+      "id": "10.36690/2674-5216-2025-3-80-90",
+      "doi": "10.36690/2674-5216-2025-3-80-90",
+      "date": "2026-09-29",
+      "topic": "productivity",
+      "title": "The Role of Journaling in Enhancing Workplace Productivity, Emotional Well-being, and Team Dynamics",
+      "role": "short",
+      "keywords": [
+        "journaling",
+        "enhancing",
+        "workplace",
+        "productivity",
+        "emotional",
+        "being",
+        "dynamics"
+      ]
     }
   ]
 }
