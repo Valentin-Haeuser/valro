@@ -1940,6 +1940,57 @@
         "being",
         "dynamics"
       ]
+    },
+    {
+      "id": "10.1186/s12889-025-25883-3",
+      "doi": "10.1186/s12889-025-25883-3",
+      "date": "2026-09-30",
+      "topic": "body",
+      "title": "Impact of artificial light at night on obesity and overweight: a systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "artificial",
+        "light",
+        "night",
+        "obesity",
+        "overweight"
+      ]
+    },
+    {
+      "id": "10.12775/qs.2026.56.72465",
+      "doi": "10.12775/qs.2026.56.72465",
+      "date": "2026-09-30",
+      "topic": "body",
+      "title": "The Effects of Physical Activity and Structured Exercise on Metabolic Health and Cardiovascular Risk: A Comprehensive Review",
+      "role": "short",
+      "keywords": [
+        "physical",
+        "activity",
+        "structured",
+        "exercise",
+        "metabolic",
+        "health",
+        "cardiovascular",
+        "comprehensive"
+      ]
+    },
+    {
+      "id": "10.3390/nu17203209",
+      "doi": "10.3390/nu17203209",
+      "date": "2026-09-30",
+      "topic": "body",
+      "title": "Artificial Intelligence in Endurance Sports: Metabolic, Recovery, and Nutritional Perspectives",
+      "role": "short",
+      "keywords": [
+        "artificial",
+        "intelligence",
+        "endurance",
+        "sports",
+        "metabolic",
+        "recovery",
+        "nutritional",
+        "perspectives"
+      ]
     }
   ]
 }
