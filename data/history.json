@@ -1991,6 +1991,53 @@
         "nutritional",
         "perspectives"
       ]
+    },
+    {
+      "id": "10.3386/w35805",
+      "doi": "10.3386/w35805",
+      "date": "2026-10-01",
+      "topic": "economics",
+      "title": "Foreign Tax Advantages after the U.S. Tax Reform of 2017",
+      "role": "lead",
+      "keywords": [
+        "foreign",
+        "advantages",
+        "after",
+        "reform"
+      ]
+    },
+    {
+      "id": "10.3386/w35792",
+      "doi": "10.3386/w35792",
+      "date": "2026-10-01",
+      "topic": "economics",
+      "title": "Impact of Adults’ College Completion on their Parents’ Mortality: Evidence from the 1993 Korean Higher Education Reform",
+      "role": "short",
+      "keywords": [
+        "college",
+        "completion",
+        "parents",
+        "mortality",
+        "korean",
+        "higher",
+        "education",
+        "reform"
+      ]
+    },
+    {
+      "id": "10.3386/w35809",
+      "doi": "10.3386/w35809",
+      "date": "2026-10-01",
+      "topic": "economics",
+      "title": "Terra Incognita: The Economics of a Shrinking World",
+      "role": "short",
+      "keywords": [
+        "terra",
+        "incognita",
+        "economics",
+        "shrinking",
+        "world"
+      ]
     }
   ]
 }
