@@ -2038,6 +2038,62 @@
         "shrinking",
         "world"
       ]
+    },
+    {
+      "id": "10.1038/s41562-025-02394-0",
+      "doi": "10.1038/s41562-025-02394-0",
+      "date": "2026-10-02",
+      "topic": "psychology",
+      "title": "Social safety nets, women's economic achievements and agency in 45 countries: a systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "social",
+        "safety",
+        "women",
+        "economic",
+        "achievements",
+        "agency",
+        "countries"
+      ]
+    },
+    {
+      "id": "10.2196/74201",
+      "doi": "10.2196/74201",
+      "date": "2026-10-02",
+      "topic": "psychology",
+      "title": "Behavioral Determinants and Effectiveness of Digital Behavior Change Interventions for the Prevention of Sexually Transmitted Infections and HIV: Overview of Systematic Reviews.",
+      "role": "short",
+      "keywords": [
+        "behavioral",
+        "determinants",
+        "effectiveness",
+        "digital",
+        "behavior",
+        "change",
+        "interventions",
+        "prevention",
+        "sexually",
+        "transmitted",
+        "infections",
+        "overview",
+        "reviews"
+      ]
+    },
+    {
+      "id": "10.3389/fpsyg.2025.1734112",
+      "doi": "10.3389/fpsyg.2025.1734112",
+      "date": "2026-10-02",
+      "topic": "psychology",
+      "title": "Examining motivation within the context of acculturative stress: a systematic review.",
+      "role": "short",
+      "keywords": [
+        "examining",
+        "motivation",
+        "within",
+        "context",
+        "acculturative",
+        "stress"
+      ]
     }
   ]
 }
