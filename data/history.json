@@ -2094,6 +2094,63 @@
         "acculturative",
         "stress"
       ]
+    },
+    {
+      "id": "10.1007/s00221-026-07256-3",
+      "doi": "10.1007/s00221-026-07256-3",
+      "date": "2026-10-05",
+      "topic": "learning",
+      "title": "Acute cardiovascular exercise diminishes the consolidation of a complex whole-body task in young adults.",
+      "role": "lead",
+      "keywords": [
+        "acute",
+        "cardiovascular",
+        "exercise",
+        "diminishes",
+        "consolidation",
+        "complex",
+        "whole",
+        "young"
+      ]
+    },
+    {
+      "id": "10.1016/j.smrv.2026.102321",
+      "doi": "10.1016/j.smrv.2026.102321",
+      "date": "2026-10-05",
+      "topic": "learning",
+      "title": "Assessing the effects of non-invasive transcranial electrical stimulation (tACS and tDCS) on electrophysiological sleep parameters - a systematic review.",
+      "role": "short",
+      "keywords": [
+        "assessing",
+        "invasive",
+        "transcranial",
+        "electrical",
+        "stimulation",
+        "electrophysiological",
+        "sleep",
+        "parameters"
+      ]
+    },
+    {
+      "id": "10.1007/s00221-026-07261-6",
+      "doi": "10.1007/s00221-026-07261-6",
+      "date": "2026-10-05",
+      "topic": "learning",
+      "title": "Transcranial alternating current stimulation of the posterior parietal cortex enhances episodic memory consolidation.",
+      "role": "short",
+      "keywords": [
+        "transcranial",
+        "alternating",
+        "current",
+        "stimulation",
+        "posterior",
+        "parietal",
+        "cortex",
+        "enhances",
+        "episodic",
+        "memory",
+        "consolidation"
+      ]
     }
   ]
 }
