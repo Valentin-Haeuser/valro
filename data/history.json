@@ -2151,6 +2151,58 @@
         "memory",
         "consolidation"
       ]
+    },
+    {
+      "id": "10.1080/15502783.2026.2669307",
+      "doi": "10.1080/15502783.2026.2669307",
+      "date": "2026-10-06",
+      "topic": "environment",
+      "title": "Carbohydrate supplementation for endurance exercise in the heat: a systematic review with practical recommendations.",
+      "role": "lead",
+      "keywords": [
+        "carbohydrate",
+        "supplementation",
+        "endurance",
+        "exercise",
+        "practical",
+        "recommendations"
+      ]
+    },
+    {
+      "id": "10.3390/ijerph23080970",
+      "doi": "10.3390/ijerph23080970",
+      "date": "2026-10-06",
+      "topic": "environment",
+      "title": "Quality of Urban Green Space for Older Adults to Promote Physical Activity: A Systematic Review.",
+      "role": "short",
+      "keywords": [
+        "quality",
+        "urban",
+        "green",
+        "space",
+        "older",
+        "promote",
+        "physical",
+        "activity"
+      ]
+    },
+    {
+      "id": "10.1186/s40798-025-00910-0",
+      "doi": "10.1186/s40798-025-00910-0",
+      "date": "2026-10-06",
+      "topic": "environment",
+      "title": "Effects of Post-Exercise Heat Exposure on Acute Recovery and Training-Induced Performance Adaptations: A Systematic Review.",
+      "role": "short",
+      "keywords": [
+        "exercise",
+        "exposure",
+        "acute",
+        "recovery",
+        "training",
+        "induced",
+        "performance",
+        "adaptations"
+      ]
     }
   ]
 }
