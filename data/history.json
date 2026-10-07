@@ -2203,6 +2203,54 @@
         "performance",
         "adaptations"
       ]
+    },
+    {
+      "id": "10.1017/s0954422425100243",
+      "doi": "10.1017/s0954422425100243",
+      "date": "2026-10-07",
+      "topic": "nutrition",
+      "title": "Effect of Mediterranean diet on mental health outcomes: a systematic review.",
+      "role": "lead",
+      "keywords": [
+        "mediterranean",
+        "mental",
+        "health"
+      ]
+    },
+    {
+      "id": "10.3748/wjg.v32.i6.113804",
+      "doi": "10.3748/wjg.v32.i6.113804",
+      "date": "2026-10-07",
+      "topic": "nutrition",
+      "title": "High-protein diets and metabolic dysfunction-associated steatotic liver disease: A double-edged sword in liver health.",
+      "role": "short",
+      "keywords": [
+        "protein",
+        "diets",
+        "metabolic",
+        "dysfunction",
+        "steatotic",
+        "liver",
+        "disease",
+        "double",
+        "edged",
+        "sword",
+        "health"
+      ]
+    },
+    {
+      "id": "10.1093/nutrit/nuaf213",
+      "doi": "10.1093/nutrit/nuaf213",
+      "date": "2026-10-07",
+      "topic": "nutrition",
+      "title": "Mediterranean Diet Reduces Inflammation in Adults: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
+      "role": "short",
+      "keywords": [
+        "mediterranean",
+        "reduces",
+        "inflammation",
+        "trials"
+      ]
     }
   ]
 }
