@@ -2308,6 +2308,54 @@
         "perceived",
         "support"
       ]
+    },
+    {
+      "id": "10.1016/j.sleep.2026.109193",
+      "doi": "10.1016/j.sleep.2026.109193",
+      "date": "2026-10-12",
+      "topic": "sleep",
+      "title": "Efficacy of cannabinoids for insomnia and sleep disturbance: A systematic review and meta-analysis of randomized controlled trials.",
+      "role": "lead",
+      "keywords": [
+        "efficacy",
+        "cannabinoids",
+        "insomnia",
+        "sleep",
+        "disturbance",
+        "trials"
+      ]
+    },
+    {
+      "id": "10.1016/j.smrv.2025.102210",
+      "doi": "10.1016/j.smrv.2025.102210",
+      "date": "2026-10-12",
+      "topic": "sleep",
+      "title": "Insomnia among hospitalized inpatients: A systematic review and network meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "insomnia",
+        "hospitalized",
+        "inpatients",
+        "network"
+      ]
+    },
+    {
+      "id": "10.1007/s11906-026-01365-8",
+      "doi": "10.1007/s11906-026-01365-8",
+      "date": "2026-10-12",
+      "topic": "sleep",
+      "title": "Insomnia and Hypertension: Importance of Objective Phenotyping and Comorbidity with Sleep Apnea",
+      "role": "short",
+      "keywords": [
+        "insomnia",
+        "hypertension",
+        "importance",
+        "objective",
+        "phenotyping",
+        "comorbidity",
+        "sleep",
+        "apnea"
+      ]
     }
   ]
 }
