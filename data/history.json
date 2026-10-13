@@ -2356,6 +2356,59 @@
         "sleep",
         "apnea"
       ]
+    },
+    {
+      "id": "10.1093/sleep/zsag054",
+      "doi": "10.1093/sleep/zsag054",
+      "date": "2026-10-13",
+      "topic": "productivity",
+      "title": "Domain-specific circadian rescue following sleep deprivation.",
+      "role": "lead",
+      "keywords": [
+        "domain",
+        "specific",
+        "circadian",
+        "rescue",
+        "following",
+        "sleep",
+        "deprivation"
+      ]
+    },
+    {
+      "id": "10.1016/j.jamda.2026.106427",
+      "doi": "10.1016/j.jamda.2026.106427",
+      "date": "2026-10-13",
+      "topic": "productivity",
+      "title": "Effects of Resistance Training on Executive Functions in Community-Dwelling Older Adults: A Meta-Analysis.",
+      "role": "short",
+      "keywords": [
+        "resistance",
+        "training",
+        "executive",
+        "functions",
+        "community",
+        "dwelling",
+        "older"
+      ]
+    },
+    {
+      "id": "10.1016/j.neubiorev.2025.106381",
+      "doi": "10.1016/j.neubiorev.2025.106381",
+      "date": "2026-10-13",
+      "topic": "productivity",
+      "title": "Investigating the mediating effect of myokines on exercise-induced cognitive changes in older adults: A living systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "investigating",
+        "mediating",
+        "myokines",
+        "exercise",
+        "induced",
+        "cognitive",
+        "changes",
+        "older",
+        "living"
+      ]
     }
   ]
 }
