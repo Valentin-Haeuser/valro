@@ -2409,6 +2409,61 @@
         "older",
         "living"
       ]
+    },
+    {
+      "id": "10.1186/s12933-025-03048-1",
+      "doi": "10.1186/s12933-025-03048-1",
+      "date": "2026-10-14",
+      "topic": "body",
+      "title": "The effect of exercise characteristics on HbA1c and other cardiovascular risk factors in adults with type 2 diabetes: a systematic review and meta-analysis of randomised controlled trials.",
+      "role": "lead",
+      "keywords": [
+        "exercise",
+        "characteristics",
+        "other",
+        "cardiovascular",
+        "factors",
+        "diabetes",
+        "trials"
+      ]
+    },
+    {
+      "id": "10.37547/ijmscr/volume06issue10-01",
+      "doi": "10.37547/ijmscr/volume06issue10-01",
+      "date": "2026-10-14",
+      "topic": "body",
+      "title": "Physical Activity and Complementary Lifestyle Interventions in Diabetes Management: An Integrative Review of Exercise, Yoga, Nutrition, Herbal Therapies, and Reflexology",
+      "role": "short",
+      "keywords": [
+        "physical",
+        "activity",
+        "complementary",
+        "lifestyle",
+        "interventions",
+        "diabetes",
+        "management",
+        "integrative",
+        "exercise",
+        "nutrition",
+        "herbal",
+        "therapies",
+        "reflexology"
+      ]
+    },
+    {
+      "id": "10.3389/fpubh.2026.1846736",
+      "doi": "10.3389/fpubh.2026.1846736",
+      "date": "2026-10-14",
+      "topic": "body",
+      "title": "Lifestyle interventions and 24-hour movement behaviors in preschool children: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "lifestyle",
+        "interventions",
+        "movement",
+        "behaviors",
+        "preschool"
+      ]
     }
   ]
 }
