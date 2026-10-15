@@ -2464,6 +2464,50 @@
         "behaviors",
         "preschool"
       ]
+    },
+    {
+      "id": "10.1038/s41467-025-67799-x",
+      "doi": "10.1038/s41467-025-67799-x",
+      "date": "2026-10-15",
+      "topic": "economics",
+      "title": "Labor Market Outcomes of People with HIV Pre- and Post-Diagnosis in the Netherlands",
+      "role": "lead",
+      "keywords": [
+        "labor",
+        "market",
+        "diagnosis",
+        "netherlands"
+      ]
+    },
+    {
+      "id": "10.3386/w35880",
+      "doi": "10.3386/w35880",
+      "date": "2026-10-15",
+      "topic": "economics",
+      "title": "The Relationship between Income and Health: Evidence from Nationwide Health Exams in Korea",
+      "role": "short",
+      "keywords": [
+        "income",
+        "health",
+        "nationwide",
+        "exams",
+        "korea"
+      ]
+    },
+    {
+      "id": "10.3386/w35885",
+      "doi": "10.3386/w35885",
+      "date": "2026-10-15",
+      "topic": "economics",
+      "title": "Explaining Realized Returns: Roll’s R2 40 Years Later",
+      "role": "short",
+      "keywords": [
+        "explaining",
+        "realized",
+        "returns",
+        "years",
+        "later"
+      ]
     }
   ]
 }
