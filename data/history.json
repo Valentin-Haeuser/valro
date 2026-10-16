@@ -2508,6 +2508,53 @@
         "years",
         "later"
       ]
+    },
+    {
+      "id": "10.1080/21645515.2025.2574732",
+      "doi": "10.1080/21645515.2025.2574732",
+      "date": "2026-10-16",
+      "topic": "psychology",
+      "title": "Barriers to influenza vaccination in older adults with chronic diseases: Insights from a COM-B model-based meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "barriers",
+        "influenza",
+        "vaccination",
+        "older",
+        "chronic",
+        "diseases",
+        "insights",
+        "model"
+      ]
+    },
+    {
+      "id": "10.1016/j.actpsy.2025.105854",
+      "doi": "10.1016/j.actpsy.2025.105854",
+      "date": "2026-10-16",
+      "topic": "psychology",
+      "title": "Tertiary students' English language learning motivation: A systematic review.",
+      "role": "short",
+      "keywords": [
+        "tertiary",
+        "students",
+        "english",
+        "language",
+        "learning",
+        "motivation"
+      ]
+    },
+    {
+      "id": "10.1002/ab.70055",
+      "doi": "10.1002/ab.70055",
+      "date": "2026-10-16",
+      "topic": "psychology",
+      "title": "Emotion Regulation and Aggression: A Systematic Review and Meta-Analysis.",
+      "role": "short",
+      "keywords": [
+        "emotion",
+        "regulation",
+        "aggression"
+      ]
     }
   ]
 }
