@@ -2555,6 +2555,60 @@
         "regulation",
         "aggression"
       ]
+    },
+    {
+      "id": "10.7554/elife.101992",
+      "doi": "10.7554/elife.101992",
+      "date": "2026-10-19",
+      "topic": "learning",
+      "title": "Bayesian meta-analysis reveals the mechanistic role of slow oscillation-spindle coupling in sleep-dependent memory consolidation.",
+      "role": "lead",
+      "keywords": [
+        "bayesian",
+        "reveals",
+        "mechanistic",
+        "oscillation",
+        "spindle",
+        "coupling",
+        "sleep",
+        "dependent",
+        "memory",
+        "consolidation"
+      ]
+    },
+    {
+      "id": "10.3389/fpubh.2025.1651883",
+      "doi": "10.3389/fpubh.2025.1651883",
+      "date": "2026-10-19",
+      "topic": "learning",
+      "title": "Effects of school-based physical activity on academic achievement in children and adolescents: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "school",
+        "physical",
+        "activity",
+        "academic",
+        "achievement",
+        "adolescents"
+      ]
+    },
+    {
+      "id": "10.1152/advan.00240.2025",
+      "doi": "10.1152/advan.00240.2025",
+      "date": "2026-10-19",
+      "topic": "learning",
+      "title": "Rethinking physiology teaching: evidence and theory-informed strategies for interactive physiology education.",
+      "role": "short",
+      "keywords": [
+        "rethinking",
+        "physiology",
+        "teaching",
+        "theory",
+        "informed",
+        "strategies",
+        "interactive",
+        "education"
+      ]
     }
   ]
 }
