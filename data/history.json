@@ -2609,6 +2609,62 @@
         "interactive",
         "education"
       ]
+    },
+    {
+      "id": "10.1016/j.envres.2025.123473",
+      "doi": "10.1016/j.envres.2025.123473",
+      "date": "2026-10-20",
+      "topic": "environment",
+      "title": "Association of ambient air pollution with risk of anxiety disorders: an updated systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "ambient",
+        "pollution",
+        "anxiety",
+        "disorders",
+        "updated"
+      ]
+    },
+    {
+      "id": "10.1016/j.tjnut.2025.10.008",
+      "doi": "10.1016/j.tjnut.2025.10.008",
+      "date": "2026-10-20",
+      "topic": "environment",
+      "title": "Dietary Polyphenols and Inflammatory Markers in Rural Adult Women in Puno, Peru.",
+      "role": "short",
+      "keywords": [
+        "dietary",
+        "polyphenols",
+        "inflammatory",
+        "markers",
+        "rural",
+        "adult",
+        "women"
+      ]
+    },
+    {
+      "id": "10.1016/j.envres.2025.122928",
+      "doi": "10.1016/j.envres.2025.122928",
+      "date": "2026-10-20",
+      "topic": "environment",
+      "title": "Understanding the relationship between climate change-related meteorological factors and chronic kidney disease (CKD) and CKD of unknown origin (CKDu) in low- and middle-income countries: A systematic review & meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "understanding",
+        "climate",
+        "change",
+        "related",
+        "meteorological",
+        "factors",
+        "chronic",
+        "kidney",
+        "disease",
+        "unknown",
+        "origin",
+        "middle",
+        "income",
+        "countries"
+      ]
     }
   ]
 }
