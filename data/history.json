@@ -2665,6 +2665,55 @@
         "income",
         "countries"
       ]
+    },
+    {
+      "id": "10.1016/j.numecd.2026.104854",
+      "doi": "10.1016/j.numecd.2026.104854",
+      "date": "2026-10-21",
+      "topic": "nutrition",
+      "title": "The role of the Mediterranean diet in secondary cardiovascular disease prevention: a systematic review and meta-analysis of cohort studies.",
+      "role": "lead",
+      "keywords": [
+        "mediterranean",
+        "secondary",
+        "cardiovascular",
+        "disease",
+        "prevention"
+      ]
+    },
+    {
+      "id": "10.1038/s41430-025-01697-9",
+      "doi": "10.1038/s41430-025-01697-9",
+      "date": "2026-10-21",
+      "topic": "nutrition",
+      "title": "Dose‒response relationships of DASH, Mediterranean, and AHEI dietary patterns with heart failure incidence: a systematic review and meta-analysis of cohort studies.",
+      "role": "short",
+      "keywords": [
+        "response",
+        "relationships",
+        "mediterranean",
+        "dietary",
+        "patterns",
+        "heart",
+        "failure",
+        "incidence"
+      ]
+    },
+    {
+      "id": "10.3390/nu17223507",
+      "doi": "10.3390/nu17223507",
+      "date": "2026-10-21",
+      "topic": "nutrition",
+      "title": "Nutritional Determinants of Type 2 Diabetes Mellitus in the European Union: A Systematic Review.",
+      "role": "short",
+      "keywords": [
+        "nutritional",
+        "determinants",
+        "diabetes",
+        "mellitus",
+        "european",
+        "union"
+      ]
     }
   ]
 }
