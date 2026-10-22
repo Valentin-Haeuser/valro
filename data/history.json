@@ -2714,6 +2714,66 @@
         "european",
         "union"
       ]
+    },
+    {
+      "id": "10.3389/fpubh.2026.1956100",
+      "doi": "10.3389/fpubh.2026.1956100",
+      "date": "2026-10-22",
+      "topic": "time",
+      "title": "Associations between community built environment and leisure-time physical activity among older adults: a systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "community",
+        "built",
+        "environment",
+        "leisure",
+        "physical",
+        "activity",
+        "older"
+      ]
+    },
+    {
+      "id": "10.1007/s11524-026-01137-4",
+      "doi": "10.1007/s11524-026-01137-4",
+      "date": "2026-10-22",
+      "topic": "time",
+      "title": "Policy Standards for Healthy Built Environments: A Systematic Review of Health Impact Assessments and Nonrandomized Evaluations of Implemented Policies.",
+      "role": "short",
+      "keywords": [
+        "policy",
+        "standards",
+        "healthy",
+        "built",
+        "environments",
+        "health",
+        "assessments",
+        "nonrandomized",
+        "evaluations",
+        "implemented",
+        "policies"
+      ]
+    },
+    {
+      "id": "10.1136/bmjopen-2025-099034",
+      "doi": "10.1136/bmjopen-2025-099034",
+      "date": "2026-10-22",
+      "topic": "time",
+      "title": "Patient and healthcare professional engagement and time use within a randomised controlled trial: investigating intervention costs associated with remote person-centred care in Sweden.",
+      "role": "short",
+      "keywords": [
+        "patient",
+        "healthcare",
+        "professional",
+        "engagement",
+        "within",
+        "investigating",
+        "intervention",
+        "costs",
+        "remote",
+        "person",
+        "centred",
+        "sweden"
+      ]
     }
   ]
 }
