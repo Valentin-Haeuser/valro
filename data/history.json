@@ -2774,6 +2774,56 @@
         "centred",
         "sweden"
       ]
+    },
+    {
+      "id": "10.1016/j.socscimed.2026.119868",
+      "doi": "10.1016/j.socscimed.2026.119868",
+      "date": "2026-10-23",
+      "topic": "relationships",
+      "title": "Loneliness in migrants: Are there differences compared to non-migrants? A systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "loneliness",
+        "migrants",
+        "there",
+        "differences",
+        "compared"
+      ]
+    },
+    {
+      "id": "10.1080/13607863.2025.2585501",
+      "doi": "10.1080/13607863.2025.2585501",
+      "date": "2026-10-23",
+      "topic": "relationships",
+      "title": "Efficacy of technology interventions in preventing depression among older adults experiencing social isolation: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "efficacy",
+        "technology",
+        "interventions",
+        "preventing",
+        "depression",
+        "older",
+        "experiencing",
+        "social",
+        "isolation"
+      ]
+    },
+    {
+      "id": "10.1186/s12884-026-09466-7",
+      "doi": "10.1186/s12884-026-09466-7",
+      "date": "2026-10-23",
+      "topic": "relationships",
+      "title": "Role of psychological resilience and social support in perinatal depression: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "psychological",
+        "resilience",
+        "social",
+        "support",
+        "perinatal",
+        "depression"
+      ]
     }
   ]
 }
