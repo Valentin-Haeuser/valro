@@ -2824,6 +2824,55 @@
         "perinatal",
         "depression"
       ]
+    },
+    {
+      "id": "10.1186/s12916-026-05129-8",
+      "doi": "10.1186/s12916-026-05129-8",
+      "date": "2026-10-26",
+      "topic": "sleep",
+      "title": "The effectiveness of digital therapeutics in improving sleep quality: a systematic review and network meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "effectiveness",
+        "digital",
+        "therapeutics",
+        "improving",
+        "sleep",
+        "quality",
+        "network"
+      ]
+    },
+    {
+      "id": "10.1016/j.gerinurse.2026.104213",
+      "doi": "10.1016/j.gerinurse.2026.104213",
+      "date": "2026-10-26",
+      "topic": "sleep",
+      "title": "The effects of meditation-based interventions on sleep quality among adults aged ≥ 55 with mild cognitive impairment: A systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "meditation",
+        "interventions",
+        "sleep",
+        "quality",
+        "cognitive",
+        "impairment"
+      ]
+    },
+    {
+      "id": "10.3389/fpubh.2026.1906918",
+      "doi": "10.3389/fpubh.2026.1906918",
+      "date": "2026-10-26",
+      "topic": "sleep",
+      "title": "Effects of exercise interventions on sleep quality in university students: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "exercise",
+        "interventions",
+        "sleep",
+        "quality",
+        "university",
+        "students"
+      ]
     }
   ]
 }
