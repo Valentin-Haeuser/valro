@@ -2873,6 +2873,55 @@
         "university",
         "students"
       ]
+    },
+    {
+      "id": "10.1016/j.biopsych.2026.05.010",
+      "doi": "10.1016/j.biopsych.2026.05.010",
+      "date": "2026-10-27",
+      "topic": "productivity",
+      "title": "Executive Function and Self-Injurious Thoughts and Behaviors: A Systematic Review and Meta-Analysis.",
+      "role": "lead",
+      "keywords": [
+        "executive",
+        "function",
+        "injurious",
+        "thoughts",
+        "behaviors"
+      ]
+    },
+    {
+      "id": "10.1016/j.jecp.2026.106612",
+      "doi": "10.1016/j.jecp.2026.106612",
+      "date": "2026-10-27",
+      "topic": "productivity",
+      "title": "Beyond numbers: working memory deficits in children with mathematical difficulties - A longitudinal meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "beyond",
+        "numbers",
+        "working",
+        "memory",
+        "deficits",
+        "mathematical",
+        "difficulties"
+      ]
+    },
+    {
+      "id": "10.1002/ejsc.70247",
+      "doi": "10.1002/ejsc.70247",
+      "date": "2026-10-27",
+      "topic": "productivity",
+      "title": "No Influence of Sleep Quality and Chronotype on the Effects of Mental Fatigue: Evidence From an Exploratory Analysis.",
+      "role": "short",
+      "keywords": [
+        "influence",
+        "sleep",
+        "quality",
+        "chronotype",
+        "mental",
+        "fatigue",
+        "exploratory"
+      ]
     }
   ]
 }
