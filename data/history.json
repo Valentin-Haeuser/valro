@@ -2922,6 +2922,58 @@
         "fatigue",
         "exploratory"
       ]
+    },
+    {
+      "id": "10.1161/jaha.125.048656",
+      "doi": "10.1161/jaha.125.048656",
+      "date": "2026-10-28",
+      "topic": "body",
+      "title": "Association Between Rest-Activity Rhythm and Cardiovascular Disease, Cardiovascular Mortality, and All-Cause Mortality: A Systematic Review and Meta-Analysis.",
+      "role": "lead",
+      "keywords": [
+        "activity",
+        "rhythm",
+        "cardiovascular",
+        "disease",
+        "mortality",
+        "cause"
+      ]
+    },
+    {
+      "id": "10.1186/s12872-025-05455-4",
+      "doi": "10.1186/s12872-025-05455-4",
+      "date": "2026-10-28",
+      "topic": "body",
+      "title": "SGLT2 inhibitors versus GLP-1 receptor agonists for major adverse cardiovascular events in type 2 diabetes: a systematic review and meta-analysis of randomized controlled trials.",
+      "role": "short",
+      "keywords": [
+        "inhibitors",
+        "receptor",
+        "agonists",
+        "major",
+        "adverse",
+        "cardiovascular",
+        "events",
+        "diabetes",
+        "trials"
+      ]
+    },
+    {
+      "id": "10.1371/journal.pone.0343621",
+      "doi": "10.1371/journal.pone.0343621",
+      "date": "2026-10-28",
+      "topic": "body",
+      "title": "The Relationships between physical activity, sedentary behaviour, sleep, and dementia: A systematic review and meta-analysis of cohort studies.",
+      "role": "short",
+      "keywords": [
+        "relationships",
+        "physical",
+        "activity",
+        "sedentary",
+        "behaviour",
+        "sleep",
+        "dementia"
+      ]
     }
   ]
 }
