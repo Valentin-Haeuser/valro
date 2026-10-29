@@ -2974,6 +2974,58 @@
         "sleep",
         "dementia"
       ]
+    },
+    {
+      "id": "10.3386/w35930",
+      "doi": "10.3386/w35930",
+      "date": "2026-10-29",
+      "topic": "economics",
+      "title": "College Success: Understanding the Roles of Financial Aid, Loans, Preparation, and Incentives",
+      "role": "lead",
+      "keywords": [
+        "college",
+        "success",
+        "understanding",
+        "roles",
+        "financial",
+        "loans",
+        "preparation",
+        "incentives"
+      ]
+    },
+    {
+      "id": "10.3386/w35927",
+      "doi": "10.3386/w35927",
+      "date": "2026-10-29",
+      "topic": "economics",
+      "title": "HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior",
+      "role": "short",
+      "keywords": [
+        "householdbench",
+        "evaluating",
+        "large",
+        "language",
+        "models",
+        "predictors",
+        "household",
+        "economic",
+        "behavior"
+      ]
+    },
+    {
+      "id": "10.3386/w35950",
+      "doi": "10.3386/w35950",
+      "date": "2026-10-29",
+      "topic": "economics",
+      "title": "Training Your Replacement: Worker Incentives and the Pace of Automation",
+      "role": "short",
+      "keywords": [
+        "training",
+        "replacement",
+        "worker",
+        "incentives",
+        "automation"
+      ]
     }
   ]
 }
