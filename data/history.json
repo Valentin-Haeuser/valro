@@ -3026,6 +3026,53 @@
         "incentives",
         "automation"
       ]
+    },
+    {
+      "id": "10.1111/ggi.70863",
+      "doi": "10.1111/ggi.70863",
+      "date": "2026-10-30",
+      "topic": "psychology",
+      "title": "The Effects of Mind-Body Exercise on Cognitive Function and Peripheral Blood BDNF in Elderly People With Mild Cognitive Impairment: A Systematic Review and Meta-Analysis.",
+      "role": "lead",
+      "keywords": [
+        "exercise",
+        "cognitive",
+        "function",
+        "peripheral",
+        "blood",
+        "elderly",
+        "impairment"
+      ]
+    },
+    {
+      "id": "10.1111/acer.70198",
+      "doi": "10.1111/acer.70198",
+      "date": "2026-10-30",
+      "topic": "psychology",
+      "title": "Contingency management for unhealthy alcohol use: A systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "contingency",
+        "management",
+        "unhealthy",
+        "alcohol"
+      ]
+    },
+    {
+      "id": "10.1136/bmjebm-2025-113830",
+      "doi": "10.1136/bmjebm-2025-113830",
+      "date": "2026-10-30",
+      "topic": "psychology",
+      "title": "Assessing shared decision-making in clinical practice: a systematic review and meta-analysis of studies using OPTION-12 and OPTION-5.",
+      "role": "short",
+      "keywords": [
+        "assessing",
+        "shared",
+        "decision",
+        "making",
+        "practice",
+        "option"
+      ]
     }
   ]
 }
