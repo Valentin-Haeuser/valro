@@ -3073,6 +3073,55 @@
         "practice",
         "option"
       ]
+    },
+    {
+      "id": "10.1186/s12993-026-00336-y",
+      "doi": "10.1186/s12993-026-00336-y",
+      "date": "2026-11-02",
+      "topic": "learning",
+      "title": "Neuropeptide S modulation of learning and memory: a systematic review.",
+      "role": "lead",
+      "keywords": [
+        "neuropeptide",
+        "modulation",
+        "learning",
+        "memory"
+      ]
+    },
+    {
+      "id": "10.1016/j.nepr.2025.104583",
+      "doi": "10.1016/j.nepr.2025.104583",
+      "date": "2026-11-02",
+      "topic": "learning",
+      "title": "Effects of PAD class on Chinese nursing students' academic achievement and core ability: A systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "class",
+        "chinese",
+        "nursing",
+        "students",
+        "academic",
+        "achievement",
+        "ability"
+      ]
+    },
+    {
+      "id": "10.3389/fpsyg.2025.1677418",
+      "doi": "10.3389/fpsyg.2025.1677418",
+      "date": "2026-11-02",
+      "topic": "learning",
+      "title": "Attention skills, learning and academic abilities in children and adolescents with genetic disorders: a systematic review.",
+      "role": "short",
+      "keywords": [
+        "attention",
+        "skills",
+        "learning",
+        "academic",
+        "abilities",
+        "adolescents",
+        "genetic",
+        "disorders"
+      ]
     }
   ]
 }
