@@ -3122,6 +3122,55 @@
         "genetic",
         "disorders"
       ]
+    },
+    {
+      "id": "10.1186/s12992-026-01235-7",
+      "doi": "10.1186/s12992-026-01235-7",
+      "date": "2026-11-03",
+      "topic": "environment",
+      "title": "Global systematic review of how climate change degrades the wellbeing and health of Indigenous children.",
+      "role": "lead",
+      "keywords": [
+        "global",
+        "climate",
+        "change",
+        "degrades",
+        "wellbeing",
+        "health",
+        "indigenous"
+      ]
+    },
+    {
+      "id": "10.1186/s13690-025-01750-w",
+      "doi": "10.1186/s13690-025-01750-w",
+      "date": "2026-11-03",
+      "topic": "environment",
+      "title": "Association between temperature and malaria (1959-2019): a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "temperature",
+        "malaria"
+      ]
+    },
+    {
+      "id": "10.1093/eurheartj/ehaf784.4609",
+      "doi": "10.1093/eurheartj/ehaf784.4609",
+      "date": "2026-11-03",
+      "topic": "environment",
+      "title": "Ambient air pollution exposure is linked to increased cardiovascular disease risk and adverse imaging phenotypes",
+      "role": "short",
+      "keywords": [
+        "ambient",
+        "pollution",
+        "exposure",
+        "linked",
+        "increased",
+        "cardiovascular",
+        "disease",
+        "adverse",
+        "imaging",
+        "phenotypes"
+      ]
     }
   ]
 }
