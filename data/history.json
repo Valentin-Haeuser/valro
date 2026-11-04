@@ -3171,6 +3171,61 @@
         "imaging",
         "phenotypes"
       ]
+    },
+    {
+      "id": "10.1371/journal.pone.0344873",
+      "doi": "10.1371/journal.pone.0344873",
+      "date": "2026-11-04",
+      "topic": "nutrition",
+      "title": "Ultra-processed food consumption and the risk of overweight and obesity in adolescents: A systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "ultra",
+        "processed",
+        "consumption",
+        "overweight",
+        "obesity",
+        "adolescents"
+      ]
+    },
+    {
+      "id": "10.3390/nu18010077",
+      "doi": "10.3390/nu18010077",
+      "date": "2026-11-04",
+      "topic": "nutrition",
+      "title": "An Overview of Essential Nutritional Strategies and Products in the Treatment of Endometriosis.",
+      "role": "short",
+      "keywords": [
+        "overview",
+        "essential",
+        "nutritional",
+        "strategies",
+        "products",
+        "treatment",
+        "endometriosis"
+      ]
+    },
+    {
+      "id": "10.1093/nutrit/nuaf056",
+      "doi": "10.1093/nutrit/nuaf056",
+      "date": "2026-11-04",
+      "topic": "nutrition",
+      "title": "Comparison of Different Intermittent Fasting Patterns or Different Extents of Calorie Restriction for Weight Loss and Metabolic Improvement in Adults: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
+      "role": "short",
+      "keywords": [
+        "different",
+        "intermittent",
+        "fasting",
+        "patterns",
+        "extents",
+        "calorie",
+        "restriction",
+        "weight",
+        "metabolic",
+        "improvement",
+        "network",
+        "trials"
+      ]
     }
   ]
 }
