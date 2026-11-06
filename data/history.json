@@ -3226,6 +3226,53 @@
         "network",
         "trials"
       ]
+    },
+    {
+      "id": "10.1016/j.psychres.2026.116945",
+      "doi": "10.1016/j.psychres.2026.116945",
+      "date": "2026-11-06",
+      "topic": "relationships",
+      "title": "Chronotype and depression: A global systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "chronotype",
+        "depression",
+        "global"
+      ]
+    },
+    {
+      "id": "10.1080/16549716.2026.2647315",
+      "doi": "10.1080/16549716.2026.2647315",
+      "date": "2026-11-06",
+      "topic": "relationships",
+      "title": "Disability transitions and life expectancy: a national longitudinal study on social isolation and loneliness in China",
+      "role": "short",
+      "keywords": [
+        "disability",
+        "transitions",
+        "expectancy",
+        "national",
+        "social",
+        "isolation",
+        "loneliness",
+        "china"
+      ]
+    },
+    {
+      "id": "10.1186/s12889-025-24472-8",
+      "doi": "10.1186/s12889-025-24472-8",
+      "date": "2026-11-06",
+      "topic": "relationships",
+      "title": "The relationship between retirement, social isolation and loneliness: A longitudinal analysis using the English Longitudinal Study of Ageing",
+      "role": "short",
+      "keywords": [
+        "retirement",
+        "social",
+        "isolation",
+        "loneliness",
+        "english",
+        "ageing"
+      ]
     }
   ]
 }
