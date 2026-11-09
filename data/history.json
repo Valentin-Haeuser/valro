@@ -3273,6 +3273,65 @@
         "english",
         "ageing"
       ]
+    },
+    {
+      "id": "10.1016/j.genhosppsych.2026.03.010",
+      "doi": "10.1016/j.genhosppsych.2026.03.010",
+      "date": "2026-11-09",
+      "topic": "sleep",
+      "title": "Prevalence and incidence of depressive, anxiety, and insomnia symptoms in perimenopausal and postmenopausal women: Systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "prevalence",
+        "incidence",
+        "depressive",
+        "anxiety",
+        "insomnia",
+        "symptoms",
+        "perimenopausal",
+        "postmenopausal",
+        "women"
+      ]
+    },
+    {
+      "id": "10.3389/fneur.2026.1881026",
+      "doi": "10.3389/fneur.2026.1881026",
+      "date": "2026-11-09",
+      "topic": "sleep",
+      "title": "Efficacy and safety of Chinese herbal acupoint application for post-stroke sleep disorders: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "efficacy",
+        "safety",
+        "chinese",
+        "herbal",
+        "acupoint",
+        "application",
+        "stroke",
+        "sleep",
+        "disorders"
+      ]
+    },
+    {
+      "id": "10.1186/s12906-026-05348-9",
+      "doi": "10.1186/s12906-026-05348-9",
+      "date": "2026-11-09",
+      "topic": "sleep",
+      "title": "Efficacy and safety of Kami Guibi-tang in older adults with insomnia and memory complaints: a randomized, double-blind, placebo-controlled pilot trial.",
+      "role": "short",
+      "keywords": [
+        "efficacy",
+        "safety",
+        "guibi",
+        "older",
+        "insomnia",
+        "memory",
+        "complaints",
+        "double",
+        "blind",
+        "placebo",
+        "pilot"
+      ]
     }
   ]
 }
