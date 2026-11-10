@@ -3332,6 +3332,49 @@
         "placebo",
         "pilot"
       ]
+    },
+    {
+      "id": "10.1177/jmrt.251398084",
+      "doi": "10.1177/jmrt.251398084",
+      "date": "2026-11-10",
+      "topic": "productivity",
+      "title": "The Impact of Neurotechnology on Employee Motivation and Workplace Productivity",
+      "role": "lead",
+      "keywords": [
+        "neurotechnology",
+        "employee",
+        "motivation",
+        "workplace",
+        "productivity"
+      ]
+    },
+    {
+      "id": "10.1002/brb3.71884",
+      "doi": "10.1002/brb3.71884",
+      "date": "2026-11-10",
+      "topic": "productivity",
+      "title": "The Cognitive Functions of Youth With Obesity: A Meta-Analysis.",
+      "role": "short",
+      "keywords": [
+        "cognitive",
+        "functions",
+        "youth",
+        "obesity"
+      ]
+    },
+    {
+      "id": "10.1038/s41380-026-03727-9",
+      "doi": "10.1038/s41380-026-03727-9",
+      "date": "2026-11-10",
+      "topic": "productivity",
+      "title": "Cognitive and affective effects of L-Theanine: a systematic review and meta-analysis of 31 randomized trials.",
+      "role": "short",
+      "keywords": [
+        "cognitive",
+        "affective",
+        "theanine",
+        "trials"
+      ]
     }
   ]
 }
