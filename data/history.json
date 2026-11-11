@@ -3375,6 +3375,58 @@
         "theanine",
         "trials"
       ]
+    },
+    {
+      "id": "10.1016/j.eclinm.2025.103741",
+      "doi": "10.1016/j.eclinm.2025.103741",
+      "date": "2026-11-11",
+      "topic": "body",
+      "title": "Minimum combined sleep, physical activity, and nutrition variations associated with lifeSPAN and healthSPAN improvements: a population cohort study",
+      "role": "lead",
+      "keywords": [
+        "minimum",
+        "combined",
+        "sleep",
+        "physical",
+        "activity",
+        "nutrition",
+        "variations",
+        "lifespan",
+        "healthspan",
+        "improvements"
+      ]
+    },
+    {
+      "id": "10.1016/j.archger.2026.106435",
+      "doi": "10.1016/j.archger.2026.106435",
+      "date": "2026-11-11",
+      "topic": "body",
+      "title": "Exercise training and mitochondrial remodeling in aging skeletal muscle: A translational systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "exercise",
+        "training",
+        "mitochondrial",
+        "remodeling",
+        "aging",
+        "skeletal",
+        "muscle",
+        "translational"
+      ]
+    },
+    {
+      "id": "10.1002/dmrr.70250",
+      "doi": "10.1002/dmrr.70250",
+      "date": "2026-11-11",
+      "topic": "body",
+      "title": "Adults With Type 1 Diabetes Are Less Physically Active Than Adults Without Diabetes: A Systematic Review and Meta-Analysis.",
+      "role": "short",
+      "keywords": [
+        "diabetes",
+        "physically",
+        "active",
+        "without"
+      ]
     }
   ]
 }
