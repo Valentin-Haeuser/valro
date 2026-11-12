@@ -3427,6 +3427,55 @@
         "active",
         "without"
       ]
+    },
+    {
+      "id": "10.3386/w35991",
+      "doi": "10.3386/w35991",
+      "date": "2026-11-12",
+      "topic": "economics",
+      "title": "Doing Better at Doing Good: Lessons from a Bayesian Meta-Analysis After 20 Years of Poverty Graduation Programs",
+      "role": "lead",
+      "keywords": [
+        "doing",
+        "better",
+        "lessons",
+        "bayesian",
+        "after",
+        "years",
+        "poverty",
+        "graduation",
+        "programs"
+      ]
+    },
+    {
+      "id": "10.1007/s42973-026-00270-8",
+      "doi": "10.1007/s42973-026-00270-8",
+      "date": "2026-11-12",
+      "topic": "economics",
+      "title": "Stagnant wages in the dual labor markets",
+      "role": "short",
+      "keywords": [
+        "stagnant",
+        "wages",
+        "labor",
+        "markets"
+      ]
+    },
+    {
+      "id": "10.3386/w35999",
+      "doi": "10.3386/w35999",
+      "date": "2026-11-12",
+      "topic": "economics",
+      "title": "(In)Credible Development RCTs: False Discoveries, Low Power, and a Solution",
+      "role": "short",
+      "keywords": [
+        "credible",
+        "development",
+        "false",
+        "discoveries",
+        "power",
+        "solution"
+      ]
     }
   ]
 }
