@@ -3476,6 +3476,69 @@
         "power",
         "solution"
       ]
+    },
+    {
+      "id": "10.7554/elife.108934",
+      "doi": "10.7554/elife.108934",
+      "date": "2026-11-13",
+      "topic": "psychology",
+      "title": "A meta-analysis suggests that TMS targeting the hippocampal network selectively improves episodic memory.",
+      "role": "lead",
+      "keywords": [
+        "suggests",
+        "targeting",
+        "hippocampal",
+        "network",
+        "selectively",
+        "improves",
+        "episodic",
+        "memory"
+      ]
+    },
+    {
+      "id": "10.2196/96240",
+      "doi": "10.2196/96240",
+      "date": "2026-11-13",
+      "topic": "psychology",
+      "title": "Brief Motivational Workplace Intervention to Reduce Sugar-Sweetened Beverage Consumption Among Health Care Workers: Intervention Description, Feasibility, Fidelity, and Exploratory Outcomes From a Cluster Randomized Controlled Trial.",
+      "role": "short",
+      "keywords": [
+        "brief",
+        "motivational",
+        "workplace",
+        "intervention",
+        "reduce",
+        "sugar",
+        "sweetened",
+        "beverage",
+        "consumption",
+        "health",
+        "workers",
+        "description",
+        "feasibility",
+        "fidelity",
+        "exploratory",
+        "cluster"
+      ]
+    },
+    {
+      "id": "10.1016/j.neubiorev.2026.106756",
+      "doi": "10.1016/j.neubiorev.2026.106756",
+      "date": "2026-11-13",
+      "topic": "psychology",
+      "title": "Digital episodic memory tools for the identification of amnestic mild cognitive impairment: A systematic review and an exploratory meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "digital",
+        "episodic",
+        "memory",
+        "tools",
+        "identification",
+        "amnestic",
+        "cognitive",
+        "impairment",
+        "exploratory"
+      ]
     }
   ]
 }
