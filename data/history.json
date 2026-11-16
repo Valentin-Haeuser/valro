@@ -3539,6 +3539,53 @@
         "impairment",
         "exploratory"
       ]
+    },
+    {
+      "id": "10.3390/nu18172866",
+      "doi": "10.3390/nu18172866",
+      "date": "2026-11-16",
+      "topic": "learning",
+      "title": "Adherence to the Mediterranean Diet and Academic Performance in University Students: A Systematic Review and Meta-Analysis.",
+      "role": "lead",
+      "keywords": [
+        "adherence",
+        "mediterranean",
+        "academic",
+        "performance",
+        "university",
+        "students"
+      ]
+    },
+    {
+      "id": "10.1016/j.neubiorev.2026.106886",
+      "doi": "10.1016/j.neubiorev.2026.106886",
+      "date": "2026-11-16",
+      "topic": "learning",
+      "title": "Neuromuscular, cardiovascular, and cognitive fatigue in motor learning: A systematic review.",
+      "role": "short",
+      "keywords": [
+        "neuromuscular",
+        "cardiovascular",
+        "cognitive",
+        "fatigue",
+        "motor",
+        "learning"
+      ]
+    },
+    {
+      "id": "10.3386/w36029",
+      "doi": "10.3386/w36029",
+      "date": "2026-11-16",
+      "topic": "learning",
+      "title": "Childhood Learning and Adult Earnings in Four LMIC Cohorts",
+      "role": "short",
+      "keywords": [
+        "childhood",
+        "learning",
+        "adult",
+        "earnings",
+        "cohorts"
+      ]
     }
   ]
 }
