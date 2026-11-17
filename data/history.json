@@ -3586,6 +3586,56 @@
         "earnings",
         "cohorts"
       ]
+    },
+    {
+      "id": "10.3390/nu18193200",
+      "doi": "10.3390/nu18193200",
+      "date": "2026-11-17",
+      "topic": "environment",
+      "title": "Effects of Acute Carbohydrate-Electrolyte Supplementation on Exercise Performance in Moderate-to-Hot Ambient Conditions: A Systematic Review and Meta-Analysis.",
+      "role": "lead",
+      "keywords": [
+        "acute",
+        "carbohydrate",
+        "electrolyte",
+        "supplementation",
+        "exercise",
+        "performance",
+        "moderate",
+        "ambient",
+        "conditions"
+      ]
+    },
+    {
+      "id": "10.1016/j.jenvman.2026.130706",
+      "doi": "10.1016/j.jenvman.2026.130706",
+      "date": "2026-11-17",
+      "topic": "environment",
+      "title": "Green space exposure, mediators, and health in older adults: A systematic review.",
+      "role": "short",
+      "keywords": [
+        "green",
+        "space",
+        "exposure",
+        "mediators",
+        "health",
+        "older"
+      ]
+    },
+    {
+      "id": "10.1186/s12889-025-25881-5",
+      "doi": "10.1186/s12889-025-25881-5",
+      "date": "2026-11-17",
+      "topic": "environment",
+      "title": "Associations of exposure to PM2.5 with blood pressure and hypertension in older adults: a systematic review and meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "exposure",
+        "blood",
+        "pressure",
+        "hypertension",
+        "older"
+      ]
     }
   ]
 }
