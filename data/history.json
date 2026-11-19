@@ -3691,6 +3691,69 @@
         "diabetes",
         "trials"
       ]
+    },
+    {
+      "id": "10.1177/19375867261466280",
+      "doi": "10.1177/19375867261466280",
+      "date": "2026-11-19",
+      "topic": "time",
+      "title": "Urban Design Quality and Clinical Mental Health: A Systematic Review.",
+      "role": "lead",
+      "keywords": [
+        "urban",
+        "design",
+        "quality",
+        "mental",
+        "health"
+      ]
+    },
+    {
+      "id": "10.1123/apaq.2025-0134",
+      "doi": "10.1123/apaq.2025-0134",
+      "date": "2026-11-19",
+      "topic": "time",
+      "title": "Physical Activity and Mental Health in Persons With a Spinal Cord Injury Living With Chronic Pain: Baseline Data From the Exercise Guideline Promotion and Implementation in Chronic Spinal Cord Injury Randomized Controlled Trial.",
+      "role": "short",
+      "keywords": [
+        "physical",
+        "activity",
+        "mental",
+        "health",
+        "persons",
+        "spinal",
+        "injury",
+        "living",
+        "chronic",
+        "baseline",
+        "exercise",
+        "guideline",
+        "promotion",
+        "implementation"
+      ]
+    },
+    {
+      "id": "10.1186/s12889-026-28797-w",
+      "doi": "10.1186/s12889-026-28797-w",
+      "date": "2026-11-19",
+      "topic": "time",
+      "title": "Development, implementation, and evaluation of a belief-targeted non-face-to-face leisure-time physical activity promotion program for South Korean University students.",
+      "role": "short",
+      "keywords": [
+        "development",
+        "implementation",
+        "evaluation",
+        "belief",
+        "targeted",
+        "leisure",
+        "physical",
+        "activity",
+        "promotion",
+        "program",
+        "south",
+        "korean",
+        "university",
+        "students"
+      ]
     }
   ]
 }
