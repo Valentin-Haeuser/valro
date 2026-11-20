@@ -3754,6 +3754,63 @@
         "university",
         "students"
       ]
+    },
+    {
+      "id": "10.1186/s40359-025-03639-3",
+      "doi": "10.1186/s40359-025-03639-3",
+      "date": "2026-11-20",
+      "topic": "relationships",
+      "title": "Investigating the effectiveness of interventions intended to reduce loneliness using psychological strategies and a theory of change: a systematic review of interventional studies and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "investigating",
+        "effectiveness",
+        "interventions",
+        "intended",
+        "reduce",
+        "loneliness",
+        "psychological",
+        "strategies",
+        "theory",
+        "change",
+        "interventional"
+      ]
+    },
+    {
+      "id": "10.1037/amp0001578",
+      "doi": "10.1037/amp0001578",
+      "date": "2026-11-20",
+      "topic": "relationships",
+      "title": "Are loneliness interventions effective for reducing loneliness? A meta-analytic review of 280 studies.",
+      "role": "short",
+      "keywords": [
+        "loneliness",
+        "interventions",
+        "effective",
+        "reducing",
+        "analytic"
+      ]
+    },
+    {
+      "id": "10.3389/fpubh.2026.1701579",
+      "doi": "10.3389/fpubh.2026.1701579",
+      "date": "2026-11-20",
+      "topic": "relationships",
+      "title": "Assessing a facilitated social network intervention for health outcomes in lonely and socially isolated people: the pragmatic, cluster-randomized PALS trial.",
+      "role": "short",
+      "keywords": [
+        "assessing",
+        "facilitated",
+        "social",
+        "network",
+        "intervention",
+        "health",
+        "lonely",
+        "socially",
+        "isolated",
+        "pragmatic",
+        "cluster"
+      ]
     }
   ]
 }
