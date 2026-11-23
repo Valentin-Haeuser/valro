@@ -3811,6 +3811,60 @@
         "pragmatic",
         "cluster"
       ]
+    },
+    {
+      "id": "10.1016/j.smrv.2026.102372",
+      "doi": "10.1016/j.smrv.2026.102372",
+      "date": "2026-11-23",
+      "topic": "sleep",
+      "title": "Insomnia as risk factor for brain, mental and general health consequences: an umbrella systematic review.",
+      "role": "lead",
+      "keywords": [
+        "insomnia",
+        "factor",
+        "brain",
+        "mental",
+        "general",
+        "health",
+        "consequences"
+      ]
+    },
+    {
+      "id": "10.65671/a1nmad42",
+      "doi": "10.65671/a1nmad42",
+      "date": "2026-11-23",
+      "topic": "sleep",
+      "title": "BURNOUT AND CHRONIC STRESS FROM A METABOLIC PERSPECTIVE: SLEEP, CIRCADIAN RHYTHM, MITOCHONDRIAL DYSFUNCTION, INFLAMMATION, AND TRANSLATIONAL PERSPECTIVES",
+      "role": "short",
+      "keywords": [
+        "burnout",
+        "chronic",
+        "stress",
+        "metabolic",
+        "perspective",
+        "sleep",
+        "circadian",
+        "rhythm",
+        "mitochondrial",
+        "dysfunction",
+        "inflammation",
+        "translational",
+        "perspectives"
+      ]
+    },
+    {
+      "id": "10.3389/fneur.2025.1720073",
+      "doi": "10.3389/fneur.2025.1720073",
+      "date": "2026-11-23",
+      "topic": "sleep",
+      "title": "Eye acupuncture therapy for insomnia: a systematic review and network meta-analysis.",
+      "role": "short",
+      "keywords": [
+        "acupuncture",
+        "therapy",
+        "insomnia",
+        "network"
+      ]
     }
   ]
 }
