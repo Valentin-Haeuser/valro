@@ -3865,6 +3865,51 @@
         "insomnia",
         "network"
       ]
+    },
+    {
+      "id": "10.1111/bdi.70077",
+      "doi": "10.1111/bdi.70077",
+      "date": "2026-11-24",
+      "topic": "productivity",
+      "title": "Systematic Review and Meta-Analysis of the Association Between Subjective and Objective Cognitive Function in Mood Disorders.",
+      "role": "lead",
+      "keywords": [
+        "subjective",
+        "objective",
+        "cognitive",
+        "function",
+        "disorders"
+      ]
+    },
+    {
+      "id": "10.1097/jcp.0000000000002129",
+      "doi": "10.1097/jcp.0000000000002129",
+      "date": "2026-11-24",
+      "topic": "productivity",
+      "title": "Integrative Review of the Effects of Nonprescriptive Methylphenidate Use.",
+      "role": "short",
+      "keywords": [
+        "integrative",
+        "nonprescriptive",
+        "methylphenidate"
+      ]
+    },
+    {
+      "id": "10.1177/21650799261454290",
+      "doi": "10.1177/21650799261454290",
+      "date": "2026-11-24",
+      "topic": "productivity",
+      "title": "Factors Associated With Work Productivity Loss Among Workers During the COVID-19 Pandemic: A Systematic Review and Meta-Analysis of Correlations",
+      "role": "short",
+      "keywords": [
+        "factors",
+        "productivity",
+        "workers",
+        "during",
+        "covid",
+        "pandemic",
+        "correlations"
+      ]
     }
   ]
 }
