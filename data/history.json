@@ -3910,6 +3910,62 @@
         "pandemic",
         "correlations"
       ]
+    },
+    {
+      "id": "10.1186/s12891-025-09313-4",
+      "doi": "10.1186/s12891-025-09313-4",
+      "date": "2026-11-25",
+      "topic": "body",
+      "title": "Pain science education and exercise interventions for people with knee or hip osteoarthritis: a systematic review, content and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "science",
+        "education",
+        "exercise",
+        "interventions",
+        "osteoarthritis",
+        "content"
+      ]
+    },
+    {
+      "id": "10.1177/03000605251394177",
+      "doi": "10.1177/03000605251394177",
+      "date": "2026-11-25",
+      "topic": "body",
+      "title": "Association between physical activity and nocturia: A cross-sectional study using National Health and Nutrition Examination Survey 2007–2016",
+      "role": "short",
+      "keywords": [
+        "physical",
+        "activity",
+        "nocturia",
+        "national",
+        "health",
+        "nutrition",
+        "examination",
+        "survey"
+      ]
+    },
+    {
+      "id": "10.3389/fpsyg.2026.1767939",
+      "doi": "10.3389/fpsyg.2026.1767939",
+      "date": "2026-11-25",
+      "topic": "body",
+      "title": "Acute effects of physical activity breaking up sedentary behavior on cognitive function, biological mechanisms, and practical recommendations: a systematic review.",
+      "role": "short",
+      "keywords": [
+        "acute",
+        "physical",
+        "activity",
+        "breaking",
+        "sedentary",
+        "behavior",
+        "cognitive",
+        "function",
+        "biological",
+        "mechanisms",
+        "practical",
+        "recommendations"
+      ]
     }
   ]
 }
