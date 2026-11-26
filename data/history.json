@@ -3966,6 +3966,53 @@
         "practical",
         "recommendations"
       ]
+    },
+    {
+      "id": "10.3386/w36041",
+      "doi": "10.3386/w36041",
+      "date": "2026-11-26",
+      "topic": "economics",
+      "title": "Does Treating Addiction Rebuild Lives? Evidence from Buprenorphine",
+      "role": "lead",
+      "keywords": [
+        "treating",
+        "addiction",
+        "rebuild",
+        "lives",
+        "buprenorphine"
+      ]
+    },
+    {
+      "id": "10.3386/w36043",
+      "doi": "10.3386/w36043",
+      "date": "2026-11-26",
+      "topic": "economics",
+      "title": "Mental Models of Fiscal Policy",
+      "role": "short",
+      "keywords": [
+        "mental",
+        "models",
+        "fiscal",
+        "policy"
+      ]
+    },
+    {
+      "id": "10.3386/w36039",
+      "doi": "10.3386/w36039",
+      "date": "2026-11-26",
+      "topic": "economics",
+      "title": "Democratizing Venture Capital: Tax Incentives and the Geographic Expansion of Startup Investing",
+      "role": "short",
+      "keywords": [
+        "democratizing",
+        "venture",
+        "capital",
+        "incentives",
+        "geographic",
+        "expansion",
+        "startup",
+        "investing"
+      ]
     }
   ]
 }
