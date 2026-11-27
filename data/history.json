@@ -4013,6 +4013,56 @@
         "startup",
         "investing"
       ]
+    },
+    {
+      "id": "10.1007/s00787-026-03090-8",
+      "doi": "10.1007/s00787-026-03090-8",
+      "date": "2026-11-27",
+      "topic": "psychology",
+      "title": "Emotion dysregulation in children and adolescents with externalizing disorders: a systematic review and meta-analysis.",
+      "role": "lead",
+      "keywords": [
+        "emotion",
+        "dysregulation",
+        "adolescents",
+        "externalizing",
+        "disorders"
+      ]
+    },
+    {
+      "id": "10.3389/fpsyg.2026.1851592",
+      "doi": "10.3389/fpsyg.2026.1851592",
+      "date": "2026-11-27",
+      "topic": "psychology",
+      "title": "Self-efficacy and learning motivation in vocational education: a systematic review.",
+      "role": "short",
+      "keywords": [
+        "efficacy",
+        "learning",
+        "motivation",
+        "vocational",
+        "education"
+      ]
+    },
+    {
+      "id": "10.1016/j.brat.2026.105123",
+      "doi": "10.1016/j.brat.2026.105123",
+      "date": "2026-11-27",
+      "topic": "psychology",
+      "title": "Emotion regulation and insomnia as candidate processes of change in a digital mental health intervention.",
+      "role": "short",
+      "keywords": [
+        "emotion",
+        "regulation",
+        "insomnia",
+        "candidate",
+        "processes",
+        "change",
+        "digital",
+        "mental",
+        "health",
+        "intervention"
+      ]
     }
   ]
 }
